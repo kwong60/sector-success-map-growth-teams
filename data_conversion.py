@@ -9,7 +9,6 @@ def pandas_convert(path: str, file_name: str):
         path - path to DTA file 
         name - name of DTA file
     """
-
     # converts STATA DTA file to pandas dataframe
     df = pd.read_stata(path) 
 
