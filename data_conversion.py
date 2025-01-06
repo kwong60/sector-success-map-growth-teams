@@ -3,7 +3,7 @@ import os
 
 def pandas_convert(path: str, file_name: str):
     """
-    Converts Stata DTA file to pandas (Python library) dataframe.
+    Converts Stata DTA file to CSV file (Python-compatible).
     
     Input:
         path - path to DTA file 
@@ -19,7 +19,7 @@ def pandas_convert(path: str, file_name: str):
     df.to_csv(csv_path, index=False)
 
 # extracts path of data folder 
-# assumes DTA files are in folder titled "data", in same folder as preprocessing.py)
+# assumes DTA files are in folder titled "data", in same folder as data_conversion.py)
 data_path = os.path.join(os.path.dirname(__file__), 'data')
 
 for file in os.listdir(data_path):
