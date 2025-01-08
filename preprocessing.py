@@ -68,7 +68,7 @@ def add_countrynames_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     return dataframe
 
 def remove_missing_values(dataframe: pd.DataFrame) -> pd.DataFrame:
-    df_cleaned = dataframe.dropna(subset=["country_id", "product_id", "year", "export_value", "code", "name_short_en", "eci"])
+    df_cleaned = dataframe.dropna(subset=["country_id", "product_id", "year", "export_value", "code", "name_short_en"])
     return df_cleaned
 
 def filter_outliers(dataframe: pd.DataFrame) -> pd.DataFrame:
@@ -118,8 +118,8 @@ def main():
             product_df = add_productnames_columns(df)
             country_name_df = add_countrynames_columns(product_df)
             missing_df = remove_missing_values(country_name_df)
-            outlier_df = filter_outliers(missing_df)
-            exclude(outlier_df, file_path, name)
+            #outlier_df = filter_outliers(missing_df)
+            exclude(missing_df, file_path, name)
 
 if __name__ == "__main__":
     main()
