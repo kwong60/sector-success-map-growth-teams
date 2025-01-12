@@ -204,7 +204,10 @@ def ranking(dataframe: pd.DataFrame) -> pd.DataFrame:
     groups_by_product = dataframe.groupby(['product_code','year'])
     updated_groups = []
     for name, group in groups_by_product:
-        group['rank'] = group['global_market_share'].rank(ascending=True, method='min')
+        group['rank_per_capita'] = group['export_per_capita'].rank(ascending=True, method='min')
+        group['rank_rca'] = group['rca'].rank(ascending=True, method='min')
+        group['rank_market_share'] = group['global_market_share'].rank(ascending=True, method='min')
+        group['rank_avg'] = group[['rank_per_capita', 'rank_rca', 'rank_market_share']].mean(axis=1)
         updated_groups.append(group)
     
     result_dataframe = pd.concat(updated_groups)
