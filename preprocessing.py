@@ -91,6 +91,7 @@ oecd = [36, 40, 56, 124, 152, 170, 188, 203, 208, 233, 246, 250, 276, 300, 348,
 # HS Codes for excluded goods
 goods = [26, 27, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 83]
 
+#Applying the exclusion criteria function
 def exclude(df: pd.DataFrame, path: str, name: str):
     """
     Excludes Western/OECD countries and natural resource-based sectors based on
@@ -110,7 +111,11 @@ def exclude(df: pd.DataFrame, path: str, name: str):
     csv_path = os.path.join(directory, "filt_" + name + ".csv")
     df_filtered.to_csv(csv_path, index=False)
 
+
+#Calculating one criteria for ranking: export per capita
 def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
+    ''' Function to calculate export per capita uses population data. This makes the export values of each country 
+    more comparable as it adjusts for larger export values due to population size'''
     # Load population data
     population_path = os.path.join(os.path.dirname(__file__), 'data/API_SP.POP.TOTL_DS2_en_csv_v2_900.csv')
     population_df = pd.read_csv(population_path)
@@ -148,6 +153,8 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     return dataframe
     
 
+#Filtering all the datasets at different product levels for preprocessing. But the main dataset to 
+#focus on is the hs92_country_product_year_2.csv which has products at the 2-digit-level
 ''''
 
     productlevel2datapath = os.path.join(os.path.dirname(__file__), 'data/hs92_country_product_year_2.csv')
@@ -181,8 +188,9 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     
     '''
 
-
+#Calculating another criteria for ranking: rca
 def calculate_rca(dataframe: pd.DataFrame) -> pd.DataFrame:
+    '''Calculates the relative comparative advantage each country has for a product in relation to the total percentage of world exports the product export is responsible for '''
     export_value_sum_per_country = dataframe.groupby(['country_code', 'year']).sum()['export_value']
     export_value_sum_per_product = dataframe.groupby(['product_code', 'year']).sum()['export_value']
     total_exports_by_year = dataframe.groupby('year').sum()['export_value']
@@ -230,6 +238,7 @@ def main():
     '''
     ranking_data = pd.read_csv(new_path)
     result_data = ranking(ranking_data)
+    del result_data['rank']
     result_data.to_csv(new_path,index=False)
     
 
