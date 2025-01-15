@@ -41,25 +41,26 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
         recent_window = 2022 - recent_len
         recent_df = group[group['year'] >= recent_window]
+        nonzero_rdf = recent_df[recent_df[rank_col] != 0]
+        recent_growth = float('inf')
         
-        if len(recent_df) > 1:
-            recent_growth = recent_df.iloc[len(recent_df) - 1][rank_col] - recent_df.iloc[0][rank_col]
-        else:
-            recent_growth = float('-inf')
-
+        if len(nonzero_rdf) > 1:
+            recent_growth = (nonzero_rdf.iloc[len(nonzero_rdf) - 1][rank_col] - nonzero_rdf.iloc[0][rank_col]) / (nonzero_rdf.iloc[len(nonzero_rdf) - 1]['year'] - nonzero_rdf.iloc[0]['year'])
+            
         early_df = group[group['year'] < recent_window]
+        nonzero_edf = early_df[early_df[rank_col] != 0]
 
         early_growth = []
-        early_growth_avg = float('-inf')
+        early_growth_avg = float('inf')
 
-        if len(early_df) > 1:
-            early_growth_avg = early_df.iloc[len(early_df) - 1][rank_col] - early_df.iloc[0][rank_col]
+        if len(nonzero_edf) > 1:
+            early_growth_avg = nonzero_edf.iloc[len(nonzero_edf) - 1][rank_col] - nonzero_edf.iloc[0][rank_col]
             i = 0
             curr_yr = 1995
 
             while curr_yr + window_len < recent_window:
-                early_mask = (curr_yr <= early_df['year']) & (early_df['year'] < (curr_yr + window_len))
-                early_window = early_df[early_mask]
+                early_mask = (curr_yr <= nonzero_edf['year']) & (nonzero_edf['year'] < (curr_yr + window_len))
+                early_window = nonzero_edf[early_mask]
 
                 if len(early_window) > 1:
                     early_slope = early_window.iloc[len(early_window) - 1][rank_col] - early_window.iloc[0][rank_col]
@@ -68,11 +69,11 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
                 curr_yr = curr_yr + window_len
 
-            early_mask = (curr_yr <= early_df['year']) & (early_df['year'] < (recent_window))
-            early_window = early_df[early_mask]
+            early_mask = (curr_yr <= nonzero_edf['year']) & (nonzero_edf['year'] < (recent_window))
+            early_window = nonzero_edf[early_mask]
 
             if len(early_window) > 1:
-                early_slope = early_window.iloc[len(early_window) - 1][rank_col] - early_window.iloc[0][rank_col]
+                early_slope = (early_window.iloc[len(early_window) - 1][rank_col] - early_window.iloc[0][rank_col]) / (early_window.iloc[len(early_window) - 1]['year'] - early_window.iloc[0]['year'])
                 early_growth.append(len(early_window) * early_slope)
                 i += len(early_window)
 
@@ -131,7 +132,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
     plt.figure(figsize=(12, 6))
     plt.axis('off')
     plt.title("Emerging Sector Successes")
-    plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
+    table = plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
     plt.savefig('emerging_successes_table.png')
 
     return df_sorted.head(top_rows)
