@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import matplotlib.pyplot as plt
 
 def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: int):
     """
@@ -21,13 +22,22 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
     # group data by country 
     df_group = df.groupby(['country_code','name_short_en'])
-    new_df = pd.DataFrame(columns=['country', 'product', 'rank_shift_slope'])
+    new_df = pd.DataFrame(columns=['country', 'product', 'rank_shifts', 'years', 'rankings'])
     countries = []
     products = []
-    rankings = []
+    years = []
+    ranks = []
+    rank_shifts = []
+
     for name, group in df_group:
         countries.append(name[0])
         products.append(name[1])
+
+        years_group = group['year'].tolist()
+        years.append(years_group)
+
+        rank_group = group[rank_col].tolist()
+        ranks.append(rank_group)
 
         recent_window = 2022 - recent_len
         recent_df = group[group['year'] >= recent_window]
@@ -69,14 +79,61 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
             if i != 0:
                 early_growth_avg = sum(early_growth) / i
             
-        rankings.append(recent_growth - early_growth_avg)
+        rank_shifts.append(recent_growth - early_growth_avg)
     
     new_df['country'] = countries
     new_df['product'] = products
-    new_df['rank_shift_slope'] = rankings
+    new_df['rank_shifts'] = rank_shifts
+    new_df['years'] = years
+    new_df['rankings'] = ranks
 
-    new_df_clean = new_df[~new_df['rank_shift_slope'].isna() & ~np.isinf(new_df['rank_shift_slope'])]
-    df_sorted = new_df_clean.sort_values(by='rank_shift_slope', ascending=False)
+    new_df_clean = new_df[~new_df['rank_shifts'].isna() & ~np.isinf(new_df['rank_shifts'])]
+    df_sorted = new_df_clean.sort_values(by='rank_shifts', ascending=True)
+    df_sorted_top = df_sorted.head(top_rows)
+
+    os.makedirs('emerging_successes_plots', exist_ok=True)
+
+    for index, row in df_sorted_top.iterrows():
+        yrs = row['years']
+        rkgs = row['rankings']
+
+        plt.figure()
+        plt.plot(yrs, rkgs, marker='o')
+
+        plt.xlabel('Year') 
+        plt.ylabel('Ranking') 
+        plt.title(f'{row["country"]}: {row["product"]}')
+        plt.grid(True)
+
+        output = os.path.join('emerging_successes_plots', f'{row["country"]}_{row["product"]}.png')
+        plt.tight_layout()
+        plt.savefig(output)
+        plt.close()
+
+    for index, row in df_sorted_top.iterrows():
+        yrs = row['years']
+        rkgs = row['rankings']
+        plt.plot(yrs, rkgs, marker='o')
+
+    plt.xlabel('Year') 
+    plt.ylabel('Ranking') 
+    plt.title(f'Top {top_rows} Emerging Sector Successes')
+    plt.grid(True)
+
+    output = os.path.join('emerging_successes_plots', f'top_{top_rows}_successes.png')
+    plt.tight_layout()
+    plt.savefig(output)
+    plt.close()
+
+    df_sorted_top.drop(columns=['years', 'rankings'], inplace=True)
+    df_sorted_top.to_csv('emerging_successes.csv', index=False)
+
+    plt.figure(figsize=(12, 6))
+    plt.axis('off')
+    plt.title("Emerging Sector Successes")
+    plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
+    plt.savefig('emerging_successes_table.png')
+
     return df_sorted.head(top_rows)
 
 # first input (string): currently 'rank_avg'
@@ -92,7 +149,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 # changes the length of time series windows (in years) to calculate relative 
 # change of rank in recent years
 
-# fourth input (non-zero integer): currently 50
+# fourth input (non-zero integer): currently 20
 # determines number of top growth cases to return
 
-print(emerging_success('rank_avg', 5, 10, 50))
+print(emerging_success('rank_avg', 5, 5, 20))
