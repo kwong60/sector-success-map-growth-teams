@@ -4,6 +4,8 @@ To replicate the analysis at a 2-digit product level, no download, conversion, o
 
 Rename the folder titled "2_digit_data" to just "data" and skip to the [Sector Success Analysis section](#sector-success-analysis) or [Emerging Sector Success Analysis section](#emerging-sector-success-analysis) of the README depending on which analysis you would like to replicate.
 
+If you would like to replicate the analysis at a different product level or are having issues pulling the cleaned dataset at the 2-digit level, you may want to download, convert, and preprocess the data from the beginning as follows.
+
 ## Downloading the Data
 
 After downloading all files from the [dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T4CHWJ),
