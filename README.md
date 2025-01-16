@@ -1,5 +1,9 @@
 # Growth Teams: Sector Success Map Data Analysis
 
+To replicate the analysis at a 2-digit product level, no download, conversion, or preprocessing is necessary as the cleaned dataset has already been pushed to GitHub.
+
+Rename the folder titled "2_digit_data" to just "data" and skip to the [Sector Success Analysis section](#sector-success-analysis) or [Emerging Sector Success Analysis section](#emerging-sector-success-analysis) of the README depending on which analysis you would like to replicate.
+
 ## Downloading the Data
 
 After downloading all files from the [dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T4CHWJ),
@@ -24,7 +28,9 @@ Note that preprocessing.py is currently set to process only hs92_country_product
 
 You can check the progress of the preprocessing by opening the "data" folder. Once a file is processed, it will appear as "filt_" followed by the original name of the CSV.
 
-## Emerging Sector Successes Analysis
+## Sector Success Analysis
+
+## Emerging Sector Success Analysis
 To replicate the emerging sector successes analysis, run analysis_kara.py. This program will produce a plot of rankings over time for each emerging success case identified (each titled "{country}\_{product}.png") as well as a single plot with all of these cases overlaid (titled "top\_{number of cases}\_successes.png"). This file will also produce a new CSV with each success case's country, product, and shift in rank (slope) as well as an interpretable table PNG of this CSV.
 
 At the bottom of this file, there is a function call to the analysis and plotting function (emerging_success()). To change the parameters in this analysis (ranking metric, length of early versus recent years (where growth in recent years denotes emerging success), and number of success cases displayed), alter the inputs in the function accordingly. The meaning and order of each input is noted directly above the function call in a comment.
