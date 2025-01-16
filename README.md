@@ -31,6 +31,7 @@ Note that preprocessing.py is currently set to process only hs92_country_product
 You can check the progress of the preprocessing by opening the "data" folder. Once a file is processed, it will appear as "filt_" followed by the original name of the CSV.
 
 ## Sector Success Analysis
+To replicate the 100+/200+ sector successes analysis.The program finds the 200 top sector success stories ( countries and product) and also within each success story looks at which window of time was the success at its peak. The file also creates plots of this change over time (over windows of time) for each ccountry. 
 
 ## Emerging Sector Success Analysis
 To replicate the emerging sector successes analysis, run analysis_kara.py. This program will produce a plot of rankings over time for each emerging success case identified (each titled "{country}\_{product}.png") as well as a single plot with all of these cases overlaid (titled "top\_{number of cases}\_successes.png"). This file will also produce a new CSV with each success case's country, product, and shift in rank (slope) as well as an interpretable table PNG of this CSV.
