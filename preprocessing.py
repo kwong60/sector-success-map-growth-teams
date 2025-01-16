@@ -112,7 +112,7 @@ def exclude(df: pd.DataFrame, path: str, name: str):
     df_filtered.to_csv(csv_path, index=False)
 
 
-#Calculating one criteria for ranking: export per capita
+# calculating one criteria for ranking: export per capita
 def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     ''' Function to calculate export per capita uses population data. This makes the export values of each country 
     more comparable as it adjusts for larger export values due to population size'''
