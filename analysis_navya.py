@@ -92,8 +92,10 @@ table.auto_set_column_width(col=list(range(len(twohundred_sector_successes.colum
 table_path = os.path.join('200sectorsuccesses', 'top20sectorsuccesstable.png')
 plt.savefig(table_path)
 
-csv_file_path = os.path.join('200sectorsuccesses','detailed_rank_shifts')
-detailed_two_hundred_sorted.to_csv(csv_file_path,index=False)
+csv_file_path1 = os.path.join('200sectorsuccesses','detailed_rank_shifts')
+csv_file_path2 = os.path.join('200sectorsuccesses', 'overall_rank_shifts')
+detailed_two_hundred_sorted.to_csv(csv_file_path1,index=False)
+twohundred_sector_successes.to_csv(csv_file_path2,index=False)
 
 
 
