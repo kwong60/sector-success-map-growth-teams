@@ -11,8 +11,8 @@ data_path = os.path.join(os.path.dirname(__file__), 'data')
 # country_path = os.path.join(data_path, 'location_country.tab')
 
 # uncomment and run if product and location data downloaded as CSV file
-# product_path = os.path.join(data_path, 'product_hs92.csv')
-# country_path = os.path.join(data_path, 'location_country.csv')
+product_path = os.path.join(data_path, 'product_hs92.csv')
+country_path = os.path.join(data_path, 'location_country.csv')
 
 # read in CSVs for preprocessing
 product_codes_df = pd.read_csv(product_path, sep=',')

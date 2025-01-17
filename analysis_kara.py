@@ -132,7 +132,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
     # make a directory for plot of each emerging success case (plots rankings
     # for each case over time)
-    os.makedirs('emerging_successes_plots', exist_ok=True)
+    os.makedirs(f'{rank_col}_emerging_successes_plots', exist_ok=True)
 
     # iterates through each row of sorted DataFrame to plot each case on separate graphs
     for index, row in df_sorted_top.iterrows():
@@ -150,7 +150,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
         plt.grid(True)
 
         # save figure to 'emerging_successes_plots' directory
-        output = os.path.join('emerging_successes_plots', f'{row["country"]}_{row["product"]}.png')
+        output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()
@@ -166,11 +166,11 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
     # labelling
     plt.xlabel('Year') 
     plt.ylabel('Ranking') 
-    plt.title(f'Top {top_rows} Emerging Sector Successes')
+    plt.title(f'Top {top_rows} Emerging Sector Successes ({rank_col})')
     plt.grid(True)
 
     # save figure to 'emerging_successes_plots' directory
-    output = os.path.join('emerging_successes_plots', f'top_{top_rows}_successes.png')
+    output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
     plt.tight_layout()
     plt.savefig(output)
     plt.close()
@@ -179,18 +179,21 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
     df_sorted_top.drop(columns=['years', 'rankings'], inplace=True)
 
     # saves sorted DataFrame to CSV
-    df_sorted_top.to_csv('emerging_successes.csv', index=False)
+    csv_path = os.path.join('emerging_successes_tables', f'{rank_col}_emerging_successes.csv')
+    df_sorted_top.to_csv(csv_path, index=False)
 
     # converts and saves sorted DataFrame to table (for interpretability)
     plt.figure(figsize=(12, 6))
     plt.axis('off')
-    plt.title("Emerging Sector Successes")
-    table = plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
-    plt.savefig('emerging_successes_table.png')
+    plt.title(f"Emerging Sector Successes ({rank_col})")
+    plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
+    table_path = os.path.join('emerging_successes_tables', f'{rank_col}_emerging_successes_table.png')
+    plt.savefig(table_path)
+    plt.close()
 
     return df_sorted_top.head(top_rows)
 
-# first input (string): currently 'rank_avg'
+# first input (string):
 # changes the ranking metric that determines success
 # must be one of: 'rank_per_capita', 'rank_rca', 'rank_market_share', 'rank_avg'
 
@@ -205,3 +208,6 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 # determines number of top growth cases to return
 
 print(emerging_success('rank_avg', 10, 5, 20))
+print(emerging_success('rank_per_capita', 10, 5, 20))
+print(emerging_success('rank_rca', 10, 5, 20))
+print(emerging_success('rank_market_share', 10, 5, 20))
