@@ -1,5 +1,4 @@
 import pandas as pd
-import preprocessing
 import os
 import matplotlib.pyplot as plt
 
@@ -61,6 +60,8 @@ def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
 
 windows_overall = window_time_period_ranking_shift(5,"rank_avg")
 detailed_two_hundred = windows_overall.merge(twohundred_sector_successes, on=['country', 'product'], how='inner')
+detailed_two_hundred_sorted = detailed_two_hundred.sort_values('1995-2022_rank_shift', ascending=False)
+
 
 
 #Visualization for ranking shifts per window for the top 20 sucess stories
@@ -69,7 +70,7 @@ os.makedirs('sector_successes_plots', exist_ok=True)
 window_names = ['1995-2000_rank_shift', '2000-2005_rank_shift', '2005-2010_rank_shift', '2010-2015_rank_shift', '2015-2020_rank_shift',
 '2020-2022_rank_shift']
 
-for index, row in detailed_two_hundred.head(20).iterrows():
+for index, row in detailed_two_hundred_sorted.head(20).iterrows():
     shifts = [row['1995-2000_rank_shift'], row['2000-2005_rank_shift'], row['2005-2010_rank_shift'], row['2010-2015_rank_shift'], row['2015-2020_rank_shift'], row['2020-2022_rank_shift']]
     plt.figure()
     plt.plot(window_names, shifts, marker='o')
@@ -79,5 +80,20 @@ for index, row in detailed_two_hundred.head(20).iterrows():
     plt.tight_layout()
     plt.savefig(output)
     plt.close()
+
+# converts and saves sorted DataFrame to table (for interpretability)
+plt.figure(figsize=(12, 6))
+plt.axis('off')
+plt.title("Top 20 Sector successes")
+table = plt.table(cellText=twohundred_sector_successes.head(20).values, colLabels=twohundred_sector_successes.columns, loc='center')
+table.auto_set_font_size(False)
+table.set_fontsize(6)
+table.auto_set_column_width(col=list(range(len(twohundred_sector_successes.columns))))
+table_path = os.path.join('200sectorsuccesses', 'top20sectorsuccesstable.png')
+plt.savefig(table_path)
+
+csv_file_path = os.path.join('200sectorsuccesses','detailed_rank_shifts')
+detailed_two_hundred_sorted.to_csv(csv_file_path,index=False)
+
 
 
