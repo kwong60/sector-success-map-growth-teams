@@ -3,6 +3,19 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
+exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
+                 "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
+                 "germany", "greece", "hungary", "iceland", "ireland", "israel",
+                 "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
+                 "mexico", "netherlands", "new_zealand", "norway", "poland", 
+                 "portugal", "slovakia", "slovenia", "spain", "sweden", "switzerland",
+                 "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
+                 "us_minor_outlying_islands", "china", "hong_kong", "macao"]
+
+exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_metals_and_stones",
+             "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
+             "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
+
 def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: int):
     """
     Identifies emerging sector successes that have the potential to enter the
@@ -26,17 +39,22 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
     df_group = df.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
-    new_df = pd.DataFrame(columns=['country', 'product', 'rank_shifts', 'years', 'rankings'])
+    new_df = pd.DataFrame(columns=['country', 'product', 'hs_code', 'rank_shifts', 'years', 'rankings'])
     countries = []
     products = []
+    hs_codes = []
     years = []
     ranks = []
     rank_shifts = []
 
     # iterates through each country-product pair
     for name, group in df_group:
+        if (name[0] in exc_countries) or (name[1] in exc_goods):
+            continue
+
         countries.append(name[0])
         products.append(name[1])
+        hs_codes.append(group['product_code'][0])
 
         years_group = group['year'].tolist()
         years.append(years_group)
@@ -117,6 +135,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
     # assign each list to a column in the new DataFrame
     new_df['country'] = countries
     new_df['product'] = products
+    new_df['hs_code'] = hs_codes
     new_df['rank_shifts'] = rank_shifts
     new_df['years'] = years
     new_df['rankings'] = ranks
@@ -146,11 +165,11 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
         # labelling
         plt.xlabel('Year') 
         plt.ylabel('Ranking') 
-        plt.title(f'{row["country"]}: {row["product"]}')
+        plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
 
         # save figure to 'emerging_successes_plots' directory
-        output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}.png')
+        output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()

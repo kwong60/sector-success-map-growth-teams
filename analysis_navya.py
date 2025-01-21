@@ -6,18 +6,36 @@ import matplotlib.pyplot as plt
 data_path = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
 data = pd.read_csv(data_path)
 
+exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
+                 "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
+                 "germany", "greece", "hungary", "iceland", "ireland", "israel",
+                 "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
+                 "mexico", "netherlands", "new_zealand", "norway", "poland", 
+                 "portugal", "slovakia", "slovenia", "spain", "sweden", "switzerland",
+                 "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
+                 "us_minor_outlying_islands", "china", "hong_kong", "macao"]
+
+exc_goods = ["ores_slag_and_ash", "mineral_fuels_oils_and_waxes", "precious_metals_and_stones",
+             "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
+             "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
+
 #function to sort the biggest ranking shifts for each product level
 def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int ):
     '''Given a start and end year, this function  calculates the rank shift based on a given ranking system for each country-product pair '''
 
     grouped = data.groupby(['country','name_short_en'])
-    new_data = pd.DataFrame(columns=['country', 'product',f'{start}-{end}_rank_shift'])
+    new_data = pd.DataFrame(columns=['country', 'product', 'hs_code', f'{start}-{end}_rank_shift'])
     country_code_list = []
     product_code_list = []
+    hs_code_list =[]
     ranking_shift_list = []
     for name, group in grouped:
+        if (name[0] in exc_countries) or (name[1] in exc_goods):
+            continue
+
         country_code_list.append(name[0])
         product_code_list.append(name[1])
+        hs_code_list.append(group['product_code'][0])
         if(len(group[group['year'] == end]) == 1) and (len(group[group['year'] == start]) == 1):
             end_ranking = group[group['year'] == end][rank_column_name].iloc[0]
             beg_ranking = group[group['year'] == start][rank_column_name].iloc[0]
@@ -28,6 +46,7 @@ def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int
 
     new_data['country'] = country_code_list
     new_data['product'] = product_code_list
+    new_data['hs_code'] = hs_code_list
     new_data[f'{start}-{end}_rank_shift'] = ranking_shift_list
     new_data = new_data.dropna(subset=[f'{start}-{end}_rank_shift'])
     
@@ -78,9 +97,9 @@ for rank_metric in rank_metrics:
         shifts = [row['1995-2000_rank_shift'], row['2000-2005_rank_shift'], row['2005-2010_rank_shift'], row['2010-2015_rank_shift'], row['2015-2020_rank_shift'], row['2020-2022_rank_shift']]
         plt.figure()
         plt.plot(window_names, shifts, marker='o')
-        plt.title(f'{row["country"]}: {row["product"]}')
+        plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
-        output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}.png')
+        output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()

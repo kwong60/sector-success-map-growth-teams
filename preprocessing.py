@@ -28,7 +28,8 @@ def lower_standardize(x: str):
         final_word - lowercased string
     """
     lower = x.lower()
-    final_word = lower.replace(" ","_")
+    lower_word = lower.replace(" ","_")
+    final_word = lower_word.replace(",", "")
     return final_word
 
 # applies lowercase standardization to products in product and country DataFrames
@@ -119,7 +120,7 @@ def exclude(df: pd.DataFrame, path: str, name: str):
     """
 
     # filters excluded countries and goods
-    df_mask = df["country_id"].isin(oecd) | df["product_id"].astype(str).apply(lambda x: any(x.startswith(str(good)) for good in goods))
+    df_mask = df["country_id"].isin(oecd) | df["product_code"].isin(goods)
     df_filtered = df[~df_mask]
 
     return df_filtered
@@ -157,7 +158,7 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
         ] # directly access the single value
         
         if population.empty:
-            print(f"Warning: No population data found for {row['country']} in year {year}")
+            # print(f"Warning: No population data found for {row['country']} in year {year}")
             export_per_capita = None
         else:
             population_value = population.values[0]
@@ -247,7 +248,7 @@ for file in os.listdir(data_path):
     name, ext = os.path.splitext(base_name)
 
     # checks file type of each file in "data" folder
-    if ext.lower() == '.csv' and name != "location_country" and name != "product_hs92": ###
+    if ext.lower() == '.csv' and name != "location_country" and name != "product_hs92" and name != "API_SP.POP.TOTL_DS2_en_csv_v2_900":
         # extracts path name of given file and reads to dataframe
         file_path = os.path.join(data_path, file)
         df = pd.read_csv(file_path)
