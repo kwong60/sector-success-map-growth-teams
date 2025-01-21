@@ -6,15 +6,46 @@ import matplotlib.pyplot as plt
 data_path = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
 data = pd.read_csv(data_path)
 
+eci_ranking = pd.read_csv('data/rankings.tab', sep='\t')
+directory = os.path.dirname('data/rankings.tab')
+eci_groups = eci_ranking.groupby('country_id')
+new_eci_ranking = pd.DataFrame(columns=['country_id', 'eci_ranking_shift'])
+eci_countries = []
+eci_ranking_shifts = []
+for name,group in eci_groups:
+    eci_countries.append(name)
+    if(len(group[group['year'] == 2022]) == 1) and (len(group[group['year'] == 1995]) == 1):
+        final_eci = group[group['year'] == 2022]['hs_eci_rank'].iloc[0]
+        beg_eci = group[group['year'] == 1995]['hs_eci_rank'].iloc[0]
+        eci_rank_shift = final_eci - beg_eci
+    else:
+        eci_rank_shift = None
+    eci_ranking_shifts.append(eci_rank_shift)
+new_eci_ranking['country_id'] = eci_countries
+new_eci_ranking['eci_ranking_shift'] = eci_ranking_shifts
+new_eci_file = os.path.join(directory, 'eci_rank_shifts.csv')
+new_eci_ranking = new_eci_ranking.sort_values(by='eci_ranking_shift', ascending=False)
+new_eci_ranking.to_csv(new_eci_file,index=False)
+top50countries = new_eci_ranking.head(50)
+new_eci_countryids = top50countries['country_id'].tolist()
+data = data[data['country_id'].isin(new_eci_countryids)]
+
+
+
 #function to sort the biggest ranking shifts for each product level
 def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int ):
     '''Given a start and end year, this function  calculates the rank shift based on a given ranking system for each country-product pair '''
+    filtered_data = data[(data['year'] == 2022) & (data[rank_column_name] < 30)]
+    filtered_countries = filtered_data['country'].tolist()
+    filtered_products = filtered_data['name_short_en'].tolist()
+    clean_data = data[(data['country'].isin(filtered_countries)) & (data['name_short_en'].isin(filtered_products))]
 
-    grouped = data.groupby(['country','name_short_en'])
-    new_data = pd.DataFrame(columns=['country', 'product',f'{start}-{end}_rank_shift'])
+    grouped = clean_data.groupby(['country','name_short_en'])
+    new_data = pd.DataFrame(columns=['country', 'product', f'{start}-{end}_rank_shift'])
     country_code_list = []
     product_code_list = []
     ranking_shift_list = []
+    
     for name, group in grouped:
         country_code_list.append(name[0])
         product_code_list.append(name[1])
@@ -23,6 +54,7 @@ def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int
             beg_ranking = group[group['year'] == start][rank_column_name].iloc[0]
             rank_shift = end_ranking - beg_ranking
         else:
+            end_ranking = None
             rank_shift = None
         ranking_shift_list.append(rank_shift)
 
@@ -58,6 +90,18 @@ def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
 
 rank_metrics = data.columns[17:]
 
+'''function to filter by extra criteria
+def final_ranking_criterion_filter(successStories: pd.DataFrame, rank_column_name: str):
+    success_countries = successStories['country'].tolist()
+    success_products = successStories['product'].tolist()
+    filtered_data = data[(data['country'].isin(success_countries)) & (data['name_short_en'].isin(success_products))]
+    top_country_criterion_data = filtered_data[(filtered_data['year'] == 2022) & (filtered_data[rank_column_name] < 30)]
+    top_criterion_countries = top_country_criterion_data['country'].tolist()
+    top_criterion_products = top_country_criterion_data['name_short_en'].tolist()
+    applyfilter_success_stories = successStories[(successStories['country'].isin(top_criterion_countries)) & (successStories['product'].isin(top_criterion_products))]
+    return applyfilter_success_stories
+'''
+
 
 for rank_metric in rank_metrics:
     #Gets the top 200 sector success stories
@@ -71,13 +115,15 @@ for rank_metric in rank_metrics:
     #Visualization for ranking shifts per window for the top 20 sucess stories
     os.makedirs('sector_successes_plots', exist_ok=True)
 
-    window_names = ['1995-2000_rank_shift', '2000-2005_rank_shift', '2005-2010_rank_shift', '2010-2015_rank_shift', '2015-2020_rank_shift',
-    '2020-2022_rank_shift']
+    
 
-    for index, row in detailed_two_hundred_sorted.head(20).iterrows():
-        shifts = [row['1995-2000_rank_shift'], row['2000-2005_rank_shift'], row['2005-2010_rank_shift'], row['2010-2015_rank_shift'], row['2015-2020_rank_shift'], row['2020-2022_rank_shift']]
+    for index, row in twohundred_sector_successes.head(20).iterrows():
+        ranks = data[(data['country'] == row['country']) & (data['name_short_en'] == row['product'])]
+        year_ranks = ranks.sort_values(by='year', ascending=True)
+        rank_data = year_ranks[rank_metric].tolist()
+        window_names = year_ranks['year'].tolist()
         plt.figure()
-        plt.plot(window_names, shifts, marker='o')
+        plt.plot(window_names, rank_data, marker='o')
         plt.title(f'{row["country"]}: {row["product"]}')
         plt.grid(True)
         output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}.png')
