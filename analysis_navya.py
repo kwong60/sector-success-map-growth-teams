@@ -66,7 +66,7 @@ def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int
 
         country_code_list.append(name[0])
         product_code_list.append(name[1])
-        hs_code_list.append(group['product_code'][0])
+        hs_code_list.append(group['product_code'].iloc[0])
         if(len(group[group['year'] == end]) == 1) and (len(group[group['year'] == start]) == 1):
             end_ranking = group[group['year'] == end][rank_column_name].iloc[0]
             beg_ranking = group[group['year'] == start][rank_column_name].iloc[0]
@@ -102,7 +102,7 @@ def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
     for start, end in windows:
         window_data = entire_time_period_ranking_shift(rank_column_name, start, end)
         all_windows_data = pd.merge(
-            all_windows_data, window_data, on=['country', 'product'], how='outer'
+            all_windows_data, window_data, on=['country', 'product', 'hs_code'], how='outer'
         ) if not all_windows_data.empty else window_data
 
     return all_windows_data
