@@ -257,7 +257,7 @@ for file in os.listdir(data_path):
         country_name_df = add_countrynames_columns(product_df)
         missing_df = remove_missing_values(country_name_df)
         exp_per_capita_df = export_per_capita(missing_df)
-        exclude_df = exclude(missing_df, file_path, name)
+        exclude_df = exclude(exp_per_capita_df, file_path, name)
         rca_df = calculate_rca(exclude_df)
         rank_df = ranking(rca_df)
 
