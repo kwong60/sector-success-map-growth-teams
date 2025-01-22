@@ -23,6 +23,7 @@ for name,group in eci_groups:
     eci_ranking_shifts.append(eci_rank_shift)
 new_eci_ranking['country_id'] = eci_countries
 new_eci_ranking['eci_ranking_shift'] = eci_ranking_shifts
+new_eci_ranking = new_eci_ranking.dropna(subset=['eci_ranking_shift'])
 new_eci_file = os.path.join(directory, 'eci_rank_shifts.csv')
 new_eci_ranking = new_eci_ranking.sort_values(by='eci_ranking_shift', ascending=False)
 new_eci_ranking.to_csv(new_eci_file,index=False)
@@ -54,7 +55,7 @@ def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int
     clean_data = data[(data['country'].isin(filtered_countries)) & (data['name_short_en'].isin(filtered_products))]
 
     grouped = clean_data.groupby(['country','name_short_en'])
-    new_data = pd.DataFrame(columns=['country', 'product', 'hs_code' f'{start}-{end}_rank_shift'])
+    new_data = pd.DataFrame(columns=['country', 'product', 'hs_code' , f'{start}-{end}_rank_shift'])
     country_code_list = []
     product_code_list = []
     hs_code_list =[]
@@ -128,7 +129,7 @@ for rank_metric in rank_metrics:
     twohundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(200)
 
     windows_overall = window_time_period_ranking_shift(5, rank_metric)
-    detailed_two_hundred = windows_overall.merge(twohundred_sector_successes, on=['country', 'product'], how='inner')
+    detailed_two_hundred = windows_overall.merge(twohundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')
     detailed_two_hundred_sorted = detailed_two_hundred.sort_values('1995-2022_rank_shift', ascending=False)
 
     #Visualization for ranking shifts per window for the top 20 sucess stories
