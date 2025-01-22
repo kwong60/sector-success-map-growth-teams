@@ -32,7 +32,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
     # extract data from 2-digit level product data (change 'data/filt_hs92_country_product_year_2.csv'
     # to other data path as necessary)
-    data_path = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
+    data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
     df = pd.read_csv(data_path)
 
     # group data by cases (country, product)
@@ -54,7 +54,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 
         countries.append(name[0])
         products.append(name[1])
-        hs_codes.append(group['product_code'][0])
+        hs_codes.append(group['product_code'].iloc[0])
 
         years_group = group['year'].tolist()
         years.append(years_group)
@@ -165,7 +165,7 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
         # labelling
         plt.xlabel('Year') 
         plt.ylabel('Ranking') 
-        plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
+        plt.title(f'{row["country"]}: \n {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
 
         # save figure to 'emerging_successes_plots' directory

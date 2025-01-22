@@ -4,7 +4,7 @@ from typing import Callable
 import numpy as np
 
 # opening data folder
-data_path = os.path.join(os.path.dirname(__file__), 'data')
+data_path = os.path.join(os.path.dirname(__file__), '2_digit_data')
 
 # uncomment and run if product and location data downloaded as TAB file
 # product_path = os.path.join(data_path, 'product_hs92.tab')
@@ -29,7 +29,8 @@ def lower_standardize(x: str):
     """
     lower = x.lower()
     lower_word = lower.replace(" ","_")
-    final_word = lower_word.replace(",", "")
+    comma_word = lower_word.replace(",", "")
+    final_word = comma_word.replace(";","")
     return final_word
 
 # applies lowercase standardization to products in product and country DataFrames
@@ -71,7 +72,7 @@ def add_productnames_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     Output:
         dataframe - DataFrame with product name column
     """
-    dataframe['product_code'] = dataframe['product_id'].apply(lambda x: productids_to_codes_dict[x][0])
+    dataframe['product_code'] = dataframe['product_id'].apply(lambda x: int(productids_to_codes_dict[x][0]))
     dataframe['name_short_en'] = dataframe['product_id'].apply(lambda x: productids_to_codes_dict[x][1])
     return dataframe
 
@@ -168,7 +169,7 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
             else:
                 export_per_capita = None  # handle missing population data
         export_per_capita_values.append(export_per_capita)
-    
+
     # add the new column to the DataFrame
     dataframe["export_per_capita"] = export_per_capita_values
     return dataframe
@@ -255,12 +256,19 @@ for file in os.listdir(data_path):
 
         # applies all functions to add new columns
         product_df = add_productnames_columns(df)
+        print("product names added")
         country_name_df = add_countrynames_columns(product_df)
+        print("country names added")
         missing_df = remove_missing_values(country_name_df)
+        print("missing values added")
         exp_per_capita_df = export_per_capita(missing_df)
+        print("exp per capita added")
         exclude_df = exclude(exp_per_capita_df, file_path, name)
+        print("exclusions added")
         rca_df = calculate_rca(exclude_df)
+        print("rca added")
         rank_df = ranking(rca_df)
+        print("rankings added")
 
         # saves filtered CSV to data folder
         directory = os.path.dirname(file_path)
