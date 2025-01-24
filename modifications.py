@@ -36,13 +36,7 @@ top50countries = new_eci_ranking.head(50)
 new_eci_countryids = top50countries['country_id'].tolist()
 original_data = original_data[original_data['country_id'].isin(new_eci_countryids)]
 
-
-filtered_data = original_data[(original_data['year'] == 2022) & (original_data[rank_column_name] < 30)]
-filtered_countries = filtered_data['country'].tolist()
-filtered_products = filtered_data['name_short_en'].tolist()
-clean_data = original_data[(original_data['country'].isin(filtered_countries)) & (original_data['name_short_en'].isin(filtered_products))]
-
 clean_data_file_path = os.path.join('2_digit_data', "clean_hs92_country_product_year_2.csv")
-clean_data.to_csv(clean_data_file_path, index=False)
+original_data.to_csv(clean_data_file_path, index=False)
 
 

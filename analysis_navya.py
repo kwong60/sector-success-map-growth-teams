@@ -27,7 +27,18 @@ exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_met
 #function to sort the biggest ranking shifts for each product level
 def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name: str, start: int, end: int ):
     '''Given a start and end year, this function  calculates the rank shift based on a given ranking system for each country-product pair '''
-    
+
+
+    #if applying modifications:
+    #filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_column_name] < 30)]
+    #filtered_countries = filtered_data['country'].tolist()
+    #filtered_products = filtered_data['name_short_en'].tolist()
+    #clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
+    #clean_data_file_path = os.path.join('2_digit_data', "clean_hs92_country_product_year_2.csv")
+    #clean_data.to_csv(clean_data_file_path, index=False)
+    #grouped = clean_data.groupby(['country','name_short_en'])
+
+    #else:    
     grouped = input_data.groupby(['country','name_short_en'])
     new_data = pd.DataFrame(columns=['country', 'product', 'hs_code' , f'{start}-{end}_rank_shift'])
     country_code_list = []
@@ -127,8 +138,8 @@ for rank_metric in rank_metrics:
         plt.plot(window_names, rank_data, marker='o')
         plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
-        output = os.path.join( 'mod_' + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
-        #output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        #output = os.path.join( 'mod_' + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()
@@ -147,15 +158,15 @@ for rank_metric in rank_metrics:
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
-    table_path = os.path.join('mod_500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
-    #table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    #table_path = os.path.join('mod_500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
     plt.savefig(table_path)
 
 
+    #csv_file_path1 = os.path.join('mod_500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
     csv_file_path1 = os.path.join('500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
-    #csv_file_path1 = os.path.join('500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
-    csv_file_path2 = os.path.join('mod_500sectorsuccesses', rank_metric + '_overall_rank_shifts')
-    #csv_file_path2 = os.path.join('500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    #csv_file_path2 = os.path.join('mod_500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    csv_file_path2 = os.path.join('500sectorsuccesses', rank_metric + '_overall_rank_shifts')
     
     detailed_five_hundred_sorted.to_csv(csv_file_path1,index=False)
     fivehundred_sector_successes.to_csv(csv_file_path2,index=False)
