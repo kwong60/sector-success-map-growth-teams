@@ -120,10 +120,10 @@ for rank_metric in rank_metrics:
     plt.figure(figsize=(12, 6))
     plt.axis('off')
     plt.title("Top 20 Sector successes")
-    table = plt.table(cellText=twohundred_sector_successes.head(20).values, colLabels=twohundred_sector_successes.columns, loc='center')
+    table = plt.table(cellText=fivehundred_sector_successes.head(20).values, colLabels=twohundred_sector_successes.columns, loc='center')
     table.auto_set_font_size(False)
     table.set_fontsize(6)
-    table.auto_set_column_width(col=list(range(len(twohundred_sector_successes.columns))))
+    table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
     table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
     plt.savefig(table_path)
 
