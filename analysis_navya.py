@@ -48,7 +48,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
 
 
 
-#Function to look at the big ranking shifts and drops for smaller windows with the 200 success stories
+#Function to look at the big ranking shifts and drops for smaller windows with the 500 success stories
 def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
     '''Calculates small rank shifts given a window size for all windows between 1995-20005
     '''
@@ -85,7 +85,7 @@ def final_ranking_criterion_filter(successStories: pd.DataFrame, rank_column_nam
 
 
 for rank_metric in rank_metrics:
-    #Gets the top 200 sector success stories
+    #Gets the top 500 sector success stories
     
     #If we want data with the modification filters use this, or else if not comment it out: 
     overall_time_period = entire_time_period_ranking_shift(data, rank_metric, 1995,2022)
@@ -93,18 +93,16 @@ for rank_metric in rank_metrics:
     #Otherwise if we want the original data without modifications, uncomment this:
     # overall_time_period = entire_time_period_ranking_shift(original_data, rank_metric, 1995,2022)
 
-    twohundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(200)
+    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(500)
 
     windows_overall = window_time_period_ranking_shift(5, rank_metric)
-    detailed_two_hundred = windows_overall.merge(twohundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')
-    detailed_two_hundred_sorted = detailed_two_hundred.sort_values('1995-2022_rank_shift', ascending=False)
+    detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')
+    detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=False)
 
-    #Visualization for ranking shifts per window for the top 20 sucess stories
-    os.makedirs('sector_successes_plots', exist_ok=True)
 
-    
+    os.makedirs(f'{rank_metric}_sector_successes_plots', exist_ok=True)
 
-    for index, row in twohundred_sector_successes.head(20).iterrows():
+    for index, row in fivehundred_sector_successes.head(20).iterrows():
         ranks = data[(data['country'] == row['country']) & (data['name_short_en'] == row['product'])]
         year_ranks = ranks.sort_values(by='year', ascending=True)
         rank_data = year_ranks[rank_metric].tolist()
@@ -126,13 +124,13 @@ for rank_metric in rank_metrics:
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(twohundred_sector_successes.columns))))
-    table_path = os.path.join('200sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
     plt.savefig(table_path)
 
-    csv_file_path1 = os.path.join('200sectorsuccesses', rank_metric + '_detailed_rank_shifts')
-    csv_file_path2 = os.path.join('200sectorsuccesses', rank_metric + '_overall_rank_shifts')
-    detailed_two_hundred_sorted.to_csv(csv_file_path1,index=False)
-    twohundred_sector_successes.to_csv(csv_file_path2,index=False)
+    csv_file_path1 = os.path.join('500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
+    csv_file_path2 = os.path.join('500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    detailed_five_hundred_sorted.to_csv(csv_file_path1,index=False)
+    fivehundred_sector_successes.to_csv(csv_file_path2,index=False)
 
 
 
