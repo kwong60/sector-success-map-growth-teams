@@ -115,6 +115,7 @@ for rank_metric in rank_metrics:
     detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=False)
 
 
+    os.makedirs(f'mod_{rank_metric}_sector_successes_plots', exist_ok=True)
     os.makedirs(f'{rank_metric}_sector_successes_plots', exist_ok=True)
 
     for index, row in fivehundred_sector_successes.head(20).iterrows():
@@ -126,10 +127,17 @@ for rank_metric in rank_metrics:
         plt.plot(window_names, rank_data, marker='o')
         plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
-        output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        output = os.path.join( 'mod_' + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        #output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()
+
+
+    #mod and not mod folders
+    os.makedirs('mod_500sectorsuccesses', exist_ok=True)
+    os.makedirs('500sectorsuccesses', exist_ok=True)
+
 
     # converts and saves sorted DataFrame to table (for interpretability)
     plt.figure(figsize=(12, 6))
@@ -139,11 +147,16 @@ for rank_metric in rank_metrics:
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
-    table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    table_path = os.path.join('mod_500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    #table_path = os.path.join('500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
     plt.savefig(table_path)
 
+
     csv_file_path1 = os.path.join('500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
-    csv_file_path2 = os.path.join('500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    #csv_file_path1 = os.path.join('500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
+    csv_file_path2 = os.path.join('mod_500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    #csv_file_path2 = os.path.join('500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    
     detailed_five_hundred_sorted.to_csv(csv_file_path1,index=False)
     fivehundred_sector_successes.to_csv(csv_file_path2,index=False)
 
