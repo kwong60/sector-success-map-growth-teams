@@ -11,6 +11,19 @@ data_path2 = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_coun
 original_data = pd.read_csv(data_path2)
 
 
+exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
+                 "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
+                 "germany", "greece", "hungary", "iceland", "ireland", "israel",
+                 "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
+                 "mexico", "netherlands", "new_zealand", "norway", "poland", 
+                 "portugal", "slovakia", "slovenia", "spain", "sweden", "switzerland",
+                 "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
+                 "us_minor_outlying_islands", "china", "hong_kong", "macao"]
+
+exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_metals_and_stones",
+             "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
+             "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
+
 #function to sort the biggest ranking shifts for each product level
 def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name: str, start: int, end: int ):
     '''Given a start and end year, this function  calculates the rank shift based on a given ranking system for each country-product pair '''
@@ -62,7 +75,9 @@ def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
     
     all_windows_data = pd.DataFrame()
     for start, end in windows:
-        window_data = entire_time_period_ranking_shift(rank_column_name, start, end)
+        window_data = entire_time_period_ranking_shift(data, rank_column_name, start, end)
+        #if we want to run it on the original data: 
+        # window_data = entire_time_period_ranking_shift(original_data, rank_column_name, start, end)
         all_windows_data = pd.merge(
             all_windows_data, window_data, on=['country', 'product', 'hs_code'], how='outer'
         ) if not all_windows_data.empty else window_data
@@ -88,10 +103,10 @@ for rank_metric in rank_metrics:
     #Gets the top 500 sector success stories
     
     #If we want data with the modification filters use this, or else if not comment it out: 
-    overall_time_period = entire_time_period_ranking_shift(data, rank_metric, 1995,2022)
+    #overall_time_period = entire_time_period_ranking_shift(data, rank_metric, 1995,2022)
 
     #Otherwise if we want the original data without modifications, uncomment this:
-    # overall_time_period = entire_time_period_ranking_shift(original_data, rank_metric, 1995,2022)
+    overall_time_period = entire_time_period_ranking_shift(original_data, rank_metric, 1995,2022)
 
     fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(500)
 
@@ -120,7 +135,7 @@ for rank_metric in rank_metrics:
     plt.figure(figsize=(12, 6))
     plt.axis('off')
     plt.title("Top 20 Sector successes")
-    table = plt.table(cellText=fivehundred_sector_successes.head(20).values, colLabels=twohundred_sector_successes.columns, loc='center')
+    table = plt.table(cellText=fivehundred_sector_successes.head(20).values, colLabels=fivehundred_sector_successes.columns, loc='center')
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
