@@ -16,7 +16,19 @@ exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_met
              "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
              "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
 
-def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: int):
+
+# extract data from 2-digit level product data (change 'data/filt_hs92_country_product_year_2.csv'
+    # to other data path as necessary)
+
+#takes in preprocessed data with applied modification filters
+data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+data = pd.read_csv(data_path)
+
+#if we are not applying the filters and just running modifications then use:
+data_path2 = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+original_data = pd.read_csv(data_path2)
+
+def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, recent_len: int, top_rows: int):
     """
     Identifies emerging sector successes that have the potential to enter the
     top growth cases.
@@ -30,13 +42,10 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
         top_rows - number of emerging sector successes to return
     """
 
-    # extract data from 2-digit level product data (change 'data/filt_hs92_country_product_year_2.csv'
-    # to other data path as necessary)
-    data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
-    df = pd.read_csv(data_path)
+    
 
     # group data by cases (country, product)
-    df_group = df.groupby(['country','name_short_en'])
+    df_group = input_data.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
     new_df = pd.DataFrame(columns=['country', 'product', 'hs_code', 'rank_shifts', 'years', 'rankings'])
@@ -226,7 +235,14 @@ def emerging_success(rank_col: str, window_len: int, recent_len: int, top_rows: 
 # fourth input (non-zero integer): currently 20
 # determines number of top growth cases to return
 
-print(emerging_success('rank_avg', 10, 5, 20))
-print(emerging_success('rank_per_capita', 10, 5, 20))
-print(emerging_success('rank_rca', 10, 5, 20))
-print(emerging_success('rank_market_share', 10, 5, 20))
+#If we want data with the modification filters use this, or else if not comment it out: 
+print(emerging_success(data, 'rank_avg', 10, 5, 20))
+print(emerging_success(data,'rank_per_capita', 10, 5, 20))
+print(emerging_success(data, 'rank_rca', 10, 5, 20))
+print(emerging_success(data, 'rank_market_share', 10, 5, 20))
+
+#Otherwise if we want the original data without modifications, uncomment this:
+#print(emerging_success(original_data, 'rank_avg', 10, 5, 20))
+#print(emerging_success(original_data,'rank_per_capita', 10, 5, 20))
+#print(emerging_success(original_data, 'rank_rca', 10, 5, 20))
+#print(emerging_success(original_data, 'rank_market_share', 10, 5, 20))

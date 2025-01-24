@@ -2,59 +2,20 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
-#takes in preprocessed data that has been filtered
-data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+#takes in preprocessed data with applied modification filters
+data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/clean_hs92_country_product_year_2.csv')
 data = pd.read_csv(data_path)
 
-eci_ranking = pd.read_csv('data/rankings.tab', sep='\t')
-directory = os.path.dirname('data/rankings.tab')
-eci_groups = eci_ranking.groupby('country_id')
-new_eci_ranking = pd.DataFrame(columns=['country_id', 'eci_ranking_shift'])
-eci_countries = []
-eci_ranking_shifts = []
-for name,group in eci_groups:
-    eci_countries.append(name)
-    if(len(group[group['year'] == 2022]) == 1) and (len(group[group['year'] == 1995]) == 1):
-        final_eci = group[group['year'] == 2022]['hs_eci_rank'].iloc[0]
-        beg_eci = group[group['year'] == 1995]['hs_eci_rank'].iloc[0]
-        eci_rank_shift = final_eci - beg_eci
-    else:
-        eci_rank_shift = None
-    eci_ranking_shifts.append(eci_rank_shift)
-new_eci_ranking['country_id'] = eci_countries
-new_eci_ranking['eci_ranking_shift'] = eci_ranking_shifts
-new_eci_ranking = new_eci_ranking.dropna(subset=['eci_ranking_shift'])
-new_eci_file = os.path.join(directory, 'eci_rank_shifts.csv')
-new_eci_ranking = new_eci_ranking.sort_values(by='eci_ranking_shift', ascending=False)
-new_eci_ranking.to_csv(new_eci_file,index=False)
-top50countries = new_eci_ranking.head(50)
-new_eci_countryids = top50countries['country_id'].tolist()
-data = data[data['country_id'].isin(new_eci_countryids)]
-
-
-exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
-                 "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
-                 "germany", "greece", "hungary", "iceland", "ireland", "israel",
-                 "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
-                 "mexico", "netherlands", "new_zealand", "norway", "poland", 
-                 "portugal", "slovakia", "slovenia", "spain", "sweden", "switzerland",
-                 "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
-                 "us_minor_outlying_islands", "china", "hong_kong", "macao"]
-
-exc_goods = ["ores_slag_and_ash", "mineral_fuels_oils_and_waxes", "precious_metals_and_stones",
-             "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
-             "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
+#if we are not applying the filters and just running modifications then use:
+data_path2 = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+original_data = pd.read_csv(data_path2)
 
 
 #function to sort the biggest ranking shifts for each product level
-def entire_time_period_ranking_shift(rank_column_name: str, start: int, end: int ):
+def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name: str, start: int, end: int ):
     '''Given a start and end year, this function  calculates the rank shift based on a given ranking system for each country-product pair '''
-    filtered_data = data[(data['year'] == 2022) & (data[rank_column_name] < 30)]
-    filtered_countries = filtered_data['country'].tolist()
-    filtered_products = filtered_data['name_short_en'].tolist()
-    clean_data = data[(data['country'].isin(filtered_countries)) & (data['name_short_en'].isin(filtered_products))]
-
-    grouped = clean_data.groupby(['country','name_short_en'])
+    
+    grouped = input_data.groupby(['country','name_short_en'])
     new_data = pd.DataFrame(columns=['country', 'product', 'hs_code' , f'{start}-{end}_rank_shift'])
     country_code_list = []
     product_code_list = []
@@ -125,7 +86,13 @@ def final_ranking_criterion_filter(successStories: pd.DataFrame, rank_column_nam
 
 for rank_metric in rank_metrics:
     #Gets the top 200 sector success stories
-    overall_time_period = entire_time_period_ranking_shift(rank_metric, 1995,2022)
+    
+    #If we want data with the modification filters use this, or else if not comment it out: 
+    overall_time_period = entire_time_period_ranking_shift(data, rank_metric, 1995,2022)
+
+    #Otherwise if we want the original data without modifications, uncomment this:
+    # overall_time_period = entire_time_period_ranking_shift(original_data, rank_metric, 1995,2022)
+
     twohundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(200)
 
     windows_overall = window_time_period_ranking_shift(5, rank_metric)
