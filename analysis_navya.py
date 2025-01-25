@@ -107,7 +107,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
 
 
 #Function to look at the big ranking shifts and drops for smaller windows within the 500 success stories
-def window_time_period_ranking_shift(input_data: pd.Dataframe, time_window: int, rank_column_name: str, modification: bool, china: bool):
+def window_time_period_ranking_shift(input_data: pd.DataFrame, time_window: int, rank_column_name: str, modification: bool, china: bool):
     '''Calculates small rank shifts given a window size for all windows between 1995-20005
     '''
 
