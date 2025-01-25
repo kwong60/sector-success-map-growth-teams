@@ -190,12 +190,12 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
-    table_path = os.path.join(f'{directory_name}500sectorsuccesses', rank_metric + '_top20sectorsuccesstable.png')
+    table_path = os.path.join(f'{directory_name}500sectorsuccesses_tables', rank_metric + '_top20sectorsuccesstable.png')
     plt.savefig(table_path)
 
 
-    csv_file_path1 = os.path.join(f'{directory_name}500sectorsuccesses', rank_metric + '_detailed_rank_shifts')
-    csv_file_path2 = os.path.join(f'{directory_name}500sectorsuccesses', rank_metric + '_overall_rank_shifts')
+    csv_file_path1 = os.path.join(f'{directory_name}500sectorsuccesses_tables', rank_metric + '_detailed_rank_shifts')
+    csv_file_path2 = os.path.join(f'{directory_name}500sectorsuccesses_tables', rank_metric + '_overall_rank_shifts')
     
     detailed_five_hundred_sorted.to_csv(csv_file_path1,index=False)
     fivehundred_sector_successes.to_csv(csv_file_path2,index=False)
