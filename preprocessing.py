@@ -4,21 +4,22 @@ from typing import Callable
 import numpy as np
 
 # opening data folder
-data_path = os.path.join(os.path.dirname(__file__), '2_digit_data')
+data_path = os.path.join(os.path.dirname(__file__), 'data')
+ref_path = os.path.join(os.path.dirname(__file__), 'references')
 
 # uncomment and run if product and location data downloaded as TAB file
 # product_path = os.path.join(data_path, 'product_hs92.tab')
 # country_path = os.path.join(data_path, 'location_country.tab')
 
 # uncomment and run if product and location data downloaded as CSV file
-product_path = os.path.join(data_path, 'product_hs92.csv')
-country_path = os.path.join(data_path, 'location_country.csv')
+product_path = os.path.join(ref_path, 'product_hs92.csv')
+country_path = os.path.join(ref_path, 'location_country.csv')
 
 # read in CSVs for preprocessing
 product_codes_df = pd.read_csv(product_path, sep=',')
 country_df = pd.read_csv(country_path, sep=',')
 
-pop_path = os.path.join(data_path, 'API_SP.POP.TOTL_DS2_en_csv_v2_900.csv')
+pop_path = os.path.join(ref_path, 'API_SP.POP.TOTL_DS2_en_csv_v2_900.csv')
 pop_df = pd.read_csv(pop_path)
 
 # adds Taiwan to population dataset
@@ -169,8 +170,7 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
     # missing_countries = os.path.join(os.path.dirname(__file__), 'missing_pop_countries')
     # load population data
-    population_path = os.path.join(os.path.dirname(__file__), '2_digit_data/API_SP.POP.TOTL_DS2_en_csv_v2_900.csv')
-    population_df = pd.read_csv(population_path)
+    population_df = pd.read_csv(pop_path)
     
     # convert "Country Name" to lowercase in both dataframes
     population_df["Country Name"] = population_df["Country Name"].apply(lower_standardize)
@@ -189,7 +189,6 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
         ] # directly access the single value
 
         if population.empty:
-            # print(f"Warning: No population data found for {row['country']} in year {year}")
             export_per_capita = None
         else:
             population_value = population.values[0]
@@ -279,7 +278,7 @@ for file in os.listdir(data_path):
     name, ext = os.path.splitext(base_name)
 
     # checks file type of each file in "data" folder
-    if ext.lower() == '.csv' and name != "location_country" and name != "product_hs92" and name != "API_SP.POP.TOTL_DS2_en_csv_v2_900":
+    if ext.lower() == '.csv':
         # extracts path name of given file and reads to dataframe
         file_path = os.path.join(data_path, file)
         df = pd.read_csv(file_path)

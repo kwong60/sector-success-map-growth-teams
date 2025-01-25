@@ -277,23 +277,23 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 # determines number of top growth cases to return
 
 #If we want data with the modification filters use this, or else if not comment it out: 
-print(emerging_success(data, 'rank_avg', 10, 5, 20, False, False))
-print(emerging_success(data,'rank_per_capita', 10, 5, 20, False, False))
-print(emerging_success(data, 'rank_rca', 10, 5, 20, False, False))
-print(emerging_success(data, 'rank_market_share', 10, 5, 20, False, False))
+print(emerging_success(original_data, 'rank_avg', 10, 5, 20, False, False))
+print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, False, False))
+print(emerging_success(original_data, 'rank_rca', 10, 5, 20, False, False))
+print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, False, False))
 
 #Otherwise if we want the original data without modifications, uncomment this:
-print(emerging_success(original_data, 'rank_avg', 10, 5, 20, True, False))
-print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, True, False))
-print(emerging_success(original_data, 'rank_rca', 10, 5, 20, True, False))
-print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, True, False))
+print(emerging_success(data, 'rank_avg', 10, 5, 20, True, False))
+print(emerging_success(data,'rank_per_capita', 10, 5, 20, True, False))
+print(emerging_success(data, 'rank_rca', 10, 5, 20, True, False))
+print(emerging_success(data, 'rank_market_share', 10, 5, 20, True, False))
 
 print(emerging_success(original_data, 'rank_avg', 10, 5, 20, False, True))
 print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, False, True))
 print(emerging_success(original_data, 'rank_rca', 10, 5, 20, False, True))
 print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, False, True))
 
-print(emerging_success(original_data, 'rank_avg', 10, 5, 20, True, True))
-print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, True, True))
-print(emerging_success(original_data, 'rank_rca', 10, 5, 20, True, True))
-print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, True, True))
+print(emerging_success(data, 'rank_avg', 10, 5, 20, True, True))
+print(emerging_success(data,'rank_per_capita', 10, 5, 20, True, True))
+print(emerging_success(data, 'rank_rca', 10, 5, 20, True, True))
+print(emerging_success(data, 'rank_market_share', 10, 5, 20, True, True))
