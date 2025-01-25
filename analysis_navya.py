@@ -133,7 +133,7 @@ def final_ranking_criterion_filter(successStories: pd.DataFrame, rank_column_nam
     return applyfilter_success_stories
 '''
 
-def generate_outputs_plots(rank_metric: str, modification: bool, china: bool)
+def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
     
     
     #If we want data with the modification filters use this:
