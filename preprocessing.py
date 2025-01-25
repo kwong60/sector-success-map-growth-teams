@@ -3,7 +3,7 @@ import os
 from typing import Callable
 import numpy as np
 
-# opening data folder
+# opening data and references folders
 data_path = os.path.join(os.path.dirname(__file__), 'data')
 ref_path = os.path.join(os.path.dirname(__file__), 'references')
 
