@@ -159,8 +159,8 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
     detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=False)
 
 
-    os.makedirs(f'mod_china_{rank_metric}_sector_successes_plots', exist_ok=True)
-    os.makedirs(f'{rank_metric}_sector_successes_plots', exist_ok=True)
+    os.makedirs(f'{directory_name}{rank_metric}_sector_successes_plots', exist_ok=True)
+
 
     for index, row in fivehundred_sector_successes.head(20).iterrows():
         ranks = data[(data['country'] == row['country']) & (data['name_short_en'] == row['product'])]
@@ -172,7 +172,7 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
         plt.title(f'{row["country"]}: {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
         #output = os.path.join( 'mod_' + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
-        output = os.path.join( rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        output = os.path.join( directory_name + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()
