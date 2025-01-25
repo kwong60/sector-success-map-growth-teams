@@ -179,7 +179,7 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
 
 
     #Create the folder
-    os.makedirs(f'{directory_name}500sectorsuccesses', exist_ok=True)
+    os.makedirs(f'{directory_name}500sectorsuccesses_tables', exist_ok=True)
     
 
     # converts and saves sorted DataFrame to table (for interpretability)
