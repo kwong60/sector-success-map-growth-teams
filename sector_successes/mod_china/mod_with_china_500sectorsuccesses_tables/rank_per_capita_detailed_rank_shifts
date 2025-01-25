@@ -1,0 +1,6 @@
+country,product,hs_code,1995-2000_rank_shift,2000-2005_rank_shift,2005-2010_rank_shift,2010-2015_rank_shift,2015-2020_rank_shift,2020-2022_rank_shift,1995-2022_rank_shift
+chad,live_animals,1,26.0,1.0,22.0,-16.0,61.0,-94.0,0.0
+liberia,live_animals,1,52.0,42.0,-94.0,0.0,0.0,0.0,0.0
+democratic_republic_of_the_congo,live_animals,1,8.0,-7.0,-24.0,4.0,-6.0,-4.0,-29.0
+libya,live_animals,1,34.0,-54.0,6.0,-8.0,-29.0,0.0,-51.0
+bolivia,live_animals,1,-9.0,-38.0,-32.0,31.0,2.0,-8.0,-54.0
