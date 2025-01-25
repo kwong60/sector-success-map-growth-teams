@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 
 
 #takes in preprocessed data that has been filtered
-original_data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+original_data_path = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
 original_data = pd.read_csv(original_data_path)
 
 
 # adding the eci filter
-eci_ranking = pd.read_csv('data/rankings.tab', sep='\t')
-directory = os.path.dirname('data/rankings.tab')
+eci_ranking = pd.read_csv('references/rankings.tab', sep='\t')
+directory = os.path.dirname('references/rankings.tab')
 eci_groups = eci_ranking.groupby('country_id')
 new_eci_ranking = pd.DataFrame(columns=['country_id', 'eci_ranking_shift'])
 eci_countries = []
@@ -36,7 +36,7 @@ top50countries = new_eci_ranking.head(50)
 new_eci_countryids = top50countries['country_id'].tolist()
 original_data = original_data[original_data['country_id'].isin(new_eci_countryids)]
 
-clean_data_file_path = os.path.join('2_digit_data', "clean_hs92_country_product_year_2.csv")
+clean_data_file_path = os.path.join('data', "clean_hs92_country_product_year_2.csv")
 original_data.to_csv(clean_data_file_path, index=False)
 
 
