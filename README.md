@@ -26,9 +26,21 @@ This file will also calculate the RCA (Revealed Comparative Advantage), exports 
 This make take up to an hour to run. You can check the progress of the preprocessing by opening the "data" folder. Once a file is processed, it will appear as "filt_" followed by the original name of the CSV.
 
 ## Modifying the Data
+To apply modifications, run modifications.py after doing preprocessing and before running any of the analyses. 
+
+To add additional filters to make the selection of the sector successes more narrow, we took into eci_rankings as well as the ranking of a country, product pair at the end of the time period -- 2022. After preprocessing, we applied these filters to the data saved in data/filt_hs92_country_product_year_2.csv. We then downloaded eci rankings for countries which we saved as rankings.tab in the references folder. We calculated the eci rank shifts for each country from 1995 to 2022 and sorted according to the biggest rank shifts. We took the top 50 rank shifts and derived the countries that had these shifts. In our data, we only filtered for these countries so that we could only focus on those countries for analysis and this made the criteria for success stories more specific. 
+
+We also applied an additional filter (seen in analysis_navya.py) to only look at countries that had a ranking (according to whichever rank_metric we were looking at -- ex: rank_avg, rank_rca, etc) of 30 or less in 2022. This narrowed our criteria for what constituted a success further.
+
 
 ## Sector Success Analysis
-To replicate the 100+/200+ sector successes analysis. The program finds the 200 top sector success stories ( countries and product) and also within each success story looks at which window of time was the success at its peak. The file also creates plots of this change over time (over windows of time) for each ccountry. 
+To replicate the 500 sector successes analysis, run analysis_navya.py. The program finds the 500 top sector success stories ( countries and product) and also within each success story looks at which window of time was the success at its peak. The file also creates plots of this change over time (over windows of time) for each top 20 country within the 500 sector successes. 
+
+Each success story was determined by calculating the rank shifts in each of the 4 rank metrics (rank_avg, rank_rca, rank_export_per_capita, rank_market_share) between 1995 and 2022. Then the 500 country product pairs with the biggest success stories were selected. We did this separately for each rank metric so that we could compare the results and determine which metric was the best method for measuring a success story. 
+
+Also, we created several variations of the results so that we could compare how different factors affected the results. We created the tables and plots for the success stories for the data with modifications and the data without any of the modified filters. We also varied whether china, macao and hong kong were excluded in the criteria or not to see if it affected the success stories determined. We noticed that even when we included china, with or without the modifctaions filters, mainland china did not feature as a success story, but macao did. So after 1995, it doesn't look like china improved greatly in its ranking for any of the metrics for any of the products. 
+
+
 
 ## Emerging Sector Success Analysis
 To replicate the emerging sector successes analysis, run analysis_kara.py. This program will produce a plot of rankings over time for each emerging success case identified (each titled "{country}\_{product}.png") as well as a single plot with all of these cases overlaid (titled "top\_{number of cases}\_successes.png"). This file will also produce a new CSV with each success case's country, product, and shift in rank (slope) as well as an interpretable table PNG of this CSV.
