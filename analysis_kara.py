@@ -57,8 +57,6 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         filtered_countries = filtered_data['country'].tolist()
         filtered_products = filtered_data['name_short_en'].tolist()
         clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
-        clean_data_file_path = os.path.join('data', 'clean_hs92_country_product_year_2.csv')
-        clean_data.to_csv(clean_data_file_path, index=False)
         df_group = clean_data.groupby(['country','name_short_en'])
         
     else:
