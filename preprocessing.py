@@ -131,10 +131,10 @@ def remove_missing_values(dataframe: pd.DataFrame) -> pd.DataFrame:
     df_cleaned = dataframe.dropna(subset=["country_id", "product_id", "year", "export_value", "product_code", "name_short_en"])
     return df_cleaned
 
-# United Nations Country M49 Codes for excluded countries
+# United Nations Country M49 Codes for excluded countries (China is still included)
 oecd = [36, 40, 56, 124, 152, 170, 188, 203, 208, 233, 246, 250, 276, 300, 348,
         352, 372, 376, 380, 392, 410, 428, 440, 442, 484, 528, 554, 578, 616,
-        620, 703, 705, 724, 752, 756, 792, 826, 581, 840, 850, 156, 344, 446]
+        620, 703, 705, 724, 752, 756, 792, 826, 581, 840, 850]
 
 # HS Codes for excluded goods
 goods = [26, 27, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 83]

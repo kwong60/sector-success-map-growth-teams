@@ -3,7 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
+exc_countries_china = ["australia", "austria", "belgium", "canada", "chile", "colombia",
                  "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
                  "germany", "greece", "hungary", "iceland", "ireland", "israel",
                  "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
@@ -12,23 +12,29 @@ exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia
                  "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
                  "us_minor_outlying_islands", "china", "hong_kong", "macao"]
 
+exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
+                 "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
+                 "germany", "greece", "hungary", "iceland", "ireland", "israel",
+                 "italy", "japan", "south_korea", "latvia", "lithuania", "luxembourg",
+                 "mexico", "netherlands", "new_zealand", "norway", "poland", 
+                 "portugal", "slovakia", "slovenia", "spain", "sweden", "switzerland",
+                 "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
+                 "us_minor_outlying_islands"]
+
 exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_metals_and_stones",
              "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
              "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
 
 
-# extract data from 2-digit level product data (change 'data/filt_hs92_country_product_year_2.csv'
-    # to other data path as necessary)
-
-#takes in preprocessed data with applied modification filters
-data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+# takes in preprocessed data with applied modification filters
+data_path = os.path.join(os.path.dirname(__file__),'data/clean_hs92_country_product_year_2.csv')
 data = pd.read_csv(data_path)
 
-#if we are not applying the filters and just running modifications then use:
-data_path2 = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+# takes in preprocessed data without modification filters
+data_path2 = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
 original_data = pd.read_csv(data_path2)
 
-def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, recent_len: int, top_rows: int):
+def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, recent_len: int, top_rows: int, mod: bool, china: bool):
     """
     Identifies emerging sector successes that have the potential to enter the
     top growth cases.
@@ -41,20 +47,23 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
                     relative change of recent growth
         top_rows - number of emerging sector successes to return
     """
+    if not china:
+        oecd = [156, 344, 446]
+        df_mask = input_data["country_id"].isin(oecd)
+        input_data = input_data[~df_mask]
 
-
-    #if applying modifications:
-    #filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_column_name] < 30)]
-    #filtered_countries = filtered_data['country'].tolist()
-    #filtered_products = filtered_data['name_short_en'].tolist()
-    #clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
-    #clean_data_file_path = os.path.join('2_digit_data', "clean_hs92_country_product_year_2.csv")
-    #clean_data.to_csv(clean_data_file_path, index=False)
-    #grouped = clean_data.groupby(['country','name_short_en'])
-    
-
-    # group data by cases (country, product)
-    df_group = input_data.groupby(['country','name_short_en'])
+    if mod:
+        filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_col] < 30)]
+        filtered_countries = filtered_data['country'].tolist()
+        filtered_products = filtered_data['name_short_en'].tolist()
+        clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
+        clean_data_file_path = os.path.join('data', 'clean_hs92_country_product_year_2.csv')
+        clean_data.to_csv(clean_data_file_path, index=False)
+        df_group = clean_data.groupby(['country','name_short_en'])
+        
+    else:
+        # group data by cases (country, product)
+        df_group = input_data.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
     new_df = pd.DataFrame(columns=['country', 'product', 'hs_code', 'rank_shifts', 'years', 'rankings'])
@@ -67,7 +76,12 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 
     # iterates through each country-product pair
     for name, group in df_group:
-        if (name[0] in exc_countries) or (name[1] in exc_goods):
+        if china:
+            excluded_countries = exc_countries
+        else:
+            excluded_countries = exc_countries_china
+
+        if (name[0] in excluded_countries) or (name[1] in exc_goods):
             continue
 
         countries.append(name[0])
@@ -167,10 +181,20 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     # retrieve top emerging success cases using top_rows parameter
     df_sorted_top = df_sorted.head(top_rows)
 
+    if china:
+        if mod:
+            dir_name = 'china_mod_'
+        else:
+            dir_name = 'china_'
+    else:
+        if mod:
+            dir_name = 'mod_'
+        else:
+            dir_name = ''
+        
     # make a directory for plot of each emerging success case (plots rankings
     # for each case over time)
-    os.makedirs(f'{rank_col}_emerging_successes_plots', exist_ok=True)
-    os.makedirs(f'mod_{rank_col}_emerging_successes_plots', exist_ok=True)
+    os.makedirs(f'{dir_name}{rank_col}_emerging_successes_plots', exist_ok=True)
 
     # iterates through each row of sorted DataFrame to plot each case on separate graphs
     for index, row in df_sorted_top.iterrows():
@@ -188,8 +212,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         plt.grid(True)
 
         # save figure to 'emerging_successes_plots' directory
-        output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
-        output = os.path.join(f'mod_{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
+        output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
 
         plt.tight_layout()
         plt.savefig(output)
@@ -210,8 +233,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     plt.grid(True)
 
     # save figure to 'emerging_successes_plots' directory
-    output = os.path.join(f'{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
-    output = os.path.join(f'mod_{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
+    output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
     
     plt.tight_layout()
     plt.savefig(output)
@@ -220,23 +242,20 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     # drop "years" and "rankings" columns (no longer necessary after graphing)
     df_sorted_top.drop(columns=['years', 'rankings'], inplace=True)
 
-    os.makedirs('emerging_successes_tables', exist_ok=True)
-    os.makedirs('mod_emerging_successes_tables', exist_ok=True)
+    os.makedirs(f'{dir_name}emerging_successes_tables', exist_ok=True)
 
     # saves sorted DataFrame to CSV
-    csv_path = os.path.join('emerging_successes_tables', f'{rank_col}_emerging_successes.csv')
-    csv_path = os.path.join('mod_emerging_successes_tables', f'{rank_col}_emerging_successes.csv')
+    csv_path = os.path.join(f'{dir_name}emerging_successes_tables', f'{rank_col}_emerging_successes.csv')
 
     df_sorted_top.to_csv(csv_path, index=False)
 
     # converts and saves sorted DataFrame to table (for interpretability)
     plt.figure(figsize=(12, 6))
     plt.axis('off')
-    plt.title(f"Emerging Sector Successes ({rank_col})")
+    plt.title(f'Emerging Sector Successes ({rank_col})')
     plt.table(cellText=df_sorted_top.values, colLabels=df_sorted_top.columns, loc='center')
 
-    table_path = os.path.join('emerging_successes_tables', f'{rank_col}_emerging_successes_table.png')
-    table_path = os.path.join('mod_emerging_successes_tables', f'{rank_col}_emerging_successes_table.png')
+    table_path = os.path.join(f'{dir_name}emerging_successes_tables', f'{rank_col}_emerging_successes_table.png')
 
     plt.savefig(table_path)
     plt.close()
@@ -258,13 +277,23 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 # determines number of top growth cases to return
 
 #If we want data with the modification filters use this, or else if not comment it out: 
-print(emerging_success(data, 'rank_avg', 10, 5, 20))
-print(emerging_success(data,'rank_per_capita', 10, 5, 20))
-print(emerging_success(data, 'rank_rca', 10, 5, 20))
-print(emerging_success(data, 'rank_market_share', 10, 5, 20))
+print(emerging_success(data, 'rank_avg', 10, 5, 20, False, False))
+print(emerging_success(data,'rank_per_capita', 10, 5, 20, False, False))
+print(emerging_success(data, 'rank_rca', 10, 5, 20, False, False))
+print(emerging_success(data, 'rank_market_share', 10, 5, 20, False, False))
 
 #Otherwise if we want the original data without modifications, uncomment this:
-#print(emerging_success(original_data, 'rank_avg', 10, 5, 20))
-#print(emerging_success(original_data,'rank_per_capita', 10, 5, 20))
-#print(emerging_success(original_data, 'rank_rca', 10, 5, 20))
-#print(emerging_success(original_data, 'rank_market_share', 10, 5, 20))
+print(emerging_success(original_data, 'rank_avg', 10, 5, 20, True, False))
+print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, True, False))
+print(emerging_success(original_data, 'rank_rca', 10, 5, 20, True, False))
+print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, True, False))
+
+print(emerging_success(original_data, 'rank_avg', 10, 5, 20, False, True))
+print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, False, True))
+print(emerging_success(original_data, 'rank_rca', 10, 5, 20, False, True))
+print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, False, True))
+
+print(emerging_success(original_data, 'rank_avg', 10, 5, 20, True, True))
+print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, True, True))
+print(emerging_success(original_data, 'rank_rca', 10, 5, 20, True, True))
+print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, True, True))
