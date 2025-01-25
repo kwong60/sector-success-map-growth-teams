@@ -97,7 +97,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
 
 
 #Function to look at the big ranking shifts and drops for smaller windows with the 500 success stories
-def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
+def window_time_period_ranking_shift(time_window: int, rank_column_name: str, modification: bool, china: bool):
     '''Calculates small rank shifts given a window size for all windows between 1995-20005
     '''
 
@@ -110,7 +110,7 @@ def window_time_period_ranking_shift(time_window: int, rank_column_name: str):
     
     all_windows_data = pd.DataFrame()
     for start, end in windows:
-        window_data = entire_time_period_ranking_shift(data, rank_column_name, start, end)
+        window_data = entire_time_period_ranking_shift(data, rank_column_name, start, end, modification,china)
         #if we want to run it on the original data: 
         # window_data = entire_time_period_ranking_shift(original_data, rank_column_name, start, end)
         all_windows_data = pd.merge(
@@ -154,7 +154,7 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
     #Gets the top 500 sector success stories
     fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(500)
 
-    windows_overall = window_time_period_ranking_shift(5, rank_metric)
+    windows_overall = window_time_period_ranking_shift(5, rank_metric,modification,china)
     detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')
     detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=False)
 
