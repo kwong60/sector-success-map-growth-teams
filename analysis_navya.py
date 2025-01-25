@@ -3,11 +3,11 @@ import os
 import matplotlib.pyplot as plt
 
 #takes in preprocessed data with applied modification filters
-data_path = os.path.join(os.path.dirname(__file__),'2_digit_data/clean_hs92_country_product_year_2.csv')
+data_path = os.path.join(os.path.dirname(__file__),'data/clean_hs92_country_product_year_2.csv')
 data = pd.read_csv(data_path)
 
 #if we are not applying the filters and just running modifications then use:
-data_path2 = os.path.join(os.path.dirname(__file__),'2_digit_data/filt_hs92_country_product_year_2.csv')
+data_path2 = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
 original_data = pd.read_csv(data_path2)
 
 
