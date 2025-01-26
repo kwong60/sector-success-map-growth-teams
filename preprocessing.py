@@ -3,15 +3,10 @@ import os
 from typing import Callable
 import numpy as np
 
-# opening data and references folders
+# opening data and references folder paths
 data_path = os.path.join(os.path.dirname(__file__), 'data')
 ref_path = os.path.join(os.path.dirname(__file__), 'references')
 
-# uncomment and run if product and location data downloaded as TAB file
-# product_path = os.path.join(data_path, 'product_hs92.tab')
-# country_path = os.path.join(data_path, 'location_country.tab')
-
-# uncomment and run if product and location data downloaded as CSV file
 product_path = os.path.join(ref_path, 'product_hs92.csv')
 country_path = os.path.join(ref_path, 'location_country.csv')
 
@@ -19,6 +14,7 @@ country_path = os.path.join(ref_path, 'location_country.csv')
 product_codes_df = pd.read_csv(product_path, sep=',')
 country_df = pd.read_csv(country_path, sep=',')
 
+# read in population dataset as CSV
 pop_path = os.path.join(ref_path, 'API_SP.POP.TOTL_DS2_en_csv_v2_900.csv')
 pop_df = pd.read_csv(pop_path)
 
@@ -51,7 +47,7 @@ if len(pop_df) == 266:
 
 def lower_standardize(x: str):
     """
-    Lowercases all inputted data.
+    Lowercases all inputted data. Removes commas and semicolons.
 
     Input:
         x - string to lowercase
@@ -64,7 +60,7 @@ def lower_standardize(x: str):
     final_word = comma_word.replace(";","")
     return final_word
 
-# applies lowercase standardization to products in product and country DataFrames
+# applies lowercase/punctuation standardization to products in product and country DataFrames
 product_codes_df['name_short_en'] = product_codes_df['name_short_en'].apply(lower_standardize)
 country_df['name_short_en'] = country_df['name_short_en'].apply(lower_standardize)
 
@@ -82,21 +78,23 @@ for i in range(len(product_codes_df['name_short_en'])):
 for i in range(len(product_codes_df['name_short_en'])):
     productcodes_to_names_dict[product_codes_df['code'][i]] = product_codes_df['name_short_en'][i]
 
-# replicates dictionary logic for country IDs and country names
+# intitalizes dictionaries to translate between country IDs and country names
 countryid_to_country_dict = {}
 
+# intitalizes dictionaries to translate between country IDs and country codes
+countryid_to_code_dict = {}
+
+# populates dictionary for country IDs and country names
 for i in range(len(country_df['name_short_en'])):
    countryid_to_country_dict[country_df['country_id'][i]] = country_df['name_short_en'][i]
 
-# replicates dictionary logic for country IDs and country codes
-countryid_to_code_dict = {}
-
+# populates dictionary for country IDs and country codes
 for i in range(len(country_df['iso3_code'])):
     countryid_to_code_dict[country_df['country_id'][i]] =  country_df['iso3_code'][i]
 
 def add_productnames_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     """
-    Adds product names as columns to DataFrame.
+    Adds product codes and names as columns to DataFrame.
 
     Input:
         dataframe - DataFrame to add product name column
@@ -109,7 +107,7 @@ def add_productnames_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
 
 def add_countrynames_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     """
-    Adds country names as columns to DataFrame.
+    Adds country names and codes as columns to DataFrame.
 
     Input:
         dataframe - DataFrame to add country name column
@@ -168,11 +166,10 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     Output:
         dataframe - DataFrame with calculated export per capita
     '''
-    # missing_countries = os.path.join(os.path.dirname(__file__), 'missing_pop_countries')
     # load population data
     population_df = pd.read_csv(pop_path)
     
-    # convert "Country Name" to lowercase in both dataframes
+    # convert "Country Name" to lowercase in both DataFrames
     population_df["Country Name"] = population_df["Country Name"].apply(lower_standardize)
     
     # convert population columns to numeric
@@ -180,16 +177,21 @@ def export_per_capita(dataframe: pd.DataFrame) -> pd.DataFrame:
     
     # initialize a new column for export_per_capita
     export_per_capita_values = []
-    
+
+    # get population for each country and year
     for _, row in dataframe.iterrows():
-        # get population for the specific country and year
-        year = str(row["year"])  # ensure year is string to match population_df columns
+        # ensure year is string to match population_df columns
+        year = str(row["year"]) 
+
+        # directly access the single value
         population = population_df.loc[
             (population_df["Country Code"] == row["country_code"]), year
-        ] # directly access the single value
+        ]
 
+        # assign None if population does not exist (listed in missing_pop_countries)
         if population.empty:
             export_per_capita = None
+            
         else:
             population_value = population.values[0]
             # calculate export_per_capita

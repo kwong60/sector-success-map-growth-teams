@@ -3,6 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
+# excluded countries with China (China excluded from analysis)
 exc_countries_china = ["australia", "austria", "belgium", "canada", "chile", "colombia",
                  "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
                  "germany", "greece", "hungary", "iceland", "ireland", "israel",
@@ -12,6 +13,7 @@ exc_countries_china = ["australia", "austria", "belgium", "canada", "chile", "co
                  "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
                  "us_minor_outlying_islands", "china", "hong_kong", "macao"]
 
+# excluding countries without China (China still included in the analysis)
 exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia",
                  "costa_rica", "czechia", "denmark", "estonia", "finland", "france",
                  "germany", "greece", "hungary", "iceland", "ireland", "israel",
@@ -21,6 +23,7 @@ exc_countries = ["australia", "austria", "belgium", "canada", "chile", "colombia
                  "turkiye", "united_kingdom", "united_states_of_america", "us_virgin_islands",
                  "us_minor_outlying_islands"]
 
+# excluded goods
 exc_goods = ["ores_slag_and_ash", "mineral_fuels,_oils_and_waxes", "precious_metals_and_stones",
              "iron_and_steel", "articles_of_iron_or_steel", "copper", "nickel", "aluminum",
              "lead", "zinc", "tin", "other_base_metals", "miscellaneous_articles_of_base_metal"]
@@ -46,21 +49,28 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         recent_len - length of time series window (in years) to calculate 
                     relative change of recent growth
         top_rows - number of emerging sector successes to return
+        mod - boolean determining whether modifications are applied
+        china - boolean determining whether China is included (true = include China)
     """
+    # if China is not included, exclude China, Hong Kong, and Macao from the analysis
     if not china:
         oecd = [156, 344, 446]
         df_mask = input_data["country_id"].isin(oecd)
         input_data = input_data[~df_mask]
 
+    # if modifications are used
     if mod:
+        # filters for countries ranked in the top 30 in 2022 according to inputted rank metric
         filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_col] < 30)]
         filtered_countries = filtered_data['country'].tolist()
         filtered_products = filtered_data['name_short_en'].tolist()
+
+        # filters for all data on that (country, product) pair
         clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
         df_group = clean_data.groupby(['country','name_short_en'])
         
     else:
-        # group data by cases (country, product)
+        # group data by cases (country, product) as normal
         df_group = input_data.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
@@ -74,6 +84,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 
     # iterates through each country-product pair
     for name, group in df_group:
+        # double-checks excluded countries are excluded (taking into account preference for China's inclusion)
         if china:
             excluded_countries = exc_countries
         else:
@@ -82,6 +93,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         if (name[0] in excluded_countries) or (name[1] in exc_goods):
             continue
 
+        # adds countries, products, HS codes, years, and rankings to DataFrames
         countries.append(name[0])
         products.append(name[1])
         hs_codes.append(group['product_code'].iloc[0])
@@ -102,13 +114,11 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         # initialize slope of recent data to infinity (worst case scenario)
         recent_growth = float('inf')
         
-        # calculate recent growth as change in ranking across window of "recent
-        # years" over change in years
+        # calculate recent growth as change in ranking across "recent years" over change in years if there is enough data
         if len(nonzero_rdf) > 1:
             recent_growth = (nonzero_rdf.iloc[len(nonzero_rdf) - 1][rank_col] - nonzero_rdf.iloc[0][rank_col]) / (nonzero_rdf.iloc[len(nonzero_rdf) - 1]['year'] - nonzero_rdf.iloc[0]['year'])
             
-        # establishes window of "earlier years" based on what is not in the
-        # window of "recent years"
+        # establishes window of "earlier years" based on what is not in the window of "recent years"
         early_df = group[group['year'] < recent_window]
 
         # filters out zero ranks due to NaN data
@@ -119,8 +129,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         early_growth_avg = float('inf')
 
         if len(nonzero_edf) > 1:
-            # set slope of early data to the change in ranking across window of
-            # "earlier years" if there is enough data
+            # set slope of early data to the change in ranking across window of "earlier years" if there is enough data
             early_growth_avg = nonzero_edf.iloc[len(nonzero_edf) - 1][rank_col] - nonzero_edf.iloc[0][rank_col]
 
             i = 0
@@ -170,7 +179,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     new_df['years'] = years
     new_df['rankings'] = ranks
 
-    # ensure DataFrame as no null or infinite slope values
+    # ensure DataFrame has no null or infinite slope values
     new_df_clean = new_df[~new_df['rank_shifts'].isna() & ~np.isinf(new_df['rank_shifts'])]
 
     # sort DataFrameby rank_shifts (more negative slope = greater increase in rank)
@@ -179,6 +188,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     # retrieve top emerging success cases using top_rows parameter
     df_sorted_top = df_sorted.head(top_rows)
 
+    # determines prefix for file name depending on analysis conditions
     if china:
         if mod:
             dir_name = 'china_mod_'
@@ -190,8 +200,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         else:
             dir_name = ''
         
-    # make a directory for plot of each emerging success case (plots rankings
-    # for each case over time)
+    # make a directory for plot of each emerging success case (plots rankings for each case over time)
     os.makedirs(f'{dir_name}{rank_col}_emerging_successes_plots', exist_ok=True)
 
     # iterates through each row of sorted DataFrame to plot each case on separate graphs
@@ -209,7 +218,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         plt.title(f'{row["country"]}: \n {row["product"]} ({row["hs_code"]})')
         plt.grid(True)
 
-        # save figure to 'emerging_successes_plots' directory
+        # save figure to 'emerging_successes_plots' directories
         output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
 
         plt.tight_layout()
@@ -230,7 +239,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     plt.title(f'Top {top_rows} Emerging Sector Successes ({rank_col})')
     plt.grid(True)
 
-    # save figure to 'emerging_successes_plots' directory
+    # save figure to 'emerging_successes_plots' directories
     output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
     
     plt.tight_layout()
@@ -240,6 +249,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     # drop "years" and "rankings" columns (no longer necessary after graphing)
     df_sorted_top.drop(columns=['years', 'rankings'], inplace=True)
 
+    # establishes directories for tables
     os.makedirs(f'{dir_name}emerging_successes_tables', exist_ok=True)
 
     # saves sorted DataFrame to CSV
@@ -260,37 +270,41 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 
     return df_sorted_top.head(top_rows)
 
-# first input (string):
-# changes the ranking metric that determines success
+# first input (string): changes the ranking metric that determines success
 # must be one of: 'rank_per_capita', 'rank_rca', 'rank_market_share', 'rank_avg'
 
-# second input (non-zero integer): currently 10
-# changes the length of time series windows (in years) to calculate relative changes of rank in earlier years
+# second input (non-zero integer): changes the length of time series windows (in years) to calculate relative changes of rank in earlier years
 # average of these relative changes is used as the control to determine recent sector success
 
-# third_input (non-zero integer): currently 5
-# changes the length of time series windows (in years) to calculate relative change of rank in recent years
+# third_input (non-zero integer): changes the length of time series windows (in years) to calculate relative change of rank in recent years
 
-# fourth input (non-zero integer): currently 20
-# determines number of top growth cases to return
+# fourth input (non-zero integer): determines number of top growth cases to return
 
-#If we want data with the modification filters use this, or else if not comment it out: 
+# fifth input (boolean): determines if modifications are used (True) or not (False)
+# see README for detailed descriptions of modifications
+
+# sixth input (boolean): determines if China is included (True) or not (False) in the analysis
+
+
+# function calls for each ranking metric without modifications, China excluded
 print(emerging_success(original_data, 'rank_avg', 10, 5, 20, False, False))
 print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, False, False))
 print(emerging_success(original_data, 'rank_rca', 10, 5, 20, False, False))
 print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, False, False))
 
-#Otherwise if we want the original data without modifications, uncomment this:
+# function calls for each ranking metric with modifications, China excluded
 print(emerging_success(data, 'rank_avg', 10, 5, 20, True, False))
 print(emerging_success(data,'rank_per_capita', 10, 5, 20, True, False))
 print(emerging_success(data, 'rank_rca', 10, 5, 20, True, False))
 print(emerging_success(data, 'rank_market_share', 10, 5, 20, True, False))
 
+# function calls for each ranking metric without modifications, China included
 print(emerging_success(original_data, 'rank_avg', 10, 5, 20, False, True))
 print(emerging_success(original_data,'rank_per_capita', 10, 5, 20, False, True))
 print(emerging_success(original_data, 'rank_rca', 10, 5, 20, False, True))
 print(emerging_success(original_data, 'rank_market_share', 10, 5, 20, False, True))
 
+# function calls for each ranking metric with modifications, China included
 print(emerging_success(data, 'rank_avg', 10, 5, 20, True, True))
 print(emerging_success(data,'rank_per_capita', 10, 5, 20, True, True))
 print(emerging_success(data, 'rank_rca', 10, 5, 20, True, True))
