@@ -79,6 +79,6 @@ Please note that certain datasets were used in this analysis regardless of the p
 
 The United Nations M49 codes and the product HS codes were downloaded from the [Classifications Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3BAL1O) from the Harvard Growth Lab.
 
-The population dataset was downloaded from _______. Please note that this dataset does not initially include Taiwan. For the purposes of this analysis, Taiwan was manually included using population data from [macrotrends.net](https://www.macrotrends.net/global-metrics/countries/TWN/taiwan/population).
+The population dataset was downloaded from the World Bank -- https://data.worldbank.org/indicator/SP.POP.TOTL?name_desc=false. Please note that this dataset does not initially include Taiwan. For the purposes of this analysis, Taiwan was manually included using population data from [macrotrends.net](https://www.macrotrends.net/global-metrics/countries/TWN/taiwan/population).
 
-The ECI ranking data was _______.
+The ECI ranking data was taken from the rankings.tab in harvard dataverse specifically in : https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XTAQMC.
