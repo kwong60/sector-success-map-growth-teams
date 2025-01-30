@@ -34,7 +34,7 @@ new_eci_ranking = new_eci_ranking.dropna(subset=['eci_ranking_shift'])
 new_eci_file = os.path.join(directory, 'eci_rank_shifts.csv')
 
 #sorts the new dataframe by the biggest eci ranking shifts and filters for the top 50 countries: 
-new_eci_ranking = new_eci_ranking.sort_values(by='eci_ranking_shift', ascending=False)
+new_eci_ranking = new_eci_ranking.sort_values(by='eci_ranking_shift', ascending=True)
 new_eci_ranking.to_csv(new_eci_file,index=False)
 top50countries = new_eci_ranking.head(50)
 new_eci_countryids = top50countries['country_id'].tolist()

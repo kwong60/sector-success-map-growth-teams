@@ -163,11 +163,11 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
             directory_name = ""
 
     #Gets the top 500 sector success stories
-    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=False).head(500)
+    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(500)
 
     #gets the detailed rank shifts for each window of 5 years within the 500 sector successes:
     detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')
-    detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=False)
+    detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=True)
 
     #create a folder for the plots: 
     os.makedirs(f'{directory_name}{rank_metric}_sector_successes_plots', exist_ok=True)

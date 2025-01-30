@@ -255,13 +255,13 @@ def ranking(dataframe: pd.DataFrame) -> pd.DataFrame:
 
     for name, group in groups_by_product:
         # ranks by export per capita
-        group['rank_per_capita'] = group['export_per_capita'].rank(ascending=True, method='min')
+        group['rank_per_capita'] = group['export_per_capita'].rank(ascending=False, method='min')
 
         # ranks by RCA
-        group['rank_rca'] = group['rca'].rank(ascending=True, method='min')
+        group['rank_rca'] = group['rca'].rank(ascending=False, method='min')
 
         # ranks by global market share
-        group['rank_market_share'] = group['global_market_share'].rank(ascending=True, method='min')
+        group['rank_market_share'] = group['global_market_share'].rank(ascending=False, method='min')
 
         # ranks by average of above three rankings
         group['rank_avg'] = group[['rank_per_capita', 'rank_rca', 'rank_market_share']].mean(axis=1)
