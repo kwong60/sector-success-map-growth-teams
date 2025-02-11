@@ -1,10 +1,9 @@
-
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
 #takes in preprocessed data that has been filtered
-original_data_path = os.path.join(os.path.dirname(__file__),'data/filt_hs92_country_product_year_2.csv')
+original_data_path = os.path.join(os.path.dirname(__file__),'data/grouped_hs92_country_product_year_2.csv')
 original_data = pd.read_csv(original_data_path)
 
 
@@ -42,7 +41,7 @@ original_data = original_data[original_data['country_id'].isin(new_eci_countryid
 
 
 #only keeps the top 50 countries with the best eci ranking shifts for the country product year and saves it in a new csv:
-clean_data_file_path = os.path.join('data', "clean_hs92_country_product_year_2.csv")
+clean_data_file_path = os.path.join('data', "clean_grouped_hs92_country_product_year_2.csv")
 original_data.to_csv(clean_data_file_path, index=False)
 
 

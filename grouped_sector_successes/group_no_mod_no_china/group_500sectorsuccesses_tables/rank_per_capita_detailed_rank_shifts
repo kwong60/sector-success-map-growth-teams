@@ -1,0 +1,501 @@
+country_id,name_short_en,1995-2000_rank_shift,2000-2005_rank_shift,2005-2010_rank_shift,2010-2015_rank_shift,2015-2020_rank_shift,2020-2022_rank_shift,1995-2022_rank_shift
+798,Live Animals; Animal Products,8.0,0.0,-161.0,2.0,-1.0,-2.0,-154.0
+798,Vehicles and Transport Equipment,11.0,-69.0,-57.0,-32.0,92.0,-92.0,-147.0
+60,Articles of Base Metal,-48.0,-7.0,-29.0,-29.0,-24.0,-3.0,-140.0
+520,Articles of Base Metal,-131.0,147.0,-121.0,36.0,88.0,-157.0,-138.0
+116,Raw Hides and Skins,-18.0,3.0,3.0,-106.0,-13.0,-1.0,-132.0
+584,Collectors' Art and Antiques,5.0,-125.0,129.0,-146.0,23.0,-16.0,-130.0
+308,Collectors' Art and Antiques,-54.0,35.0,-21.0,-41.0,57.0,-102.0,-126.0
+796,Articles of Plastic and Rubber,-110.0,-1.0,14.0,33.0,-47.0,-13.0,-124.0
+584,Articles of Wood,29.0,-16.0,-40.0,30.0,-127.0,0.0,-124.0
+51,Prepared Foodstuffs,-57.0,-17.0,7.0,-29.0,-16.0,-9.0,-121.0
+520,"Articles of Stone, Ceramics, Glass",-61.0,-12.0,20.0,-49.0,19.0,-37.0,-120.0
+31,Special Classification provisions and Temporary Legislation,-24.0,17.0,-106.0,-22.0,19.0,-3.0,-119.0
+51,Vegetable products,4.0,-32.0,0.0,-21.0,-38.0,-30.0,-117.0
+116,Miscellaneous Manufactured Articles,-21.0,2.0,-24.0,-31.0,-40.0,-2.0,-116.0
+584,Miscellaneous Manufactured Articles,-106.0,28.0,-53.0,79.0,-51.0,-12.0,-115.0
+31,Vegetable products,-46.0,-52.0,32.0,-22.0,-25.0,-1.0,-114.0
+894,Special Classification provisions and Temporary Legislation,-19.0,-56.0,-28.0,41.0,-46.0,-6.0,-114.0
+51,Miscellaneous Manufactured Articles,-41.0,19.0,-19.0,-17.0,-31.0,-23.0,-112.0
+116,Vegetable products,22.0,-8.0,-40.0,-43.0,-24.0,-19.0,-112.0
+662,Mineral Products,20.0,-94.0,-10.0,-30.0,6.0,-3.0,-111.0
+418,Pulp of Wood,40.0,-21.0,-37.0,-5.0,-81.0,-6.0,-110.0
+116,Machinery and Mechanical Appliances,-10.0,16.0,-50.0,-26.0,-22.0,-18.0,-110.0
+418,Articles of Plastic and Rubber,7.0,-26.0,-22.0,-38.0,-20.0,-11.0,-110.0
+51,Live Animals; Animal Products,-3.0,-31.0,-7.0,-32.0,-17.0,-19.0,-109.0
+807,Special Classification provisions and Temporary Legislation,-17.0,-64.0,90.0,-95.0,-17.0,-5.0,-108.0
+690,Animal or Vegetable Fats,-83.0,-42.0,0.0,4.0,12.0,2.0,-107.0
+51,Vehicles and Transport Equipment,-35.0,0.0,8.0,-14.0,-4.0,-61.0,-106.0
+268,Vegetable products,-77.0,-24.0,13.0,-18.0,10.0,-9.0,-105.0
+268,Prepared Foodstuffs,-60.0,-23.0,18.0,-15.0,-17.0,-8.0,-105.0
+51,Machinery and Mechanical Appliances,-53.0,17.0,-5.0,26.0,-20.0,-70.0,-105.0
+104,Raw Hides and Skins,-16.0,11.0,0.0,-16.0,-83.0,0.0,-104.0
+418,"Optical Instruments, Clocks, Musical Instruments",16.0,-16.0,-55.0,1.0,-25.0,-24.0,-103.0
+51,Raw Hides and Skins,-52.0,54.0,-53.0,-21.0,-18.0,-13.0,-103.0
+418,"Articles of Stone, Ceramics, Glass",13.0,-24.0,22.0,-26.0,-45.0,-42.0,-102.0
+882,"Footwear, Headgear, Umbrellas, Feathers",-36.0,39.0,-80.0,-5.0,-29.0,9.0,-102.0
+70,Articles of Plastic and Rubber,-48.0,-20.0,0.0,-24.0,-10.0,0.0,-102.0
+51,"Optical Instruments, Clocks, Musical Instruments",-56.0,6.0,-2.0,-5.0,-29.0,-15.0,-101.0
+226,Products of the Chemical or Allied Industries,5.0,-138.0,19.0,-7.0,22.0,-2.0,-101.0
+268,Articles of Wood,-85.0,-8.0,16.0,-4.0,-15.0,-4.0,-100.0
+704,Special Classification provisions and Temporary Legislation,-29.0,-5.0,-9.0,-45.0,-18.0,7.0,-99.0
+52,"Footwear, Headgear, Umbrellas, Feathers",-85.0,16.0,-26.0,-2.0,21.0,-23.0,-99.0
+704,Machinery and Mechanical Appliances,-38.0,-9.0,-18.0,-25.0,-7.0,0.0,-97.0
+320,Collectors' Art and Antiques,-62.0,71.0,10.0,-23.0,-53.0,-40.0,-97.0
+584,Pulp of Wood,-21.0,-13.0,-3.0,-4.0,1.0,-56.0,-96.0
+51,Articles of Textiles,-12.0,-14.0,12.0,-58.0,-15.0,-9.0,-96.0
+104,Special Classification provisions and Temporary Legislation,-39.0,-28.0,-20.0,44.0,-17.0,-35.0,-95.0
+268,Articles of Textiles,4.0,-14.0,-36.0,-39.0,0.0,-10.0,-95.0
+70,Products of the Chemical or Allied Industries,-64.0,-12.0,-2.0,-5.0,-7.0,-4.0,-94.0
+268,Vehicles and Transport Equipment,-40.0,-31.0,-1.0,11.0,-16.0,-17.0,-94.0
+418,Special Classification provisions and Temporary Legislation,-4.0,-30.0,67.0,-90.0,-46.0,9.0,-94.0
+70,Animal or Vegetable Fats,-17.0,-62.0,-8.0,-14.0,6.0,2.0,-93.0
+584,"Footwear, Headgear, Umbrellas, Feathers",-30.0,-23.0,4.0,-28.0,4.0,-19.0,-92.0
+70,Raw Hides and Skins,-87.0,0.0,-5.0,-3.0,5.0,-2.0,-92.0
+462,Vehicles and Transport Equipment,-19.0,-9.0,55.0,-61.0,7.0,-65.0,-92.0
+496,Mineral Products,-90.0,5.0,-6.0,2.0,-9.0,7.0,-91.0
+328,Articles of Base Metal,-64.0,32.0,18.0,-12.0,-1.0,-64.0,-91.0
+882,"Optical Instruments, Clocks, Musical Instruments",-70.0,1.0,-32.0,45.0,6.0,-41.0,-91.0
+116,Articles of Textiles,-60.0,-15.0,-6.0,-9.0,-2.0,1.0,-91.0
+780,Special Classification provisions and Temporary Legislation,-36.0,-56.0,0.0,3.0,-2.0,0.0,-91.0
+398,Animal or Vegetable Fats,-2.0,-37.0,-20.0,2.0,-26.0,-7.0,-90.0
+398,Vegetable products,-68.0,1.0,-13.0,7.0,-12.0,-4.0,-89.0
+804,Vegetable products,-26.0,-39.0,-4.0,-19.0,-2.0,1.0,-89.0
+585,Collectors' Art and Antiques,-76.0,,,-86.0,-24.0,13.0,-88.0
+96,Products of the Chemical or Allied Industries,14.0,0.0,-82.0,-3.0,-17.0,0.0,-88.0
+268,"Footwear, Headgear, Umbrellas, Feathers",-74.0,54.0,-26.0,-7.0,-25.0,-10.0,-88.0
+116,Special Classification provisions and Temporary Legislation,37.0,11.0,-79.0,-38.0,-15.0,-3.0,-87.0
+268,Live Animals; Animal Products,-34.0,8.0,-7.0,-27.0,-12.0,-15.0,-87.0
+136,Raw Hides and Skins,-109.0,104.0,2.0,4.0,-36.0,-51.0,-86.0
+70,Articles of Textiles,-43.0,-11.0,-14.0,-13.0,0.0,-5.0,-86.0
+268,"Optical Instruments, Clocks, Musical Instruments",-54.0,13.0,-8.0,-19.0,-8.0,-10.0,-86.0
+51,"Footwear, Headgear, Umbrellas, Feathers",-55.0,53.0,-45.0,11.0,-15.0,-35.0,-86.0
+296,Animal or Vegetable Fats,17.0,-135.0,12.0,46.0,-39.0,14.0,-85.0
+116,"Footwear, Headgear, Umbrellas, Feathers",-65.0,0.0,-7.0,-7.0,-3.0,-3.0,-85.0
+104,"Footwear, Headgear, Umbrellas, Feathers",-35.0,-6.0,-19.0,5.0,-28.0,-1.0,-84.0
+8,Special Classification provisions and Temporary Legislation,23.0,-5.0,-60.0,-19.0,-21.0,-2.0,-84.0
+585,"Optical Instruments, Clocks, Musical Instruments",11.0,-139.0,142.0,-136.0,80.0,-42.0,-84.0
+51,Articles of Plastic and Rubber,-77.0,27.0,-4.0,12.0,-8.0,-33.0,-83.0
+328,"Optical Instruments, Clocks, Musical Instruments",-58.0,15.0,23.0,11.0,-50.0,-23.0,-82.0
+116,Vehicles and Transport Equipment,-15.0,0.0,-34.0,-8.0,-20.0,-5.0,-82.0
+70,Articles of Base Metal,-79.0,-8.0,14.0,-2.0,-4.0,-3.0,-82.0
+796,Animal or Vegetable Fats,17.0,3.0,7.0,0.0,-101.0,-8.0,-82.0
+104,Articles of Textiles,-32.0,29.0,-20.0,-30.0,-26.0,-2.0,-81.0
+70,Vegetable products,-22.0,-21.0,-20.0,-24.0,-1.0,7.0,-81.0
+51,Special Classification provisions and Temporary Legislation,32.0,-36.0,-29.0,11.0,25.0,-84.0,-81.0
+31,Mineral Products,-10.0,-15.0,-4.0,-8.0,-26.0,-18.0,-81.0
+51,Articles of Base Metal,-24.0,-10.0,42.0,-20.0,-1.0,-67.0,-80.0
+270,Articles of Wood,-3.0,5.0,-51.0,-42.0,13.0,-2.0,-80.0
+796,Articles of Base Metal,-117.0,12.0,-20.0,43.0,-5.0,7.0,-80.0
+191,Special Classification provisions and Temporary Legislation,16.0,-4.0,-61.0,4.0,13.0,-48.0,-80.0
+51,"Articles of Stone, Ceramics, Glass",-31.0,-12.0,-14.0,2.0,-10.0,-15.0,-80.0
+204,Special Classification provisions and Temporary Legislation,-65.0,43.0,35.0,-5.0,-24.0,-63.0,-79.0
+626,Vegetable products,-20.0,-7.0,-34.0,23.0,-13.0,-28.0,-79.0
+398,Machinery and Mechanical Appliances,-37.0,-9.0,15.0,-7.0,4.0,-45.0,-79.0
+795,Articles of Plastic and Rubber,-4.0,-91.0,10.0,2.0,-10.0,14.0,-79.0
+795,Products of the Chemical or Allied Industries,-21.0,17.0,-3.0,4.0,-49.0,-26.0,-78.0
+860,Vegetable products,-44.0,-17.0,5.0,16.0,-34.0,-3.0,-77.0
+96,Live Animals; Animal Products,-6.0,-22.0,23.0,-27.0,-32.0,-13.0,-77.0
+430,Animal or Vegetable Fats,3.0,-3.0,3.0,-2.0,-71.0,-7.0,-77.0
+512,Collectors' Art and Antiques,-78.0,60.0,-14.0,-17.0,18.0,-46.0,-77.0
+478,Prepared Foodstuffs,-3.0,-5.0,8.0,-20.0,-43.0,-13.0,-76.0
+496,Vegetable products,11.0,-4.0,6.0,-61.0,33.0,-61.0,-76.0
+288,Special Classification provisions and Temporary Legislation,-15.0,16.0,-61.0,92.0,-43.0,-65.0,-76.0
+704,Pulp of Wood,-24.0,-1.0,-8.0,-13.0,-27.0,-3.0,-76.0
+70,Live Animals; Animal Products,-15.0,-33.0,-18.0,-9.0,-3.0,2.0,-76.0
+418,Machinery and Mechanical Appliances,8.0,-30.0,-14.0,-47.0,-14.0,22.0,-75.0
+268,Products of the Chemical or Allied Industries,-35.0,-4.0,-6.0,-9.0,-5.0,-16.0,-75.0
+112,Special Classification provisions and Temporary Legislation,-97.0,3.0,0.0,5.0,-21.0,35.0,-75.0
+584,Products of the Chemical or Allied Industries,-55.0,28.0,-7.0,-20.0,-18.0,-3.0,-75.0
+694,Articles of Wood,22.0,-2.0,-35.0,30.0,-97.0,7.0,-75.0
+288,Collectors' Art and Antiques,-35.0,39.0,5.0,-16.0,-24.0,-44.0,-75.0
+659,Raw Hides and Skins,-35.0,14.0,55.0,-89.0,53.0,-73.0,-75.0
+585,Pulp of Wood,-35.0,-54.0,-3.0,39.0,70.0,-91.0,-74.0
+112,Animal or Vegetable Fats,-38.0,0.0,-13.0,-12.0,-11.0,0.0,-74.0
+704,"Optical Instruments, Clocks, Musical Instruments",-24.0,-12.0,-18.0,-17.0,1.0,-4.0,-74.0
+192,Articles of Wood,0.0,-2.0,-31.0,-31.0,-9.0,-1.0,-74.0
+132,Prepared Foodstuffs,-10.0,11.0,-40.0,-29.0,-13.0,7.0,-74.0
+704,Articles of Base Metal,-12.0,-34.0,1.0,-15.0,-9.0,-4.0,-73.0
+584,Articles of Textiles,-2.0,1.0,12.0,-56.0,-75.0,48.0,-72.0
+70,"Optical Instruments, Clocks, Musical Instruments",-34.0,-17.0,8.0,2.0,-19.0,-12.0,-72.0
+268,Special Classification provisions and Temporary Legislation,-54.0,-1.0,-10.0,31.0,-38.0,0.0,-72.0
+296,Vehicles and Transport Equipment,-66.0,69.0,-56.0,-1.0,63.0,-81.0,-72.0
+51,Pulp of Wood,-39.0,-29.0,36.0,-6.0,-15.0,-18.0,-71.0
+704,Articles of Textiles,-17.0,-17.0,-18.0,-10.0,-7.0,-2.0,-71.0
+860,Articles of Plastic and Rubber,5.0,-66.0,21.0,8.0,-40.0,1.0,-71.0
+70,Pulp of Wood,-7.0,-31.0,-15.0,-13.0,-5.0,0.0,-71.0
+64,Articles of Base Metal,11.0,-12.0,-21.0,-9.0,6.0,-46.0,-71.0
+70,Arms and Ammunition,-69.0,-1.0,11.0,-5.0,-7.0,1.0,-70.0
+268,Animal or Vegetable Fats,-3.0,-2.0,-22.0,-32.0,-17.0,6.0,-70.0
+704,Products of the Chemical or Allied Industries,-14.0,-6.0,-12.0,-18.0,-9.0,-11.0,-70.0
+496,Vehicles and Transport Equipment,-27.0,-16.0,41.0,-41.0,7.0,-34.0,-70.0
+31,"Articles of Stone, Ceramics, Glass",-27.0,-9.0,7.0,18.0,-29.0,-30.0,-70.0
+70,Miscellaneous Manufactured Articles,-44.0,-17.0,-6.0,-2.0,-1.0,1.0,-69.0
+704,Mineral Products,7.0,-12.0,-21.0,-31.0,-13.0,1.0,-69.0
+643,Vegetable products,9.0,-41.0,-4.0,-21.0,-20.0,8.0,-69.0
+304,Animal or Vegetable Fats,17.0,-21.0,6.0,25.0,-54.0,-41.0,-68.0
+70,Machinery and Mechanical Appliances,-10.0,-40.0,1.0,-6.0,-9.0,-3.0,-67.0
+70,Prepared Foodstuffs,-21.0,-24.0,-6.0,2.0,-10.0,-8.0,-67.0
+478,Animal or Vegetable Fats,-3.0,6.0,-22.0,-60.0,-4.0,17.0,-66.0
+292,Animal or Vegetable Fats,17.0,3.0,-71.0,25.0,-32.0,-8.0,-66.0
+508,"Footwear, Headgear, Umbrellas, Feathers",-28.0,43.0,-51.0,-19.0,-8.0,-3.0,-66.0
+860,"Articles of Stone, Ceramics, Glass",-1.0,-7.0,-2.0,-5.0,-29.0,-22.0,-66.0
+642,Vegetable products,20.0,-30.0,-39.0,-11.0,0.0,-6.0,-66.0
+51,Collectors' Art and Antiques,-20.0,19.0,-10.0,-11.0,-16.0,-28.0,-66.0
+584,Raw Hides and Skins,30.0,-111.0,61.0,-46.0,14.0,-13.0,-65.0
+262,Arms and Ammunition,17.0,11.0,8.0,-14.0,-9.0,-78.0,-65.0
+70,Mineral Products,-27.0,-22.0,5.0,-4.0,-12.0,-5.0,-65.0
+268,Raw Hides and Skins,-61.0,-1.0,4.0,-3.0,17.0,-21.0,-65.0
+418,Vegetable products,15.0,4.0,-49.0,-20.0,-15.0,0.0,-65.0
+533,Animal or Vegetable Fats,17.0,-44.0,-25.0,-11.0,1.0,-3.0,-65.0
+796,Vehicles and Transport Equipment,-30.0,-41.0,-29.0,-3.0,3.0,36.0,-64.0
+418,Products of the Chemical or Allied Industries,50.0,-13.0,-33.0,-47.0,3.0,-24.0,-64.0
+798,Articles of Textiles,-56.0,-12.0,-32.0,12.0,45.0,-20.0,-63.0
+418,"Footwear, Headgear, Umbrellas, Feathers",-21.0,-5.0,-5.0,-8.0,-19.0,-5.0,-63.0
+52,Arms and Ammunition,-37.0,-8.0,12.0,23.0,-55.0,2.0,-63.0
+116,"Articles of Stone, Ceramics, Glass",6.0,-12.0,0.0,-3.0,-37.0,-17.0,-63.0
+70,"Articles of Stone, Ceramics, Glass",1.0,-40.0,1.0,-12.0,-10.0,-3.0,-63.0
+51,Products of the Chemical or Allied Industries,-36.0,13.0,-6.0,-1.0,-12.0,-20.0,-62.0
+100,Special Classification provisions and Temporary Legislation,-32.0,-9.0,2.0,-5.0,-8.0,-10.0,-62.0
+558,Articles of Textiles,-8.0,-30.0,1.0,-21.0,2.0,-6.0,-62.0
+28,Collectors' Art and Antiques,-16.0,-18.0,-5.0,-11.0,-11.0,-1.0,-62.0
+418,Mineral Products,-4.0,-6.0,-12.0,-6.0,-40.0,6.0,-62.0
+268,Pulp of Wood,-24.0,16.0,-15.0,-11.0,-13.0,-14.0,-61.0
+64,Special Classification provisions and Temporary Legislation,40.0,-12.0,0.0,-88.0,-4.0,3.0,-61.0
+258,Raw Hides and Skins,-50.0,49.0,-6.0,-13.0,-91.0,50.0,-61.0
+96,Mineral Products,-44.0,73.0,-12.0,14.0,-62.0,-29.0,-60.0
+804,Miscellaneous Manufactured Articles,-20.0,-17.0,-9.0,-1.0,-11.0,-2.0,-60.0
+226,Special Classification provisions and Temporary Legislation,17.0,-48.0,-21.0,-1.0,8.0,-15.0,-60.0
+328,Mineral Products,-48.0,29.0,-6.0,13.0,-58.0,10.0,-60.0
+364,Articles of Plastic and Rubber,-27.0,-15.0,-26.0,-8.0,3.0,13.0,-60.0
+642,Prepared Foodstuffs,14.0,-1.0,-47.0,-11.0,-12.0,-3.0,-60.0
+795,Mineral Products,-9.0,10.0,31.0,-95.0,15.0,-11.0,-59.0
+262,Animal or Vegetable Fats,42.0,-44.0,76.0,-47.0,-80.0,-6.0,-59.0
+70,Articles of Wood,-53.0,-3.0,4.0,-3.0,-2.0,-2.0,-59.0
+398,Live Animals; Animal Products,-2.0,-29.0,-5.0,2.0,-4.0,-21.0,-59.0
+533,Articles of Wood,-33.0,-20.0,-22.0,-33.0,61.0,-12.0,-59.0
+882,Vehicles and Transport Equipment,-8.0,-36.0,-27.0,61.0,-100.0,51.0,-59.0
+112,Live Animals; Animal Products,-39.0,-27.0,-12.0,0.0,-1.0,20.0,-59.0
+192,Special Classification provisions and Temporary Legislation,2.0,-80.0,1.0,16.0,-3.0,5.0,-59.0
+858,Special Classification provisions and Temporary Legislation,-30.0,12.0,-29.0,-7.0,17.0,-22.0,-59.0
+328,Vegetable products,-49.0,1.0,-8.0,-7.0,0.0,5.0,-58.0
+304,Mineral Products,-13.0,-67.0,-19.0,102.0,-16.0,-45.0,-58.0
+68,Special Classification provisions and Temporary Legislation,12.0,-15.0,43.0,-22.0,-50.0,-25.0,-57.0
+860,Machinery and Mechanical Appliances,-38.0,13.0,-4.0,22.0,-40.0,-10.0,-57.0
+234,Articles of Textiles,-38.0,-7.0,2.0,-13.0,-2.0,2.0,-56.0
+796,Mineral Products,-25.0,-87.0,-13.0,8.0,-12.0,73.0,-56.0
+44,Articles of Plastic and Rubber,-61.0,-3.0,8.0,-1.0,6.0,-5.0,-56.0
+414,Vegetable products,-37.0,19.0,-18.0,-40.0,13.0,8.0,-55.0
+686,Articles of Base Metal,-11.0,-6.0,2.0,-44.0,21.0,-17.0,-55.0
+740,Animal or Vegetable Fats,-38.0,-45.0,37.0,-31.0,30.0,-7.0,-54.0
+704,Articles of Plastic and Rubber,-10.0,-21.0,-13.0,-3.0,-5.0,-2.0,-54.0
+242,Articles of Base Metal,15.0,-34.0,-14.0,-20.0,-9.0,8.0,-54.0
+704,Prepared Foodstuffs,-7.0,-3.0,-10.0,-19.0,-12.0,-3.0,-54.0
+328,Articles of Plastic and Rubber,-44.0,32.0,13.0,-31.0,-10.0,-13.0,-53.0
+288,Pulp of Wood,-25.0,-13.0,10.0,-1.0,-5.0,-19.0,-53.0
+690,Raw Hides and Skins,6.0,-32.0,12.0,-49.0,33.0,-23.0,-53.0
+328,Special Classification provisions and Temporary Legislation,29.0,-15.0,46.0,-37.0,-10.0,-66.0,-53.0
+776,Miscellaneous Manufactured Articles,-23.0,65.0,-41.0,7.0,-5.0,-56.0,-53.0
+70,Vehicles and Transport Equipment,-11.0,-35.0,18.0,-9.0,-14.0,-1.0,-52.0
+643,Animal or Vegetable Fats,-15.0,-3.0,-11.0,-23.0,-3.0,3.0,-52.0
+704,Vehicles and Transport Equipment,-5.0,-16.0,-6.0,-10.0,-17.0,2.0,-52.0
+804,Articles of Wood,-23.0,-15.0,-11.0,0.0,0.0,-3.0,-52.0
+860,Vehicles and Transport Equipment,-60.0,-14.0,11.0,45.0,-29.0,-5.0,-52.0
+508,Special Classification provisions and Temporary Legislation,23.0,-16.0,-24.0,-19.0,15.0,-31.0,-52.0
+854,Special Classification provisions and Temporary Legislation,7.0,3.0,2.0,2.0,1.0,-66.0,-51.0
+642,"Optical Instruments, Clocks, Musical Instruments",-3.0,-20.0,-12.0,-8.0,-8.0,0.0,-51.0
+398,Mineral Products,-4.0,-23.0,-10.0,-6.0,2.0,-10.0,-51.0
+368,Special Classification provisions and Temporary Legislation,-58.0,-5.0,-27.0,82.0,-82.0,39.0,-51.0
+470,Mineral Products,-55.0,8.0,-44.0,3.0,-10.0,47.0,-51.0
+690,"Footwear, Headgear, Umbrellas, Feathers",40.0,-111.0,-23.0,47.0,32.0,-36.0,-51.0
+704,Miscellaneous Manufactured Articles,-24.0,-15.0,-2.0,-5.0,-5.0,0.0,-51.0
+104,"Optical Instruments, Clocks, Musical Instruments",14.0,-34.0,-4.0,-7.0,-20.0,0.0,-51.0
+583,Miscellaneous Manufactured Articles,11.0,-41.0,27.0,-11.0,-25.0,-12.0,-51.0
+860,Pulp of Wood,20.0,-12.0,-17.0,-6.0,-17.0,-18.0,-50.0
+31,Articles of Plastic and Rubber,-33.0,-7.0,20.0,2.0,-16.0,-16.0,-50.0
+31,Animal or Vegetable Fats,-63.0,-38.0,-2.0,-4.0,53.0,4.0,-50.0
+414,Live Animals; Animal Products,-24.0,-21.0,5.0,-14.0,15.0,-11.0,-50.0
+646,"Footwear, Headgear, Umbrellas, Feathers",12.0,0.0,-42.0,12.0,-26.0,-6.0,-50.0
+31,Vehicles and Transport Equipment,-79.0,-28.0,23.0,82.0,-39.0,-9.0,-50.0
+116,Prepared Foodstuffs,4.0,-25.0,3.0,-16.0,-3.0,-13.0,-50.0
+51,Articles of Wood,-31.0,-9.0,28.0,-19.0,23.0,-42.0,-50.0
+414,"Footwear, Headgear, Umbrellas, Feathers",-4.0,8.0,-23.0,-14.0,-3.0,-14.0,-50.0
+678,Animal or Vegetable Fats,-39.0,33.0,12.0,75.0,-133.0,2.0,-50.0
+583,Vehicles and Transport Equipment,11.0,-30.0,-1.0,23.0,-55.0,2.0,-50.0
+24,Vehicles and Transport Equipment,37.0,-25.0,-54.0,24.0,-33.0,2.0,-49.0
+533,Miscellaneous Manufactured Articles,16.0,-39.0,-13.0,-1.0,-10.0,-2.0,-49.0
+504,Vehicles and Transport Equipment,13.0,-3.0,-5.0,-38.0,-6.0,-10.0,-49.0
+470,Special Classification provisions and Temporary Legislation,-25.0,-24.0,18.0,-12.0,-8.0,2.0,-49.0
+498,Articles of Wood,17.0,-11.0,-12.0,-4.0,-33.0,-6.0,-49.0
+48,Prepared Foodstuffs,-20.0,4.0,-26.0,-11.0,3.0,1.0,-49.0
+398,Pulp of Wood,15.0,-38.0,-7.0,0.0,-12.0,-6.0,-48.0
+670,"Footwear, Headgear, Umbrellas, Feathers",-52.0,38.0,-22.0,9.0,-22.0,1.0,-48.0
+304,Articles of Textiles,8.0,-12.0,-18.0,14.0,-14.0,-26.0,-48.0
+242,Mineral Products,-34.0,-7.0,-18.0,-24.0,26.0,9.0,-48.0
+795,"Articles of Stone, Ceramics, Glass",-36.0,42.0,9.0,6.0,-78.0,9.0,-48.0
+434,Collectors' Art and Antiques,16.0,-122.0,121.0,1.0,-24.0,-39.0,-47.0
+288,Articles of Base Metal,-14.0,-5.0,-27.0,-21.0,8.0,12.0,-47.0
+288,Raw Hides and Skins,11.0,1.0,-9.0,-1.0,-20.0,-29.0,-47.0
+268,Miscellaneous Manufactured Articles,-30.0,2.0,-5.0,3.0,-8.0,-9.0,-47.0
+860,Raw Hides and Skins,17.0,5.0,-27.0,-3.0,-43.0,4.0,-47.0
+804,Live Animals; Animal Products,-25.0,-11.0,6.0,1.0,-11.0,-7.0,-47.0
+52,Raw Hides and Skins,2.0,-19.0,-31.0,-25.0,46.0,-20.0,-47.0
+398,"Optical Instruments, Clocks, Musical Instruments",-14.0,-25.0,10.0,11.0,10.0,-39.0,-47.0
+478,Collectors' Art and Antiques,-6.0,6.0,9.0,7.0,-22.0,-41.0,-47.0
+180,Products of the Chemical or Allied Industries,-10.0,24.0,-38.0,-9.0,-31.0,17.0,-47.0
+116,Mineral Products,17.0,-6.0,-12.0,-14.0,2.0,-34.0,-47.0
+558,Special Classification provisions and Temporary Legislation,-54.0,2.0,-7.0,121.0,0.0,-109.0,-47.0
+804,Animal or Vegetable Fats,-28.0,-6.0,-13.0,-3.0,-3.0,7.0,-46.0
+400,Articles of Textiles,-6.0,-43.0,9.0,-1.0,0.0,-5.0,-46.0
+398,Miscellaneous Manufactured Articles,-7.0,-1.0,7.0,-25.0,6.0,-26.0,-46.0
+634,Arms and Ammunition,-50.0,6.0,-22.0,22.0,28.0,-30.0,-46.0
+398,Articles of Wood,-2.0,30.0,-10.0,-7.0,-23.0,-34.0,-46.0
+498,Articles of Textiles,-20.0,-9.0,-10.0,0.0,-1.0,-6.0,-46.0
+68,Live Animals; Animal Products,8.0,6.0,-6.0,-21.0,-9.0,-23.0,-45.0
+704,Articles of Wood,-1.0,-11.0,-12.0,-13.0,-3.0,-5.0,-45.0
+51,Animal or Vegetable Fats,-34.0,17.0,26.0,4.0,-4.0,-54.0,-45.0
+132,Pulp of Wood,-42.0,44.0,-11.0,11.0,22.0,-69.0,-45.0
+132,"Optical Instruments, Clocks, Musical Instruments",-9.0,-6.0,-24.0,57.0,-21.0,-42.0,-45.0
+76,Live Animals; Animal Products,-8.0,-27.0,3.0,-2.0,-4.0,-7.0,-45.0
+24,"Articles of Stone, Ceramics, Glass",5.0,-14.0,18.0,-24.0,-12.0,-18.0,-45.0
+768,Vegetable products,3.0,7.0,16.0,-42.0,-8.0,-21.0,-45.0
+174,Vehicles and Transport Equipment,27.0,-24.0,-39.0,41.0,-50.0,1.0,-44.0
+740,Prepared Foodstuffs,-39.0,17.0,3.0,-12.0,-4.0,-9.0,-44.0
+882,Articles of Base Metal,-15.0,-78.0,-26.0,20.0,33.0,22.0,-44.0
+807,Collectors' Art and Antiques,-58.0,-24.0,11.0,34.0,-2.0,-5.0,-44.0
+796,Raw Hides and Skins,-119.0,7.0,3.0,-7.0,108.0,-36.0,-44.0
+642,Special Classification provisions and Temporary Legislation,20.0,-6.0,-47.0,-8.0,29.0,-32.0,-44.0
+585,Vehicles and Transport Equipment,89.0,-86.0,8.0,-61.0,-8.0,14.0,-44.0
+646,Animal or Vegetable Fats,17.0,3.0,-2.0,-63.0,-3.0,4.0,-44.0
+398,Prepared Foodstuffs,-7.0,-23.0,17.0,-14.0,-4.0,-12.0,-43.0
+798,Miscellaneous Manufactured Articles,-24.0,-32.0,17.0,19.0,3.0,-26.0,-43.0
+704,Raw Hides and Skins,-2.0,-18.0,-14.0,-7.0,-1.0,-1.0,-43.0
+76,Collectors' Art and Antiques,34.0,-15.0,-22.0,-34.0,10.0,-16.0,-43.0
+100,"Optical Instruments, Clocks, Musical Instruments",-8.0,-15.0,-6.0,1.0,-12.0,-3.0,-43.0
+854,Mineral Products,19.0,6.0,-16.0,-6.0,-33.0,-13.0,-43.0
+44,Pulp of Wood,14.0,21.0,19.0,-41.0,21.0,-76.0,-42.0
+44,Articles of Base Metal,-44.0,55.0,-57.0,-2.0,2.0,4.0,-42.0
+270,Animal or Vegetable Fats,-15.0,-10.0,-43.0,17.0,-1.0,10.0,-42.0
+417,Live Animals; Animal Products,28.0,-28.0,-20.0,26.0,-27.0,-21.0,-42.0
+268,Articles of Plastic and Rubber,-11.0,16.0,9.0,-37.0,-8.0,-11.0,-42.0
+50,Articles of Textiles,-6.0,-6.0,-14.0,-8.0,-4.0,-4.0,-42.0
+8,Vegetable products,14.0,-10.0,-4.0,-19.0,-20.0,-3.0,-42.0
+798,Articles of Wood,7.0,-46.0,-12.0,67.0,-53.0,-4.0,-41.0
+795,Vehicles and Transport Equipment,-58.0,-5.0,33.0,2.0,34.0,-47.0,-41.0
+796,Machinery and Mechanical Appliances,-74.0,7.0,-11.0,37.0,1.0,-1.0,-41.0
+368,Raw Hides and Skins,13.0,-37.0,19.0,-40.0,3.0,1.0,-41.0
+116,"Optical Instruments, Clocks, Musical Instruments",8.0,-16.0,5.0,-56.0,31.0,-13.0,-41.0
+804,Special Classification provisions and Temporary Legislation,-38.0,32.0,-22.0,10.0,-20.0,-3.0,-41.0
+548,Animal or Vegetable Fats,-100.0,-21.0,13.0,42.0,2.0,23.0,-41.0
+268,Machinery and Mechanical Appliances,-28.0,3.0,9.0,-5.0,0.0,-20.0,-41.0
+583,Articles of Plastic and Rubber,-29.0,8.0,20.0,-7.0,1.0,-34.0,-41.0
+686,Vegetable products,11.0,-17.0,12.0,-9.0,-35.0,-3.0,-41.0
+262,Vegetable products,14.0,-33.0,-12.0,2.0,-6.0,-6.0,-41.0
+604,Vegetable products,4.0,-22.0,0.0,-10.0,-12.0,0.0,-40.0
+4,Vegetable products,-3.0,-12.0,-15.0,-19.0,-10.0,19.0,-40.0
+332,Articles of Textiles,-19.0,-8.0,-2.0,-10.0,1.0,-2.0,-40.0
+116,Pulp of Wood,-69.0,-7.0,-20.0,89.0,-70.0,37.0,-40.0
+76,Vegetable products,-11.0,-14.0,-1.0,-11.0,0.0,-3.0,-40.0
+104,Vegetable products,33.0,-20.0,-25.0,-17.0,-12.0,1.0,-40.0
+100,Animal or Vegetable Fats,7.0,-12.0,-15.0,-8.0,-6.0,-6.0,-40.0
+462,Collectors' Art and Antiques,-5.0,27.0,1.0,-18.0,-62.0,17.0,-40.0
+462,Articles of Base Metal,-56.0,-2.0,11.0,53.0,-39.0,-7.0,-40.0
+860,Articles of Base Metal,-35.0,30.0,5.0,12.0,-30.0,-21.0,-39.0
+8,Miscellaneous Manufactured Articles,-22.0,-5.0,-9.0,0.0,-5.0,2.0,-39.0
+418,Articles of Base Metal,23.0,-24.0,17.0,-26.0,-34.0,5.0,-39.0
+422,Articles of Plastic and Rubber,-7.0,-21.0,13.0,-1.0,-3.0,-20.0,-39.0
+31,Articles of Base Metal,-46.0,-13.0,45.0,-24.0,-12.0,11.0,-39.0
+585,"Articles of Stone, Ceramics, Glass",-88.0,-12.0,69.0,-9.0,9.0,-8.0,-39.0
+704,"Articles of Stone, Ceramics, Glass",-17.0,3.0,-12.0,-16.0,1.0,2.0,-39.0
+533,Articles of Plastic and Rubber,-36.0,-25.0,-15.0,30.0,-2.0,10.0,-38.0
+417,Articles of Wood,6.0,15.0,20.0,5.0,-68.0,-16.0,-38.0
+566,Special Classification provisions and Temporary Legislation,-39.0,38.0,-65.0,34.0,-16.0,10.0,-38.0
+422,Articles of Wood,-37.0,-28.0,11.0,22.0,-1.0,-5.0,-38.0
+258,Pulp of Wood,-14.0,4.0,-5.0,-15.0,-1.0,-7.0,-38.0
+804,Machinery and Mechanical Appliances,-27.0,-8.0,-11.0,11.0,-9.0,6.0,-38.0
+214,Mineral Products,-14.0,-5.0,-24.0,-3.0,10.0,-2.0,-38.0
+31,Products of the Chemical or Allied Industries,-47.0,-8.0,44.0,-2.0,0.0,-25.0,-38.0
+48,Live Animals; Animal Products,-1.0,4.0,-29.0,22.0,-25.0,-9.0,-38.0
+512,Special Classification provisions and Temporary Legislation,-37.0,0.0,-10.0,110.0,-93.0,-8.0,-38.0
+288,"Articles of Stone, Ceramics, Glass",0.0,-1.0,12.0,-11.0,-43.0,5.0,-38.0
+860,"Footwear, Headgear, Umbrellas, Feathers",17.0,26.0,-37.0,-4.0,-33.0,-7.0,-38.0
+508,Animal or Vegetable Fats,-39.0,21.0,2.0,-17.0,11.0,-15.0,-37.0
+132,Articles of Base Metal,-38.0,19.0,-15.0,32.0,5.0,-40.0,-37.0
+417,Collectors' Art and Antiques,-24.0,26.0,-15.0,-28.0,7.0,-3.0,-37.0
+8,Pulp of Wood,-3.0,-9.0,-16.0,-10.0,-11.0,12.0,-37.0
+116,Articles of Base Metal,8.0,-3.0,2.0,-19.0,-4.0,-21.0,-37.0
+566,Vehicles and Transport Equipment,-7.0,27.0,-62.0,-18.0,8.0,15.0,-37.0
+646,Pulp of Wood,0.0,-16.0,17.0,-20.0,-8.0,-10.0,-37.0
+694,Animal or Vegetable Fats,-18.0,43.0,2.0,-16.0,-27.0,-21.0,-37.0
+690,Articles of Wood,9.0,-4.0,-66.0,71.0,-19.0,-28.0,-37.0
+796,Products of the Chemical or Allied Industries,18.0,3.0,2.0,-18.0,19.0,-61.0,-37.0
+642,Raw Hides and Skins,-17.0,-14.0,-2.0,0.0,0.0,-4.0,-37.0
+266,Collectors' Art and Antiques,-43.0,-8.0,12.0,-1.0,1.0,2.0,-37.0
+807,Products of the Chemical or Allied Industries,11.0,-1.0,-21.0,-24.0,0.0,-2.0,-37.0
+470,Live Animals; Animal Products,-11.0,-20.0,2.0,-8.0,0.0,0.0,-37.0
+740,Mineral Products,29.0,-7.0,-3.0,-50.0,4.0,-10.0,-37.0
+112,Articles of Base Metal,-35.0,-7.0,11.0,-6.0,-16.0,16.0,-37.0
+646,Prepared Foodstuffs,13.0,1.0,-10.0,-6.0,-17.0,-17.0,-36.0
+398,Articles of Base Metal,32.0,-53.0,41.0,-8.0,5.0,-53.0,-36.0
+690,Articles of Textiles,0.0,-24.0,-9.0,15.0,-24.0,6.0,-36.0
+100,Vehicles and Transport Equipment,12.0,-31.0,3.0,0.0,-11.0,-9.0,-36.0
+100,Prepared Foodstuffs,5.0,-14.0,-12.0,-4.0,-9.0,-2.0,-36.0
+798,Pulp of Wood,-102.0,61.0,19.0,7.0,32.0,-53.0,-36.0
+48,Vegetable products,-48.0,23.0,12.0,-3.0,-36.0,16.0,-36.0
+524,Animal or Vegetable Fats,-33.0,8.0,59.0,18.0,-94.0,6.0,-36.0
+48,"Articles of Stone, Ceramics, Glass",-5.0,2.0,-19.0,-12.0,0.0,-2.0,-36.0
+44,"Footwear, Headgear, Umbrellas, Feathers",-5.0,11.0,14.0,-22.0,-28.0,-6.0,-36.0
+31,Arms and Ammunition,-54.0,21.0,8.0,-41.0,25.0,5.0,-36.0
+894,Live Animals; Animal Products,-9.0,-2.0,8.0,4.0,-22.0,-15.0,-36.0
+584,Articles of Base Metal,15.0,74.0,-61.0,-65.0,9.0,-8.0,-36.0
+604,Mineral Products,22.0,-23.0,-4.0,-26.0,11.0,-16.0,-36.0
+242,Collectors' Art and Antiques,-46.0,-2.0,17.0,-28.0,1.0,23.0,-35.0
+70,"Footwear, Headgear, Umbrellas, Feathers",-24.0,6.0,-15.0,1.0,-2.0,-1.0,-35.0
+64,Mineral Products,41.0,-59.0,-7.0,5.0,-11.0,-4.0,-35.0
+804,Prepared Foodstuffs,-17.0,-16.0,-11.0,12.0,-13.0,10.0,-35.0
+262,Special Classification provisions and Temporary Legislation,50.0,2.0,-44.0,-23.0,-5.0,-15.0,-35.0
+860,Articles of Wood,-9.0,2.0,8.0,-3.0,-14.0,-19.0,-35.0
+258,Vehicles and Transport Equipment,-41.0,-3.0,31.0,1.0,-16.0,-7.0,-35.0
+466,Articles of Wood,0.0,9.0,10.0,-21.0,-57.0,24.0,-35.0
+512,Products of the Chemical or Allied Industries,2.0,-17.0,-17.0,2.0,0.0,-5.0,-35.0
+398,Products of the Chemical or Allied Industries,-14.0,-6.0,-13.0,-1.0,-1.0,0.0,-35.0
+604,Articles of Plastic and Rubber,-20.0,-13.0,6.0,-9.0,-7.0,8.0,-35.0
+24,Special Classification provisions and Temporary Legislation,21.0,21.0,-27.0,-64.0,40.0,-25.0,-34.0
+776,Products of the Chemical or Allied Industries,-41.0,6.0,-9.0,19.0,1.0,-10.0,-34.0
+368,Pulp of Wood,29.0,-7.0,-12.0,-12.0,-24.0,-8.0,-34.0
+104,Vehicles and Transport Equipment,16.0,5.0,1.0,-1.0,-41.0,-14.0,-34.0
+818,Vegetable products,8.0,-23.0,-18.0,10.0,-4.0,-7.0,-34.0
+340,Machinery and Mechanical Appliances,-10.0,-16.0,18.0,-23.0,2.0,-5.0,-34.0
+231,Special Classification provisions and Temporary Legislation,-6.0,0.0,-8.0,-4.0,-16.0,0.0,-34.0
+882,Miscellaneous Manufactured Articles,17.0,-47.0,-23.0,12.0,10.0,-3.0,-34.0
+583,Machinery and Mechanical Appliances,-12.0,26.0,-19.0,-35.0,-2.0,8.0,-34.0
+417,Miscellaneous Manufactured Articles,28.0,-15.0,4.0,6.0,-22.0,-35.0,-34.0
+496,"Optical Instruments, Clocks, Musical Instruments",-50.0,10.0,12.0,-9.0,-1.0,4.0,-34.0
+646,"Articles of Stone, Ceramics, Glass",-8.0,20.0,-15.0,-12.0,-16.0,-3.0,-34.0
+398,"Articles of Stone, Ceramics, Glass",17.0,-22.0,-3.0,5.0,-24.0,-6.0,-33.0
+818,Articles of Plastic and Rubber,1.0,-23.0,5.0,-8.0,-4.0,-4.0,-33.0
+686,Collectors' Art and Antiques,-57.0,13.0,-5.0,17.0,9.0,-10.0,-33.0
+116,Products of the Chemical or Allied Industries,17.0,-15.0,6.0,-32.0,0.0,-9.0,-33.0
+100,Vegetable products,10.0,-25.0,-11.0,-4.0,-1.0,-2.0,-33.0
+450,Articles of Textiles,-33.0,6.0,5.0,-8.0,2.0,-5.0,-33.0
+498,Animal or Vegetable Fats,11.0,-31.0,2.0,-2.0,-3.0,-10.0,-33.0
+368,Animal or Vegetable Fats,16.0,4.0,6.0,-11.0,-16.0,-32.0,-33.0
+626,Machinery and Mechanical Appliances,25.0,-47.0,-12.0,29.0,12.0,-40.0,-33.0
+646,Articles of Textiles,13.0,-15.0,1.0,-6.0,-21.0,-5.0,-33.0
+258,Arms and Ammunition,-72.0,62.0,46.0,-54.0,-38.0,24.0,-32.0
+480,Collectors' Art and Antiques,-4.0,5.0,18.0,-18.0,-21.0,-12.0,-32.0
+414,Articles of Wood,-13.0,-21.0,-29.0,14.0,18.0,-1.0,-32.0
+764,Animal or Vegetable Fats,-13.0,3.0,-10.0,1.0,4.0,-17.0,-32.0
+262,Products of the Chemical or Allied Industries,58.0,-50.0,65.0,9.0,-101.0,-13.0,-32.0
+31,Miscellaneous Manufactured Articles,-28.0,-2.0,0.0,15.0,-17.0,0.0,-32.0
+191,Vegetable products,12.0,10.0,-26.0,-8.0,-18.0,-2.0,-32.0
+398,Articles of Plastic and Rubber,23.0,-17.0,-1.0,-9.0,-8.0,-20.0,-32.0
+498,Vegetable products,-1.0,-10.0,-6.0,-6.0,-5.0,-4.0,-32.0
+508,Products of the Chemical or Allied Industries,-7.0,-3.0,10.0,-20.0,-2.0,-10.0,-32.0
+804,Articles of Base Metal,-52.0,-5.0,17.0,12.0,-21.0,17.0,-32.0
+533,Raw Hides and Skins,52.0,-64.0,29.0,-63.0,7.0,7.0,-32.0
+646,Live Animals; Animal Products,6.0,-6.0,-16.0,2.0,-12.0,-6.0,-32.0
+191,Arms and Ammunition,-12.0,-20.0,0.0,-1.0,0.0,1.0,-32.0
+288,Vegetable products,14.0,-4.0,15.0,-45.0,7.0,-19.0,-32.0
+600,Live Animals; Animal Products,4.0,-18.0,-17.0,-2.0,3.0,-2.0,-32.0
+768,Raw Hides and Skins,13.0,-28.0,14.0,-19.0,-23.0,12.0,-31.0
+504,Collectors' Art and Antiques,-8.0,9.0,-16.0,-22.0,26.0,-20.0,-31.0
+180,Special Classification provisions and Temporary Legislation,-22.0,18.0,-34.0,36.0,9.0,-38.0,-31.0
+204,Raw Hides and Skins,-99.0,113.0,1.0,-7.0,-33.0,-6.0,-31.0
+634,Special Classification provisions and Temporary Legislation,-30.0,0.0,1.0,-2.0,0.0,0.0,-31.0
+222,Articles of Textiles,-17.0,-10.0,-2.0,-2.0,2.0,-2.0,-31.0
+524,"Articles of Stone, Ceramics, Glass",1.0,-16.0,-8.0,1.0,-12.0,3.0,-31.0
+132,Miscellaneous Manufactured Articles,8.0,11.0,-26.0,-10.0,-23.0,9.0,-31.0
+818,Mineral Products,-6.0,-27.0,14.0,1.0,-2.0,-11.0,-31.0
+104,Machinery and Mechanical Appliances,6.0,13.0,12.0,-33.0,-38.0,9.0,-31.0
+48,"Footwear, Headgear, Umbrellas, Feathers",-28.0,17.0,41.0,-83.0,22.0,0.0,-31.0
+860,Miscellaneous Manufactured Articles,-7.0,12.0,-18.0,16.0,-29.0,-5.0,-31.0
+398,Vehicles and Transport Equipment,6.0,-20.0,8.0,-4.0,-15.0,-6.0,-31.0
+600,"Optical Instruments, Clocks, Musical Instruments",12.0,-12.0,30.0,-43.0,-17.0,-1.0,-31.0
+112,Miscellaneous Manufactured Articles,-39.0,-6.0,7.0,5.0,-6.0,9.0,-30.0
+762,Mineral Products,42.0,-7.0,15.0,-8.0,-88.0,16.0,-30.0
+768,Articles of Wood,-7.0,-31.0,-11.0,11.0,5.0,3.0,-30.0
+762,Vegetable products,-44.0,10.0,-32.0,50.0,7.0,-21.0,-30.0
+894,Mineral Products,7.0,5.0,-20.0,3.0,-15.0,-10.0,-30.0
+704,Vegetable products,-11.0,-11.0,-2.0,-7.0,-1.0,2.0,-30.0
+8,Articles of Textiles,-9.0,-7.0,-13.0,-3.0,-3.0,5.0,-30.0
+8,Mineral Products,23.0,-19.0,-47.0,5.0,-7.0,15.0,-30.0
+704,Live Animals; Animal Products,-14.0,-9.0,5.0,-8.0,-2.0,-2.0,-30.0
+31,Machinery and Mechanical Appliances,-46.0,17.0,-5.0,0.0,-6.0,10.0,-30.0
+320,Animal or Vegetable Fats,-14.0,2.0,-5.0,-9.0,-1.0,-3.0,-30.0
+860,"Optical Instruments, Clocks, Musical Instruments",4.0,-25.0,-11.0,-36.0,42.0,-4.0,-30.0
+586,Special Classification provisions and Temporary Legislation,-34.0,30.0,-2.0,3.0,-4.0,-23.0,-30.0
+70,Special Classification provisions and Temporary Legislation,-12.0,30.0,-93.0,2.0,35.0,9.0,-29.0
+508,Articles of Wood,-23.0,8.0,-1.0,6.0,-22.0,3.0,-29.0
+340,Animal or Vegetable Fats,-24.0,-3.0,-3.0,-3.0,-3.0,7.0,-29.0
+520,Live Animals; Animal Products,-18.0,42.0,-9.0,-22.0,-22.0,0.0,-29.0
+112,Articles of Wood,-14.0,-8.0,-3.0,-2.0,-6.0,4.0,-29.0
+288,Products of the Chemical or Allied Industries,-7.0,-23.0,17.0,-10.0,14.0,-20.0,-29.0
+682,Special Classification provisions and Temporary Legislation,-16.0,23.0,39.0,-43.0,21.0,-53.0,-29.0
+524,Articles of Wood,-16.0,0.0,8.0,10.0,4.0,-35.0,-29.0
+417,"Footwear, Headgear, Umbrellas, Feathers",33.0,-6.0,-8.0,-31.0,43.0,-60.0,-29.0
+498,Special Classification provisions and Temporary Legislation,-37.0,38.0,-26.0,-71.0,67.0,0.0,-29.0
+690,Vehicles and Transport Equipment,-18.0,-22.0,7.0,31.0,-46.0,19.0,-29.0
+512,Raw Hides and Skins,10.0,-26.0,-1.0,10.0,-41.0,19.0,-29.0
+478,Products of the Chemical or Allied Industries,2.0,16.0,11.0,-11.0,-57.0,11.0,-28.0
+196,Live Animals; Animal Products,1.0,-21.0,2.0,-6.0,-3.0,-1.0,-28.0
+51,Arms and Ammunition,17.0,-33.0,12.0,13.0,-32.0,-5.0,-28.0
+804,Collectors' Art and Antiques,-10.0,-5.0,-14.0,12.0,-24.0,13.0,-28.0
+340,Articles of Textiles,-16.0,9.0,-17.0,4.0,7.0,-15.0,-28.0
+100,Live Animals; Animal Products,10.0,-19.0,-8.0,-1.0,-3.0,-7.0,-28.0
+242,Vehicles and Transport Equipment,-10.0,-24.0,14.0,-22.0,-11.0,25.0,-28.0
+642,Vehicles and Transport Equipment,2.0,-12.0,-14.0,4.0,-6.0,-2.0,-28.0
+414,Articles of Textiles,-23.0,21.0,-34.0,-7.0,21.0,-6.0,-28.0
+422,Vehicles and Transport Equipment,-29.0,22.0,-15.0,33.0,-38.0,-1.0,-28.0
+818,"Articles of Stone, Ceramics, Glass",-34.0,31.0,-23.0,0.0,-3.0,1.0,-28.0
+690,Articles of Plastic and Rubber,7.0,-21.0,-9.0,-22.0,16.0,1.0,-28.0
+591,Arms and Ammunition,-5.0,20.0,-11.0,3.0,-5.0,-30.0,-28.0
+288,Arms and Ammunition,20.0,-6.0,14.0,-50.0,40.0,-46.0,-28.0
+320,Articles of Textiles,-33.0,0.0,14.0,-2.0,0.0,-7.0,-28.0
+112,Pulp of Wood,-35.0,1.0,3.0,10.0,-24.0,17.0,-28.0
+807,"Optical Instruments, Clocks, Musical Instruments",16.0,-4.0,-25.0,2.0,-12.0,-4.0,-27.0
+858,Articles of Wood,-6.0,-14.0,-5.0,-3.0,1.0,0.0,-27.0
+834,"Footwear, Headgear, Umbrellas, Feathers",-17.0,0.0,0.0,-1.0,-8.0,-1.0,-27.0
+608,Special Classification provisions and Temporary Legislation,5.0,-54.0,-11.0,21.0,8.0,4.0,-27.0
+533,Arms and Ammunition,17.0,-49.0,26.0,-47.0,66.0,-40.0,-27.0
+360,Raw Hides and Skins,-2.0,10.0,3.0,3.0,-26.0,-15.0,-27.0
+296,Prepared Foodstuffs,15.0,-29.0,5.0,8.0,0.0,-26.0,-27.0
+258,Collectors' Art and Antiques,8.0,-26.0,-4.0,-17.0,34.0,-22.0,-27.0
+524,Collectors' Art and Antiques,-31.0,30.0,-17.0,-5.0,1.0,-5.0,-27.0
+222,Articles of Plastic and Rubber,-8.0,-3.0,-5.0,-8.0,-2.0,-1.0,-27.0
+191,Live Animals; Animal Products,8.0,-11.0,-2.0,-9.0,-11.0,-2.0,-27.0
+764,Special Classification provisions and Temporary Legislation,-9.0,15.0,-25.0,19.0,-31.0,4.0,-27.0
+144,Pulp of Wood,-13.0,3.0,-6.0,-7.0,-7.0,3.0,-27.0
+418,Prepared Foodstuffs,25.0,-13.0,-36.0,-41.0,5.0,33.0,-27.0
+512,Mineral Products,-15.0,-5.0,4.0,-3.0,-6.0,-1.0,-26.0
+320,Raw Hides and Skins,-9.0,-11.0,-5.0,7.0,-13.0,5.0,-26.0
+646,Mineral Products,27.0,3.0,-28.0,-10.0,-3.0,-15.0,-26.0
+642,Machinery and Mechanical Appliances,-5.0,-13.0,-3.0,-3.0,-1.0,-1.0,-26.0
+524,Arms and Ammunition,-3.0,27.0,-18.0,21.0,-50.0,-3.0,-26.0
+496,"Footwear, Headgear, Umbrellas, Feathers",3.0,-36.0,4.0,17.0,-17.0,3.0,-26.0
+364,"Articles of Stone, Ceramics, Glass",-17.0,-19.0,-9.0,-11.0,7.0,23.0,-26.0
+222,"Articles of Stone, Ceramics, Glass",-5.0,5.0,-9.0,-17.0,-4.0,4.0,-26.0
+558,Prepared Foodstuffs,0.0,-4.0,6.0,-21.0,-1.0,-6.0,-26.0
+430,Prepared Foodstuffs,-14.0,6.0,5.0,-24.0,7.0,-6.0,-26.0
+48,Articles of Base Metal,28.0,-30.0,-3.0,-34.0,12.0,1.0,-26.0
+854,Animal or Vegetable Fats,-42.0,20.0,14.0,-31.0,-7.0,20.0,-26.0
+834,"Articles of Stone, Ceramics, Glass",-12.0,4.0,-5.0,-16.0,-8.0,11.0,-26.0
+762,Special Classification provisions and Temporary Legislation,-74.0,62.0,-47.0,26.0,-6.0,13.0,-26.0
+818,Raw Hides and Skins,-16.0,-10.0,-14.0,10.0,4.0,0.0,-26.0
+584,"Articles of Stone, Ceramics, Glass",-8.0,-24.0,60.0,-33.0,-57.0,36.0,-26.0
+894,Collectors' Art and Antiques,-29.0,-14.0,-27.0,62.0,-23.0,5.0,-26.0
+12,"Articles of Stone, Ceramics, Glass",42.0,-27.0,-32.0,14.0,-5.0,-18.0,-26.0
+882,Articles of Plastic and Rubber,8.0,-20.0,-45.0,3.0,9.0,20.0,-25.0
+634,"Footwear, Headgear, Umbrellas, Feathers",-45.0,-17.0,63.0,1.0,-12.0,-15.0,-25.0
+626,Miscellaneous Manufactured Articles,-2.0,-11.0,17.0,3.0,-7.0,-25.0,-25.0
+642,Articles of Plastic and Rubber,3.0,-20.0,0.0,-3.0,-4.0,-1.0,-25.0
+136,Arms and Ammunition,17.0,11.0,8.0,3.0,-26.0,-38.0,-25.0
+12,Mineral Products,12.0,7.0,-11.0,-1.0,3.0,-35.0,-25.0
+784,Vegetable products,-12.0,-11.0,1.0,-1.0,-2.0,0.0,-25.0
+558,Animal or Vegetable Fats,21.0,-29.0,-11.0,-16.0,10.0,0.0,-25.0
+242,Pulp of Wood,-6.0,-13.0,7.0,-6.0,-8.0,1.0,-25.0
+512,Pulp of Wood,10.0,-2.0,-1.0,-5.0,-35.0,8.0,-25.0
+762,Raw Hides and Skins,47.0,-28.0,-28.0,20.0,-41.0,5.0,-25.0
+548,"Optical Instruments, Clocks, Musical Instruments",-17.0,-16.0,3.0,24.0,-16.0,-3.0,-25.0
+686,Special Classification provisions and Temporary Legislation,40.0,6.0,-3.0,-66.0,42.0,-44.0,-25.0
+600,Collectors' Art and Antiques,-41.0,29.0,6.0,-16.0,9.0,-11.0,-24.0

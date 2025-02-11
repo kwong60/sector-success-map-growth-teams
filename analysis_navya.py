@@ -52,12 +52,12 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
         filtered_countries = filtered_data['country'].tolist()
         filtered_products = filtered_data['name_short_en'].tolist()
         clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
-        grouped = clean_data.groupby(['country','name_short_en'])
+        grouped = clean_data.groupby(['country_id','name_short_en'])
 
 
     #if modification is false, we are using the original data without running the filters in modification.py or any additional filters: 
     else:    
-        grouped = input_data.groupby(['country','name_short_en'])
+        grouped = input_data.groupby(['country_id','name_short_en'])
 
 
     #new dataframe to populate after the ranking shift calculation for sector successes is done:
@@ -141,13 +141,12 @@ def final_ranking_criterion_filter(successStories: pd.DataFrame, rank_column_nam
     return applyfilter_success_stories
 '''
 
-def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
+def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modification: bool, china: bool):
     
     
     #If we want data with the modification filters use this:
     if modification:
-        overall_time_period = entire_time_period_ranking_shift(data, rank_metric, 1995,2022, modification,china)
-        windows_overall = window_time_period_ranking_shift(data,5, rank_metric,modification,china)
+        
         if china:
             directory_name = "mod_with_china_"
         else:
@@ -155,12 +154,14 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
     
     #else: use the original_data:
     else:
-        overall_time_period = entire_time_period_ranking_shift(original_data, rank_metric, 1995,2022,modification,china)
-        windows_overall = window_time_period_ranking_shift(original_data, 5, rank_metric,modification,china)
+        
         if china:
             directory_name = "china_"
         else:
             directory_name = ""
+
+    overall_time_period = entire_time_period_ranking_shift(input_data, rank_metric, 1995,2022,modification,china)
+    windows_overall = window_time_period_ranking_shift(input_data, 5, rank_metric,modification,china)
 
     #Gets the top 500 sector success stories
     fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(500)
@@ -216,28 +217,28 @@ def generate_outputs_plots(rank_metric: str, modification: bool, china: bool):
 #Function calls:
 
 #Without modifications and without China:
-generate_outputs_plots("rank_avg", False,False)
-generate_outputs_plots("rank_market_share",False,False)
-generate_outputs_plots("rank_per_capita", False,False)
-generate_outputs_plots("rank_rca", False,False)
+generate_outputs_plots(original_data,"rank_avg", False,False)
+generate_outputs_plots(original_data,"rank_market_share",False,False)
+generate_outputs_plots(original_data,"rank_per_capita", False,False)
+generate_outputs_plots(original_data,"rank_rca", False,False)
 
 #With modifications but without China:
-generate_outputs_plots("rank_avg", True,False)
-generate_outputs_plots("rank_market_share",True,False)
-generate_outputs_plots("rank_per_capita", True,False)
-generate_outputs_plots("rank_rca", True, False)
+generate_outputs_plots(data,"rank_avg", True,False)
+generate_outputs_plots(data,"rank_market_share",True,False)
+generate_outputs_plots(data,"rank_per_capita", True,False)
+generate_outputs_plots(data,"rank_rca", True, False)
 
 #Without modifications but with China:
-generate_outputs_plots("rank_avg", False,True)
-generate_outputs_plots("rank_market_share",False,True)
-generate_outputs_plots("rank_per_capita", False,True)
-generate_outputs_plots("rank_rca", False,True)
+generate_outputs_plots(original_data,"rank_avg", False,True)
+generate_outputs_plots(original_data,"rank_market_share",False,True)
+generate_outputs_plots(original_data,"rank_per_capita", False,True)
+generate_outputs_plots(original_data,"rank_rca", False,True)
 
-#With modificatiosn and with China
-generate_outputs_plots("rank_avg", True,True)
-generate_outputs_plots("rank_market_share",True,True)
-generate_outputs_plots("rank_per_capita",True,True)
-generate_outputs_plots("rank_rca", True,True)
+#With modifications and with China
+generate_outputs_plots(data,"rank_avg", True,True)
+generate_outputs_plots(data, "rank_market_share",True,True)
+generate_outputs_plots(data,"rank_per_capita",True,True)
+generate_outputs_plots(data,"rank_rca", True,True)
 
 
 
