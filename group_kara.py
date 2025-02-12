@@ -62,19 +62,19 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     if mod:
         # filters for countries ranked in the top 30 in 2022 according to inputted rank metric
         filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_col] < 30)]
-        filtered_countries = filtered_data['country_id'].tolist()
+        filtered_countries = filtered_data['country'].tolist()
         filtered_products = filtered_data['name_short_en'].tolist()
 
         # filters for all data on that (country, product) pair
-        clean_data = input_data[(input_data['country_id'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
-        df_group = clean_data.groupby(['country_id','name_short_en'])
+        clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
+        df_group = clean_data.groupby(['country','name_short_en'])
         
     else:
         # group data by cases (country, product) as normal
-        df_group = input_data.groupby(['country_id','name_short_en'])
+        df_group = input_data.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
-    new_df = pd.DataFrame(columns=['country_id', 'name_short_en', 'rank_shifts', 'years', 'rankings'])
+    new_df = pd.DataFrame(columns=['country', 'name_short_en', 'rank_shifts', 'years', 'rankings'])
     countries = []
     products = []
     hs_codes = []
@@ -172,7 +172,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         rank_shifts.append(recent_growth - early_growth_avg)
     
     # assign each list to a column in the new DataFrame
-    new_df['country_id'] = countries
+    new_df['country'] = countries
     new_df['name_short_en'] = products
     new_df['rank_shifts'] = rank_shifts
     new_df['years'] = years
@@ -214,11 +214,11 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         # labelling
         plt.xlabel('Year') 
         plt.ylabel('Ranking') 
-        plt.title(f'{row["country_id"]}: \n {row["name_short_en"]}')
+        plt.title(f'{row["country"]}: \n {row["name_short_en"]}')
         plt.grid(True)
 
         # save figure to 'emerging_successes_plots' directories
-        output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{row["country_id"]}_{row["name_short_en"]}.png')
+        output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["name_short_en"]}.png')
 
         plt.tight_layout()
         plt.savefig(output)
@@ -239,7 +239,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     plt.grid(True)
 
     # save figure to 'emerging_successes_plots' directories
-    output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes.png')
+    output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{rank_col}_top_{top_rows}_successes')
     
     plt.tight_layout()
     plt.savefig(output)
