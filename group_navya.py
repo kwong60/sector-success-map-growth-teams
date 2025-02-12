@@ -49,20 +49,20 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
     #if modification is true then we want to filter for the top countries whose ranking is at most 30 as of 2022 - the final year:
     if modification:
         filtered_data = input_data[(input_data['year'] == 2022) & (input_data[rank_column_name] < 30)]
-        filtered_countries = filtered_data['country_id'].tolist()
+        filtered_countries = filtered_data['country'].tolist()
         filtered_products = filtered_data['name_short_en'].tolist()
-        clean_data = input_data[(input_data['country_id'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
-        grouped = clean_data.groupby(['country_id','name_short_en'])
+        clean_data = input_data[(input_data['country'].isin(filtered_countries)) & (input_data['name_short_en'].isin(filtered_products))]
+        grouped = clean_data.groupby(['country','name_short_en'])
 
 
     #if modification is false, we are using the original data without running the filters in modification.py or any additional filters: 
     else:    
-        grouped = input_data.groupby(['country_id','name_short_en'])
+        grouped = input_data.groupby(['country','name_short_en'])
 
 
     #new dataframe to populate after the ranking shift calculation for sector successes is done:
-    new_data = pd.DataFrame(columns=['country_id', 'name_short_en', f'{start}-{end}_rank_shift'])
-    country_code_list = []
+    new_data = pd.DataFrame(columns=['country', 'name_short_en', f'{start}-{end}_rank_shift'])
+    country_list = []
     product_code_list = []
     hs_code_list =[]
     ranking_shift_list = []
@@ -79,7 +79,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
         if (name[0] in excluded_countries) or (name[1] in exc_goods):
             continue
 
-        country_code_list.append(name[0])
+        country_list.append(name[0])
         product_code_list.append(name[1])
         #hs_code_list.append(group['product_code'].iloc[0])
         
@@ -94,7 +94,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
         ranking_shift_list.append(rank_shift)
 
     #populate the series for the dataframe
-    new_data['country_id'] = country_code_list
+    new_data['country'] = country_list
     new_data['name_short_en'] = product_code_list
     #new_data['hs_code'] = hs_code_list
     new_data[f'{start}-{end}_rank_shift'] = ranking_shift_list
@@ -122,7 +122,7 @@ def window_time_period_ranking_shift(input_data: pd.DataFrame, time_window: int,
     for start, end in windows:
         window_data = entire_time_period_ranking_shift(input_data, rank_column_name, start, end, modification,china)
         all_windows_data = pd.merge(
-            all_windows_data, window_data, on=['country_id', 'name_short_en'], how='outer'
+            all_windows_data, window_data, on=['country', 'name_short_en'], how='outer'
         ) if not all_windows_data.empty else window_data
 
     return all_windows_data
@@ -166,7 +166,7 @@ def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modificat
     fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(500)
 
     #gets the detailed rank shifts for each window of 5 years within the 500 sector successes:
-    detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country_id', 'name_short_en'], how='inner')
+    detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'name_short_en'], how='inner')
     detailed_five_hundred_sorted = detailed_five_hundred.sort_values('1995-2022_rank_shift', ascending=True)
 
     #create a folder for the plots: 
@@ -174,16 +174,16 @@ def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modificat
 
     #to plot the top 50 sector successes for the rank metric to visualize the data and top stories:
     for index, row in fivehundred_sector_successes.head(20).iterrows():
-        ranks = input_data[(input_data['country_id'] == row['country_id']) & (input_data['name_short_en'] == row['name_short_en'])]
+        ranks = input_data[(input_data['country'] == row['country']) & (input_data['name_short_en'] == row['name_short_en'])]
         year_ranks = ranks.sort_values(by='year', ascending=True)
         rank_data = year_ranks[rank_metric].tolist()
         window_names = year_ranks['year'].tolist()
         plt.figure()
         plt.plot(window_names, rank_data, marker='o')
-        plt.title(f'{row["country_id"]}: {row["name_short_en"]}')
+        plt.title(f'{row["country"]}: {row["name_short_en"]}')
         plt.grid(True)
         #output = os.path.join( 'mod_' + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["product"]}_{row["hs_code"]}.png')
-        output = os.path.join( directory_name + rank_metric + '_sector_successes_plots', f'{row["country_id"]}_{row["name_short_en"]}png')
+        output = os.path.join( directory_name + rank_metric + '_sector_successes_plots', f'{row["country"]}_{row["name_short_en"]}')
         plt.tight_layout()
         plt.savefig(output)
         plt.close()
@@ -201,7 +201,7 @@ def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modificat
     table.auto_set_font_size(False)
     table.set_fontsize(6)
     table.auto_set_column_width(col=list(range(len(fivehundred_sector_successes.columns))))
-    table_path = os.path.join(f'{directory_name}500sectorsuccesses_tables', rank_metric + '_top20sectorsuccesstable.png')
+    table_path = os.path.join(f'{directory_name}500sectorsuccesses_tables', rank_metric + '_top20sectorsuccesstable')
     plt.savefig(table_path)
 
 
