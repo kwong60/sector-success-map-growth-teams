@@ -60,13 +60,28 @@ This process is then replicated across various combinations of filters. One such
 
 At the bottom of this file, there are function calls to the analysis and plotting function (emerging_success()) demonstarting each combination of these filters as well as no filters at all. Comment out unwanted function calls accordingly. To change the parameters in this analysis (ranking metric, length of early versus recent years (where growth in recent years denotes emerging success), number of success cases displayed, use of general "modifications", and inclusion of China), alter the inputs in the function accordingly. The meaning and order of each input is noted directly above the function call in a comment.
 
+## Grouped Analyses
+Both the sector successes and emerging successes analyses were repeated using a grouping method, where the analysis was completed under
+country-section pairs instead of country-product pairs. A full dictionary mapping product HS codes to each of these larger sections can be found
+in grouped.py.
+
+To replicate the grouped analysis, first run grouped.py on the CSV you would like to group. A CSV of the same name preceded by "grouped_" should appear in your data folder.
+
+If you want to apply the above modifications to this grouped data, ensure the file path in modifications.py points to the grouped data you just created and run modifications.py. A CSV of the same name preceded by "clean_" should appear in your data folder.
+
+If you are performing the grouped analysis at a 2-digit level, you may skip the above parts as the grouped data at a 2-digit level has already been pushed.
+
+To run the sector successes analysis, run group_navya.py, ensuring the file paths at the top of group_navya.py point to the correct grouped data and the correct modified group data. They are currently set to the grouped data at a 2-digit level.
+
+To run the emerging successes analysis, run group_kara.py, ensuring the file paths at the top of group_kara.py point to the correct grouped data and the correct modified group data. They are currently set to the grouped data at a 2-digit level.
 
 ## Results
-Our results for these analyses are stored under the sector_successes and emerging_successes folders. 
+Our results for these analyses are stored under the sector_successes and emerging_successes folders. Grouped analyses are stored in folders
+of the same name, preceded by "grouped_". 
 
-Within both folders, there are four subfolders denoting the various combinations of filters applied (no_mod_no_china = no filters, mod = general modifications applied, china = china included, and mod_china = general modifications applied + china included).
+Within all folders, there are four subfolders denoting the various combinations of filters applied (no_mod_no_china = no filters, mod = general modifications applied, china = china included, and mod_china = general modifications applied + china included).
 
-Within those subfolders are five smaller folders, four of which each denote the ranking metric used to perform the analysis (exports per capita, RCA, global market share, and average of all three). In each of these four folders are 20 plots representing the top 20 cases. In the emerging successes analyses specifically, you will also find one more plot with all 20 of those plots overlaid.
+Within those subfolders are five smaller folders, four of which each denote the ranking metric used to perform the analysis (exports per capita, RCA, global market share, and average of all three). In each of these four folders are 20 plots representing the top 20 cases. In the emerging successes analyses specifically, you will also find one more plot with all 20 of those plots superimposed.
 
 There is also a fifth folder containing the CSVs and tables of the top 20 cases of all of these analyses and are labelled accordingly based on rank metric.
 
