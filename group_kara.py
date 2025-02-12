@@ -94,7 +94,12 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
             continue
 
         # adds countries, products, HS codes, years, and rankings to DataFrames
-        countries.append(name[0])
+        if name[0] == "st-martin_/_st_maarten":
+            countries.append("st_martin")
+        else:
+            countries.append(name[0])
+
+
         products.append(name[1])
         #hs_codes.append(group['product_code'].iloc[0])
 
@@ -219,7 +224,7 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 
         # save figure to 'emerging_successes_plots' directories
         output = os.path.join(f'{dir_name}{rank_col}_emerging_successes_plots', f'{row["country"]}_{row["name_short_en"]}.png')
-
+        
         plt.tight_layout()
         plt.savefig(output)
         plt.close()

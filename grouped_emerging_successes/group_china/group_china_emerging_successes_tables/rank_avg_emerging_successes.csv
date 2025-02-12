@@ -1,21 +1,21 @@
-country_id,name_short_en,rank_shifts
-316,Arms and Ammunition,-46.04050925925925
-262,Animal or Vegetable Fats,-33.94107744107744
-74,Miscellaneous Manufactured Articles,-33.114468864468876
-798,Vehicles and Transport Equipment,-27.111784511784514
-44,Pulp of Wood,-23.552525252525253
-512,Collectors' Art and Antiques,-22.95218855218855
-64,Articles of Base Metal,-22.526936026936028
-535,Collectors' Art and Antiques,-22.333333333333336
-60,Products of the Chemical or Allied Industries,-22.094612794612797
-678,Animal or Vegetable Fats,-21.71279461279461
-462,Vehicles and Transport Equipment,-21.582828282828277
-626,Articles of Base Metal,-21.41671810699588
-558,Special Classification provisions and Temporary Legislation,-21.386868686868684
-212,Collectors' Art and Antiques,-20.65892255892256
-531,Vehicles and Transport Equipment,-19.796296296296305
-531,Articles of Wood,-19.762962962962966
-262,Articles of Textiles,-19.738383838383836
-652,Articles of Base Metal,-19.71666666666667
-570,"Articles of Stone, Ceramics, Glass",-19.61649831649832
-584,Collectors' Art and Antiques,-19.538888888888888
+country,name_short_en,rank_shifts
+guam,Arms and Ammunition (19),-46.04050925925925
+djibouti,Animal or Vegetable Fats (3),-33.94107744107744
+bouvet_island,Miscellaneous Manufactured Articles (20),-33.11446886446885
+tuvalu,Vehicles and Transport Equipment (17),-27.111784511784514
+the_bahamas,Pulp of Wood (10),-23.552525252525253
+oman,Collectors' Art and Antiques (21),-22.95218855218855
+bhutan,Articles of Base Metal (15),-22.526936026936028
+bonaire,Collectors' Art and Antiques (21),-22.333333333333336
+bermuda,Products of the Chemical or Allied Industries (6),-22.094612794612797
+sao_tome_and_principe,Animal or Vegetable Fats (3),-21.71279461279461
+maldives,Vehicles and Transport Equipment (17),-21.582828282828277
+timor-leste,Articles of Base Metal (15),-21.41671810699588
+nicaragua,Special Classification provisions and Temporary Legislation (22),-21.386868686868684
+dominica,Collectors' Art and Antiques (21),-20.65892255892256
+curaçao,Vehicles and Transport Equipment (17),-19.796296296296305
+curaçao,Articles of Wood (9),-19.762962962962966
+djibouti,Articles of Textiles (11),-19.738383838383836
+saint_barthélemy,Articles of Base Metal (15),-19.71666666666667
+niue,"Articles of Stone, Ceramics, Glass (13)",-19.616498316498316
+marshall_islands,Collectors' Art and Antiques (21),-19.538888888888888

@@ -1,21 +1,21 @@
-country_id,name_short_en,rank_shifts
-512,Collectors' Art and Antiques,-22.352525252525254
-288,Arms and Ammunition,-18.024242424242427
-524,Animal or Vegetable Fats,-15.663636363636364
-860,Arms and Ammunition,-14.904040404040405
-418,"Articles of Stone, Ceramics, Glass",-11.706060606060605
-116,Articles of Base Metal,-11.473737373737373
-288,Raw Hides and Skins,-11.460606060606061
-231,Arms and Ammunition,-11.322222222222221
-634,Arms and Ammunition,-11.17070707070707
-8,Vehicles and Transport Equipment,-10.885858585858587
-418,Pulp of Wood,-10.578787878787878
-860,Animal or Vegetable Fats,-9.367676767676768
-524,Arms and Ammunition,-9.013131313131312
-104,Special Classification provisions and Temporary Legislation,-8.577777777777778
-50,Arms and Ammunition,-8.552525252525253
-512,Arms and Ammunition,-8.093939393939394
-860,Articles of Base Metal,-7.410101010101011
-48,Mineral Products,-7.342424242424242
-24,Vehicles and Transport Equipment,-6.910101010101011
-266,Animal or Vegetable Fats,-6.8545454545454545
+country,name_short_en,rank_shifts
+oman,Collectors' Art and Antiques (21),-22.352525252525254
+ghana,Arms and Ammunition (19),-18.024242424242427
+nepal,Animal or Vegetable Fats (3),-15.663636363636364
+uzbekistan,Arms and Ammunition (19),-14.904040404040405
+laos,"Articles of Stone, Ceramics, Glass (13)",-11.706060606060605
+cambodia,Articles of Base Metal (15),-11.473737373737373
+ghana,Raw Hides and Skins (8),-11.460606060606061
+ethiopia,Arms and Ammunition (19),-11.322222222222221
+qatar,Arms and Ammunition (19),-11.17070707070707
+albania,Vehicles and Transport Equipment (17),-10.885858585858587
+laos,Pulp of Wood (10),-10.578787878787878
+uzbekistan,Animal or Vegetable Fats (3),-9.367676767676768
+nepal,Arms and Ammunition (19),-9.013131313131312
+myanmar,Special Classification provisions and Temporary Legislation (22),-8.577777777777778
+bangladesh,Arms and Ammunition (19),-8.552525252525253
+oman,Arms and Ammunition (19),-8.093939393939394
+uzbekistan,Articles of Base Metal (15),-7.410101010101011
+bahrain,Mineral Products (5),-7.342424242424242
+angola,Vehicles and Transport Equipment (17),-6.910101010101011
+gabon,Animal or Vegetable Fats (3),-6.8545454545454545

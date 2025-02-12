@@ -1,21 +1,21 @@
-country_id,name_short_en,rank_shifts
-512,Collectors' Art and Antiques,-23.651515151515152
-418,"Articles of Stone, Ceramics, Glass",-19.166666666666668
-748,Special Classification provisions and Temporary Legislation,-18.266993464052288
-418,Pulp of Wood,-18.028282828282826
-51,Articles of Base Metal,-15.028282828282828
-104,Special Classification provisions and Temporary Legislation,-14.096969696969698
-51,Vehicles and Transport Equipment,-13.72020202020202
-51,Machinery and Mechanical Appliances,-13.314141414141414
-422,Mineral Products,-13.121212121212121
-48,Mineral Products,-11.772727272727273
-634,Arms and Ammunition,-11.130303030303029
-116,Articles of Base Metal,-9.876767676767676
-51,Vegetable products,-9.707070707070708
-634,Articles of Base Metal,-9.530303030303031
-104,Products of the Chemical or Allied Industries,-9.417171717171717
-266,Animal or Vegetable Fats,-9.271717171717171
-51,Arms and Ammunition,-9.266666666666666
-51,Animal or Vegetable Fats,-9.118181818181819
-51,Articles of Plastic and Rubber,-8.782828282828282
-422,Vehicles and Transport Equipment,-8.644444444444444
+country,name_short_en,rank_shifts
+oman,Collectors' Art and Antiques (21),-23.651515151515152
+laos,"Articles of Stone, Ceramics, Glass (13)",-19.166666666666668
+eswatini,Special Classification provisions and Temporary Legislation (22),-18.266993464052288
+laos,Pulp of Wood (10),-18.028282828282826
+armenia,Articles of Base Metal (15),-15.028282828282828
+myanmar,Special Classification provisions and Temporary Legislation (22),-14.096969696969698
+armenia,Vehicles and Transport Equipment (17),-13.72020202020202
+armenia,Machinery and Mechanical Appliances (16),-13.314141414141414
+lebanon,Mineral Products (5),-13.121212121212121
+bahrain,Mineral Products (5),-11.772727272727273
+qatar,Arms and Ammunition (19),-11.130303030303029
+cambodia,Articles of Base Metal (15),-9.876767676767676
+armenia,Vegetable products (2),-9.707070707070708
+qatar,Articles of Base Metal (15),-9.530303030303031
+myanmar,Products of the Chemical or Allied Industries (6),-9.417171717171717
+gabon,Animal or Vegetable Fats (3),-9.271717171717171
+armenia,Arms and Ammunition (19),-9.266666666666666
+armenia,Animal or Vegetable Fats (3),-9.118181818181819
+armenia,Articles of Plastic and Rubber (7),-8.782828282828282
+lebanon,Vehicles and Transport Equipment (17),-8.644444444444444
