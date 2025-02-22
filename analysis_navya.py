@@ -164,7 +164,7 @@ def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modificat
     windows_overall = window_time_period_ranking_shift(input_data, 5, rank_metric,modification,china)
 
     #Gets the top 500 sector success stories
-    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(500)
+    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(1000)
 
     #gets the detailed rank shifts for each window of 5 years within the 500 sector successes:
     detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'product', 'hs_code'], how='inner')

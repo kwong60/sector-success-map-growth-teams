@@ -183,8 +183,8 @@ countries = new_grouped['country'].unique()
 
 country_section_groups = new_grouped.groupby(['country', 'name_short_en'])
 
-new_grouped['beginning_export_value'] = 0
-new_grouped['final_export_value'] = 0
+new_grouped['1995_export_value'] = 0
+new_grouped['2022_export_value'] = 0
 
 
 for name,c_s in country_section_groups:
@@ -195,8 +195,8 @@ for name,c_s in country_section_groups:
     beginning_export_value_list = [beginning_export_value] * num_rows
     final_export_value = c_s[c_s['year'] == 2022]['export_value']
     final_export_value_list = [final_export_value] * num_rows
-    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['beginning_export_value'] = beginning_export_value_list
-    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['final_export_value'] = final_export_value_list
+    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['1995_export_value'] = beginning_export_value_list
+    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['2022_export_value'] = final_export_value_list
 
     
 

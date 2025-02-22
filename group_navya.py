@@ -61,9 +61,11 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
 
 
     #new dataframe to populate after the ranking shift calculation for sector successes is done:
-    new_data = pd.DataFrame(columns=['country', 'name_short_en', f'{start}-{end}_rank_shift'])
+    new_data = pd.DataFrame(columns=['country', 'name_short_en','1995_export_value', '2022_export_value' f'{start}-{end}_rank_shift'])
     country_list = []
     product_code_list = []
+    beginning_export_values_list = []
+    final_export_values_list = []
     hs_code_list =[]
     ranking_shift_list = []
 
@@ -82,6 +84,8 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
         country_list.append(name[0])
         product_code_list.append(name[1])
         #hs_code_list.append(group['product_code'].iloc[0])
+        beginning_export_values_list.append(group['1995_export_value'].iloc[0])
+        final_export_values_list.append(group['2022_export_value'].iloc[0])
         
         #each country, product for a particular year should only appear once for the ranking shift calculation to work: 
         if(len(group[group['year'] == end]) == 1) and (len(group[group['year'] == start]) == 1):
@@ -97,6 +101,8 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
     new_data['country'] = country_list
     new_data['name_short_en'] = product_code_list
     #new_data['hs_code'] = hs_code_list
+    new_data['1995_export_value'] = beginning_export_values_list
+    new_data['2022_export_value'] = final_export_values_list
     new_data[f'{start}-{end}_rank_shift'] = ranking_shift_list
 
     #drop the ranking shifts that are None out of the dataframe as they would interfere with the sorting logic:
@@ -163,7 +169,7 @@ def generate_outputs_plots(input_data: pd.DataFrame, rank_metric: str, modificat
     overall_time_period = entire_time_period_ranking_shift(input_data, rank_metric, 1995,2022,modification,china)
     windows_overall = window_time_period_ranking_shift(input_data, 5, rank_metric,modification,china)
     #Gets the top 500 sector success stories
-    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(500)
+    fivehundred_sector_successes = overall_time_period.sort_values(by='1995-2022_rank_shift', ascending=True).head(1000)
 
     #gets the detailed rank shifts for each window of 5 years within the 500 sector successes:
     detailed_five_hundred = windows_overall.merge(fivehundred_sector_successes, on=['country', 'name_short_en'], how='inner')
