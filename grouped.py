@@ -178,6 +178,30 @@ def ranking(dataframe: pd.DataFrame) -> pd.DataFrame:
 
 new_grouped = ranking(grouped)
 
+sections = new_grouped['name_short_en'].unique()
+countries = new_grouped['country'].unique()
+
+country_section_groups = new_grouped.groupby(['country', 'name_short_en'])
+
+new_grouped['beginning_export_value'] = 0
+new_grouped['final_export_value'] = 0
+
+
+for name,c_s in country_section_groups:
+    country = name[0]
+    section = name[1]
+    num_rows = len(c_s)
+    beginning_export_value = c_s[c_s['year'] == 1995]['export_value']
+    beginning_export_value_list = [beginning_export_value] * num_rows
+    final_export_value = c_s[c_s['year'] == 2022]['export_value']
+    final_export_value_list = [final_export_value] * num_rows
+    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['beginning_export_value'] = beginning_export_value_list
+    new_grouped[(new_grouped['country'] == country) & (new_grouped['name_short_en'] == section)]['final_export_value'] = final_export_value_list
+
+    
+
+
+
 new_grouped_file_path = os.path.join('data', "grouped_hs92_country_product_year_2.csv")
 new_grouped.to_csv(new_grouped_file_path, index=False)
 
