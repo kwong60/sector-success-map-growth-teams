@@ -1,21 +1,21 @@
-country,name_short_en,rank_shifts
-oman,Collectors' Art and Antiques (21),-22.95218855218855
-nepal,Animal or Vegetable Fats (3),-18.757575757575754
-eswatini,Special Classification provisions and Temporary Legislation (22),-18.345206971677563
-laos,"Articles of Stone, Ceramics, Glass (13)",-17.806397306397304
-ghana,Arms and Ammunition (19),-16.930976430976433
-laos,Pulp of Wood (10),-16.750841750841747
-armenia,Articles of Base Metal (15),-15.317171717171714
-armenia,Vehicles and Transport Equipment (17),-15.131986531986533
-uzbekistan,Arms and Ammunition (19),-13.165656565656562
-armenia,Machinery and Mechanical Appliances (16),-12.91683501683502
-myanmar,Special Classification provisions and Temporary Legislation (22),-12.914814814814815
-ghana,Raw Hides and Skins (8),-12.416835016835018
-lebanon,Mineral Products (5),-11.227272727272727
-iran,Collectors' Art and Antiques (21),-10.867676767676768
-gabon,Animal or Vegetable Fats (3),-10.783838383838383
-lebanon,Vehicles and Transport Equipment (17),-10.032996632996635
-armenia,Arms and Ammunition (19),-9.81717171717172
-qatar,Arms and Ammunition (19),-9.799663299663301
-bahrain,Mineral Products (5),-9.73400673400674
-armenia,Articles of Plastic and Rubber (7),-9.720875420875425
+country,name_short_en,rank_shifts,1995_export_value,2022_export_value
+oman,Collectors' Art and Antiques (21),-22.95218855218855,42923,10189383
+nepal,Animal or Vegetable Fats (3),-18.757575757575754,2229480,374349377
+eswatini,Special Classification provisions and Temporary Legislation (22),-18.345206971677563,0,287796356
+laos,"Articles of Stone, Ceramics, Glass (13)",-17.806397306397304,19064,70765557
+ghana,Arms and Ammunition (19),-16.930976430976433,2540,3532971
+laos,Pulp of Wood (10),-16.750841750841747,141072,683325042
+armenia,Articles of Base Metal (15),-15.317171717171714,34442,9211546
+armenia,Vehicles and Transport Equipment (17),-15.131986531986533,43909,338473619
+uzbekistan,Arms and Ammunition (19),-13.165656565656562,0,733914
+armenia,Machinery and Mechanical Appliances (16),-12.91683501683502,1046650,719171649
+myanmar,Special Classification provisions and Temporary Legislation (22),-12.914814814814815,1779890,4424764888
+ghana,Raw Hides and Skins (8),-12.416835016835018,97093,14625521
+lebanon,Mineral Products (5),-11.227272727272727,2969416,63594888
+iran,Collectors' Art and Antiques (21),-10.867676767676768,33751643,38690988
+gabon,Animal or Vegetable Fats (3),-10.783838383838383,1591514,53886445
+lebanon,Vehicles and Transport Equipment (17),-10.032996632996635,2249992,232193905
+armenia,Arms and Ammunition (19),-9.81717171717172,0,228928
+qatar,Arms and Ammunition (19),-9.799663299663301,0,948238
+bahrain,Mineral Products (5),-9.734006734006737,1456451,31063965
+armenia,Articles of Plastic and Rubber (7),-9.720875420875425,63600,65427885

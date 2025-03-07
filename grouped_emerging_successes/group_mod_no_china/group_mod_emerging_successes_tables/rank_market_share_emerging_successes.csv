@@ -1,21 +1,21 @@
-country,name_short_en,rank_shifts
-oman,Collectors' Art and Antiques (21),-22.352525252525254
-ghana,Arms and Ammunition (19),-18.024242424242427
-nepal,Animal or Vegetable Fats (3),-15.663636363636364
-uzbekistan,Arms and Ammunition (19),-14.904040404040405
-laos,"Articles of Stone, Ceramics, Glass (13)",-11.706060606060605
-cambodia,Articles of Base Metal (15),-11.473737373737373
-ghana,Raw Hides and Skins (8),-11.460606060606061
-ethiopia,Arms and Ammunition (19),-11.322222222222221
-qatar,Arms and Ammunition (19),-11.17070707070707
-albania,Vehicles and Transport Equipment (17),-10.885858585858587
-laos,Pulp of Wood (10),-10.578787878787878
-uzbekistan,Animal or Vegetable Fats (3),-9.367676767676768
-nepal,Arms and Ammunition (19),-9.013131313131312
-myanmar,Special Classification provisions and Temporary Legislation (22),-8.577777777777778
-bangladesh,Arms and Ammunition (19),-8.552525252525253
-oman,Arms and Ammunition (19),-8.093939393939394
-uzbekistan,Articles of Base Metal (15),-7.410101010101011
-bahrain,Mineral Products (5),-7.342424242424242
-angola,Vehicles and Transport Equipment (17),-6.910101010101011
-gabon,Animal or Vegetable Fats (3),-6.8545454545454545
+country,name_short_en,rank_shifts,1995_export_value,2022_export_value
+oman,Collectors' Art and Antiques (21),-22.352525252525254,42923,10189383
+ghana,Arms and Ammunition (19),-18.024242424242427,2540,3532971
+nepal,Animal or Vegetable Fats (3),-15.663636363636364,2229480,374349377
+uzbekistan,Arms and Ammunition (19),-14.904040404040405,0,733914
+laos,"Articles of Stone, Ceramics, Glass (13)",-11.706060606060605,19064,70765557
+cambodia,Articles of Base Metal (15),-11.473737373737373,33994,3870067
+ghana,Raw Hides and Skins (8),-11.460606060606061,97093,14625521
+ethiopia,Arms and Ammunition (19),-11.322222222222221,0,654464
+qatar,Arms and Ammunition (19),-11.17070707070707,0,948238
+albania,Vehicles and Transport Equipment (17),-10.885858585858587,1494071,36997035
+laos,Pulp of Wood (10),-10.578787878787878,141072,683325042
+uzbekistan,Animal or Vegetable Fats (3),-9.367676767676768,598689,34525422
+nepal,Arms and Ammunition (19),-9.013131313131312,3229,2630451
+myanmar,Special Classification provisions and Temporary Legislation (22),-8.577777777777778,1779890,4424764888
+bangladesh,Arms and Ammunition (19),-8.552525252525253,0,32909
+oman,Arms and Ammunition (19),-8.093939393939394,17647,1425423
+uzbekistan,Articles of Base Metal (15),-7.410101010101011,4867,2611599
+bahrain,Mineral Products (5),-7.342424242424242,1456451,31063965
+angola,Vehicles and Transport Equipment (17),-6.910101010101011,1660395,890662778
+gabon,Animal or Vegetable Fats (3),-6.8545454545454545,1591514,53886445

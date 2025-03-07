@@ -61,7 +61,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
 
 
     #new dataframe to populate after the ranking shift calculation for sector successes is done:
-    new_data = pd.DataFrame(columns=['country', 'name_short_en','1995_export_value', '2022_export_value' f'{start}-{end}_rank_shift'])
+    new_data = pd.DataFrame(columns=['country', 'name_short_en','1995_export_value', '2022_export_value', f'{start}-{end}_rank_shift'])
     country_list = []
     product_code_list = []
     beginning_export_values_list = []
@@ -127,6 +127,7 @@ def window_time_period_ranking_shift(input_data: pd.DataFrame, time_window: int,
     all_windows_data = pd.DataFrame()
     for start, end in windows:
         window_data = entire_time_period_ranking_shift(input_data, rank_column_name, start, end, modification,china)
+        window_data = window_data.drop(columns=["1995_export_value", "2022_export_value"])
         all_windows_data = pd.merge(
             all_windows_data, window_data, on=['country', 'name_short_en'], how='outer'
         ) if not all_windows_data.empty else window_data

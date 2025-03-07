@@ -1,501 +1,922 @@
-country,name_short_en,1995-2000_rank_shift,2000-2005_rank_shift,2005-2010_rank_shift,2010-2015_rank_shift,2015-2020_rank_shift,2020-2022_rank_shift,1995-2022_rank_shift
-benin,Special Classification provisions and Temporary Legislation (22),-123.0,47.0,95.0,-13.0,-52.0,-107.0,-153.0
-laos,Articles of Plastic and Rubber (7),22.0,-88.0,-26.0,-42.0,7.0,-11.0,-138.0
-myanmar,Special Classification provisions and Temporary Legislation (22),-94.0,-44.0,3.0,37.0,15.0,-53.0,-136.0
-cambodia,Raw Hides and Skins (8),-11.0,12.0,2.0,-125.0,-4.0,-3.0,-129.0
-cambodia,Miscellaneous Manufactured Articles (20),2.0,4.0,-29.0,-38.0,-63.0,-5.0,-129.0
-burkina_faso,Products of the Chemical or Allied Industries (6),-67.0,69.0,-27.0,13.0,-126.0,10.0,-128.0
-laos,Pulp of Wood (10),49.0,-27.0,-79.0,32.0,-104.0,2.0,-127.0
-burkina_faso,Special Classification provisions and Temporary Legislation (22),18.0,-9.0,9.0,8.0,-6.0,-147.0,-127.0
-guinea,Articles of Plastic and Rubber (7),6.0,-124.0,-4.0,-9.0,6.0,-2.0,-127.0
-ghana,Special Classification provisions and Temporary Legislation (22),-65.0,38.0,-80.0,145.0,-90.0,-71.0,-123.0
-armenia,Miscellaneous Manufactured Articles (20),-72.0,21.0,-3.0,-58.0,0.0,-11.0,-123.0
-bahrain,Live Animals; Animal Products (1),-21.0,-9.0,-70.0,74.0,-58.0,-34.0,-118.0
-laos,Special Classification provisions and Temporary Legislation (22),-22.0,-75.0,131.0,-116.0,-41.0,6.0,-117.0
-laos,"Articles of Stone, Ceramics, Glass (13)",16.0,-36.0,32.0,-25.0,-40.0,-61.0,-114.0
-angola,"Articles of Stone, Ceramics, Glass (13)",-35.0,-44.0,63.0,-27.0,-41.0,-29.0,-113.0
-uzbekistan,Articles of Plastic and Rubber (7),17.0,-106.0,30.0,2.0,-62.0,8.0,-111.0
-senegal,Articles of Base Metal (15),-37.0,-1.0,-15.0,-64.0,25.0,-16.0,-108.0
-guinea,Prepared Foodstuffs (4),10.0,-44.0,29.0,-50.0,-35.0,-17.0,-107.0
-uzbekistan,"Articles of Stone, Ceramics, Glass (13)",-10.0,-21.0,9.0,-29.0,-38.0,-18.0,-107.0
-iran,Articles of Plastic and Rubber (7),-78.0,21.0,-32.0,-14.0,-1.0,-1.0,-105.0
-vietnam,Machinery and Mechanical Appliances (16),-61.0,-1.0,-2.0,-34.0,-5.0,-2.0,-105.0
-uzbekistan,Machinery and Mechanical Appliances (16),-30.0,26.0,-28.0,26.0,-63.0,-35.0,-104.0
-mauritius,Live Animals; Animal Products (1),-49.0,-26.0,-12.0,4.0,-13.0,-7.0,-103.0
-uzbekistan,Pulp of Wood (10),26.0,-23.0,-27.0,-66.0,3.0,-16.0,-103.0
-nepal,"Optical Instruments, Clocks, Musical Instruments (18)",8.0,-67.0,-11.0,-17.0,-15.0,-1.0,-103.0
-uganda,"Articles of Stone, Ceramics, Glass (13)",24.0,-25.0,-14.0,-59.0,16.0,-44.0,-102.0
-oman,Articles of Wood (9),2.0,5.0,-80.0,-31.0,41.0,-39.0,-102.0
-equatorial_guinea,Special Classification provisions and Temporary Legislation (22),29.0,-65.0,-37.0,-13.0,-9.0,-6.0,-101.0
-tanzania,"Articles of Stone, Ceramics, Glass (13)",-55.0,-12.0,3.0,-32.0,-8.0,3.0,-101.0
-laos,"Optical Instruments, Clocks, Musical Instruments (18)",16.0,-27.0,-93.0,68.0,-34.0,-31.0,-101.0
-ethiopia,Special Classification provisions and Temporary Legislation (22),-59.0,4.0,-15.0,-21.0,-12.0,4.0,-99.0
-bahrain,"Footwear, Headgear, Umbrellas, Feathers (12)",-115.0,63.0,60.0,-105.0,0.0,-2.0,-99.0
-nepal,"Articles of Stone, Ceramics, Glass (13)",17.0,-59.0,-35.0,-2.0,-4.0,-14.0,-97.0
-gabon,Collectors' Art and Antiques (21),-74.0,-19.0,24.0,14.0,-17.0,-25.0,-97.0
-nepal,Vegetable products (2),-8.0,-40.0,-62.0,16.0,-4.0,2.0,-96.0
-mauritius,Collectors' Art and Antiques (21),-26.0,20.0,6.0,-18.0,-49.0,-28.0,-95.0
-tanzania,"Footwear, Headgear, Umbrellas, Feathers (12)",-23.0,-37.0,28.0,3.0,-66.0,3.0,-92.0
-albania,Special Classification provisions and Temporary Legislation (22),33.0,9.0,-92.0,-22.0,-13.0,-7.0,-92.0
-guinea,Articles of Base Metal (15),18.0,12.0,-137.0,101.0,-98.0,13.0,-91.0
-morocco,Vehicles and Transport Equipment (17),-15.0,4.0,-44.0,-18.0,-15.0,-1.0,-89.0
-ghana,Raw Hides and Skins (8),6.0,4.0,-12.0,-2.0,-57.0,-26.0,-87.0
-benin,Raw Hides and Skins (8),-137.0,145.0,16.0,-25.0,-82.0,-4.0,-87.0
-ghana,"Articles of Stone, Ceramics, Glass (13)",-28.0,8.0,24.0,-24.0,-87.0,21.0,-86.0
-cambodia,Machinery and Mechanical Appliances (16),8.0,15.0,-41.0,-16.0,-36.0,-15.0,-85.0
-burkina_faso,Animal or Vegetable Fats (3),-98.0,30.0,14.0,-38.0,-14.0,21.0,-85.0
-myanmar,"Footwear, Headgear, Umbrellas, Feathers (12)",-55.0,12.0,-16.0,-7.0,-14.0,-4.0,-84.0
-burkina_faso,Mineral Products (5),33.0,-2.0,-52.0,-4.0,-54.0,-5.0,-84.0
-uganda,Pulp of Wood (10),-13.0,4.0,-33.0,-26.0,19.0,-32.0,-81.0
-sri_lanka,Pulp of Wood (10),-15.0,-25.0,-36.0,-1.0,-4.0,0.0,-81.0
-tanzania,Products of the Chemical or Allied Industries (6),-11.0,-33.0,-13.0,30.0,-41.0,-11.0,-79.0
-nepal,Articles of Base Metal (15),15.0,3.0,-91.0,91.0,-124.0,28.0,-78.0
-bosnia_and_herzegovina,Arms and Ammunition (19),-76.0,1.0,9.0,-3.0,-9.0,0.0,-78.0
-vietnam,Special Classification provisions and Temporary Legislation (22),-49.0,2.0,7.0,-45.0,-14.0,22.0,-77.0
-ghana,Collectors' Art and Antiques (21),-58.0,65.0,11.0,-26.0,-46.0,-23.0,-77.0
-uzbekistan,"Footwear, Headgear, Umbrellas, Feathers (12)",0.0,25.0,-65.0,-21.0,-17.0,2.0,-76.0
-oman,Collectors' Art and Antiques (21),-107.0,103.0,9.0,-33.0,22.0,-70.0,-76.0
-cambodia,"Footwear, Headgear, Umbrellas, Feathers (12)",-76.0,5.0,0.0,-10.0,2.0,4.0,-75.0
-pakistan,Special Classification provisions and Temporary Legislation (22),-89.0,68.0,-18.0,-2.0,-7.0,-27.0,-75.0
-cambodia,Special Classification provisions and Temporary Legislation (22),66.0,2.0,-84.0,-37.0,-17.0,-4.0,-74.0
-ghana,Products of the Chemical or Allied Industries (6),-35.0,5.0,-12.0,-31.0,-14.0,14.0,-73.0
-equatorial_guinea,Products of the Chemical or Allied Industries (6),10.0,-151.0,61.0,-35.0,7.0,36.0,-72.0
-laos,Products of the Chemical or Allied Industries (6),12.0,-6.0,-25.0,-64.0,32.0,-21.0,-72.0
-iran,"Articles of Stone, Ceramics, Glass (13)",-61.0,-1.0,-2.0,-6.0,-2.0,2.0,-70.0
-uzbekistan,Raw Hides and Skins (8),-18.0,48.0,-57.0,-23.0,-30.0,10.0,-70.0
-uganda,Products of the Chemical or Allied Industries (6),-1.0,-37.0,-13.0,2.0,0.0,-20.0,-69.0
-laos,"Footwear, Headgear, Umbrellas, Feathers (12)",-27.0,-7.0,-2.0,-10.0,-21.0,-2.0,-69.0
-myanmar,Articles of Textiles (11),-42.0,40.0,-8.0,-32.0,-33.0,6.0,-69.0
-bosnia_and_herzegovina,Products of the Chemical or Allied Industries (6),-30.0,-11.0,-4.0,-11.0,-4.0,-8.0,-68.0
-dominican_republic,Products of the Chemical or Allied Industries (6),-2.0,-28.0,-25.0,-6.0,-1.0,-6.0,-68.0
-uganda,Live Animals; Animal Products (1),-47.0,-18.0,19.0,10.0,-16.0,-15.0,-67.0
-armenia,Vegetable products (2),11.0,-47.0,-5.0,-29.0,3.0,1.0,-66.0
-bahrain,"Articles of Stone, Ceramics, Glass (13)",1.0,-10.0,-50.0,-4.0,-1.0,0.0,-64.0
-malawi,"Optical Instruments, Clocks, Musical Instruments (18)",3.0,-21.0,-62.0,42.0,30.0,-56.0,-64.0
-singapore,Collectors' Art and Antiques (21),22.0,-27.0,-37.0,-20.0,-4.0,2.0,-64.0
-jamaica,Live Animals; Animal Products (1),-2.0,4.0,-29.0,4.0,-3.0,-38.0,-64.0
-pakistan,Mineral Products (5),11.0,-68.0,-34.0,14.0,6.0,8.0,-63.0
-mauritius,Pulp of Wood (10),-32.0,-7.0,-2.0,-38.0,27.0,-11.0,-63.0
-ghana,Pulp of Wood (10),-40.0,-61.0,67.0,-48.0,23.0,-4.0,-63.0
-mauritius,Articles of Plastic and Rubber (7),5.0,-43.0,15.0,-11.0,-29.0,0.0,-63.0
-uganda,Mineral Products (5),26.0,-63.0,-56.0,13.0,7.0,11.0,-62.0
-armenia,Live Animals; Animal Products (1),39.0,-79.0,9.0,-52.0,3.0,18.0,-62.0
-dominican_republic,Mineral Products (5),-23.0,-10.0,-46.0,8.0,14.0,-5.0,-62.0
-ethiopia,Articles of Textiles (11),17.0,-10.0,-42.0,-8.0,5.0,-24.0,-62.0
-ethiopia,"Footwear, Headgear, Umbrellas, Feathers (12)",-2.0,-24.0,-51.0,-19.0,41.0,-7.0,-62.0
-ghana,Articles of Base Metal (15),-43.0,10.0,-70.0,-9.0,-12.0,62.0,-62.0
-ethiopia,Live Animals; Animal Products (1),-10.0,-75.0,-2.0,5.0,12.0,9.0,-61.0
-bosnia_and_herzegovina,Animal or Vegetable Fats (3),1.0,-68.0,-8.0,-3.0,14.0,3.0,-61.0
-laos,Machinery and Mechanical Appliances (16),16.0,-32.0,-29.0,-75.0,24.0,35.0,-61.0
-senegal,Special Classification provisions and Temporary Legislation (22),41.0,4.0,-6.0,-122.0,80.0,-57.0,-60.0
-guinea,Vegetable products (2),18.0,-11.0,-25.0,4.0,4.0,-50.0,-60.0
-malawi,Vegetable products (2),-31.0,16.0,-22.0,-7.0,-2.0,-13.0,-59.0
-uzbekistan,Vehicles and Transport Equipment (17),-87.0,-3.0,-5.0,79.0,-28.0,-14.0,-58.0
-oman,Pulp of Wood (10),9.0,-10.0,37.0,-30.0,-93.0,29.0,-58.0
-myanmar,Raw Hides and Skins (8),-16.0,12.0,-8.0,-3.0,-62.0,20.0,-57.0
-uganda,Collectors' Art and Antiques (21),-59.0,38.0,-23.0,42.0,-35.0,-20.0,-57.0
-jamaica,Articles of Base Metal (15),30.0,-1.0,-62.0,48.0,-31.0,-41.0,-57.0
-uzbekistan,Miscellaneous Manufactured Articles (20),-3.0,-2.0,-51.0,22.0,-48.0,26.0,-56.0
-nepal,Prepared Foodstuffs (4),5.0,-46.0,-12.0,-38.0,45.0,-10.0,-56.0
-mauritius,Special Classification provisions and Temporary Legislation (22),20.0,-105.0,96.0,-6.0,-7.0,-54.0,-56.0
-armenia,Articles of Wood (9),16.0,-93.0,27.0,95.0,13.0,-114.0,-56.0
-uzbekistan,Live Animals; Animal Products (1),0.0,-22.0,19.0,-20.0,-16.0,-16.0,-55.0
-dominican_republic,Pulp of Wood (10),13.0,-70.0,-13.0,18.0,-2.0,-1.0,-55.0
-malawi,Articles of Wood (9),5.0,-16.0,-17.0,8.0,-24.0,-11.0,-55.0
-indonesia,Vegetable products (2),-4.0,-18.0,7.0,-15.0,-23.0,-1.0,-54.0
-united_arab_emirates,Articles of Wood (9),65.0,-126.0,57.0,-38.0,-17.0,5.0,-54.0
-guinea,Animal or Vegetable Fats (3),6.0,-7.0,-8.0,-14.0,-4.0,-27.0,-54.0
-armenia,Raw Hides and Skins (8),-93.0,93.0,-70.0,-28.0,37.0,7.0,-54.0
-mauritius,Articles of Base Metal (15),14.0,-32.0,-2.0,-12.0,-35.0,13.0,-54.0
-nepal,Arms and Ammunition (19),-24.0,39.0,-45.0,23.0,-39.0,-7.0,-53.0
-bosnia_and_herzegovina,Articles of Plastic and Rubber (7),-21.0,1.0,14.0,-31.0,-16.0,1.0,-52.0
-tunisia,"Optical Instruments, Clocks, Musical Instruments (18)",-23.0,-5.0,-11.0,-16.0,4.0,-1.0,-52.0
-malawi,Live Animals; Animal Products (1),9.0,0.0,-23.0,-82.0,83.0,-39.0,-52.0
-qatar,Special Classification provisions and Temporary Legislation (22),-47.0,2.0,-2.0,-3.0,-1.0,0.0,-51.0
-jamaica,Vegetable products (2),-4.0,4.0,-28.0,8.0,5.0,-36.0,-51.0
-laos,Vegetable products (2),5.0,-47.0,-5.0,4.0,5.0,-13.0,-51.0
-gabon,Animal or Vegetable Fats (3),84.0,-28.0,-20.0,12.0,-79.0,-20.0,-51.0
-nepal,Articles of Wood (9),-13.0,-25.0,-24.0,5.0,43.0,-36.0,-50.0
-tunisia,Vehicles and Transport Equipment (17),0.0,15.0,-33.0,-8.0,-26.0,2.0,-50.0
-myanmar,"Optical Instruments, Clocks, Musical Instruments (18)",20.0,-34.0,9.0,-34.0,-20.0,10.0,-49.0
-uzbekistan,Articles of Base Metal (15),-47.0,48.0,-2.0,4.0,-26.0,-26.0,-49.0
-uganda,Prepared Foodstuffs (4),-69.0,21.0,-17.0,1.0,-2.0,17.0,-49.0
-mauritius,Products of the Chemical or Allied Industries (6),-3.0,-17.0,-18.0,-1.0,2.0,-12.0,-49.0
-iran,Products of the Chemical or Allied Industries (6),-56.0,8.0,16.0,-29.0,5.0,8.0,-48.0
-dominican_republic,Articles of Plastic and Rubber (7),22.0,-23.0,-17.0,-24.0,-4.0,-2.0,-48.0
-benin,Animal or Vegetable Fats (3),-71.0,-12.0,1.0,5.0,28.0,1.0,-48.0
-ethiopia,Collectors' Art and Antiques (21),-11.0,-91.0,33.0,65.0,-19.0,-25.0,-48.0
-myanmar,Vehicles and Transport Equipment (17),25.0,9.0,4.0,4.0,-45.0,-44.0,-47.0
-mauritius,"Footwear, Headgear, Umbrellas, Feathers (12)",-5.0,-15.0,26.0,6.0,-29.0,-30.0,-47.0
-burkina_faso,Articles of Base Metal (15),-49.0,115.0,-4.0,-30.0,-64.0,-15.0,-47.0
-sri_lanka,Vegetable products (2),-29.0,-15.0,-7.0,4.0,-1.0,2.0,-46.0
-dominican_republic,Animal or Vegetable Fats (3),32.0,-41.0,-34.0,-2.0,23.0,-24.0,-46.0
-senegal,Collectors' Art and Antiques (21),-86.0,24.0,-7.0,23.0,6.0,-6.0,-46.0
-ghana,Arms and Ammunition (19),17.0,-14.0,17.0,-67.0,65.0,-64.0,-46.0
-yemen,Articles of Plastic and Rubber (7),20.0,28.0,8.0,8.0,-30.0,-80.0,-46.0
-lebanon,Articles of Plastic and Rubber (7),2.0,-17.0,8.0,-25.0,14.0,-27.0,-45.0
-malawi,Machinery and Mechanical Appliances (16),17.0,4.0,-9.0,-38.0,36.0,-55.0,-45.0
-senegal,Articles of Wood (9),-39.0,-15.0,-4.0,1.0,8.0,4.0,-45.0
-ethiopia,Vehicles and Transport Equipment (17),-30.0,29.0,8.0,-74.0,20.0,3.0,-44.0
-iran,Animal or Vegetable Fats (3),-91.0,21.0,12.0,2.0,13.0,-1.0,-44.0
-sri_lanka,Vehicles and Transport Equipment (17),-50.0,-6.0,21.0,-20.0,2.0,10.0,-43.0
-ethiopia,Arms and Ammunition (19),16.0,-18.0,-68.0,105.0,-35.0,-43.0,-43.0
-pakistan,Articles of Plastic and Rubber (7),-6.0,-49.0,18.0,6.0,-17.0,5.0,-43.0
-oman,Products of the Chemical or Allied Industries (6),7.0,-32.0,22.0,-24.0,-1.0,-15.0,-43.0
-vietnam,"Optical Instruments, Clocks, Musical Instruments (18)",-46.0,-16.0,-4.0,8.0,12.0,4.0,-42.0
-philippines,Special Classification provisions and Temporary Legislation (22),32.0,-93.0,-23.0,24.0,15.0,3.0,-42.0
-laos,Mineral Products (5),-31.0,-2.0,-12.0,15.0,-18.0,6.0,-42.0
-bulgaria,Special Classification provisions and Temporary Legislation (22),-59.0,19.0,3.0,6.0,-8.0,-3.0,-42.0
-bahrain,"Optical Instruments, Clocks, Musical Instruments (18)",41.0,-66.0,8.0,15.0,-29.0,-11.0,-42.0
-jamaica,"Optical Instruments, Clocks, Musical Instruments (18)",37.0,0.0,-80.0,30.0,-37.0,8.0,-42.0
-cambodia,Mineral Products (5),20.0,0.0,-15.0,-8.0,-3.0,-36.0,-42.0
-mauritius,Animal or Vegetable Fats (3),19.0,1.0,-25.0,-13.0,-1.0,-23.0,-42.0
-uzbekistan,Articles of Wood (9),-3.0,-5.0,-2.0,-3.0,-18.0,-11.0,-42.0
-taiwan,Special Classification provisions and Temporary Legislation (22),-26.0,-9.0,3.0,-16.0,-5.0,11.0,-42.0
-uzbekistan,Products of the Chemical or Allied Industries (6),6.0,-21.0,-50.0,-6.0,30.0,0.0,-41.0
-nepal,Animal or Vegetable Fats (3),-36.0,-3.0,50.0,48.0,-103.0,3.0,-41.0
-uganda,Articles of Plastic and Rubber (7),-2.0,11.0,-6.0,-44.0,-19.0,19.0,-41.0
-guinea,Live Animals; Animal Products (1),-14.0,-22.0,8.0,-2.0,-13.0,2.0,-41.0
-yemen,Vehicles and Transport Equipment (17),62.0,-99.0,71.0,-66.0,43.0,-52.0,-41.0
-pakistan,Live Animals; Animal Products (1),3.0,6.0,-31.0,1.0,-3.0,-16.0,-40.0
-yemen,Products of the Chemical or Allied Industries (6),10.0,-52.0,53.0,-49.0,38.0,-40.0,-40.0
-yemen,Arms and Ammunition (19),-30.0,34.0,2.0,29.0,-68.0,-7.0,-40.0
-senegal,Products of the Chemical or Allied Industries (6),-31.0,-20.0,3.0,30.0,-21.0,0.0,-39.0
-cambodia,"Articles of Stone, Ceramics, Glass (13)",23.0,-9.0,-3.0,3.0,-32.0,-21.0,-39.0
-uganda,Articles of Wood (9),45.0,-22.0,-28.0,9.0,-34.0,-9.0,-39.0
-senegal,Articles of Textiles (11),10.0,-12.0,-8.0,-18.0,-26.0,15.0,-39.0
-bahrain,Articles of Base Metal (15),55.0,-55.0,9.0,-70.0,11.0,12.0,-38.0
-senegal,Vehicles and Transport Equipment (17),-84.0,-28.0,75.0,8.0,-41.0,32.0,-38.0
-malawi,Raw Hides and Skins (8),-13.0,9.0,4.0,-44.0,0.0,6.0,-38.0
-lebanon,Articles of Wood (9),-7.0,-21.0,-24.0,13.0,14.0,-12.0,-37.0
-angola,Vehicles and Transport Equipment (17),56.0,-55.0,-42.0,41.0,-40.0,3.0,-37.0
-bahrain,Prepared Foodstuffs (4),-16.0,11.0,-46.0,17.0,1.0,-4.0,-37.0
-laos,Live Animals; Animal Products (1),-119.0,32.0,25.0,-40.0,-35.0,100.0,-37.0
-yemen,Animal or Vegetable Fats (3),-49.0,3.0,29.0,-26.0,10.0,-4.0,-37.0
-ethiopia,"Articles of Stone, Ceramics, Glass (13)",15.0,-38.0,21.0,16.0,-23.0,-28.0,-37.0
-equatorial_guinea,Vehicles and Transport Equipment (17),11.0,-77.0,-87.0,85.0,44.0,-12.0,-36.0
-cambodia,Articles of Textiles (11),-39.0,-4.0,10.0,-9.0,-6.0,12.0,-36.0
-oman,Special Classification provisions and Temporary Legislation (22),-50.0,-10.0,0.0,173.0,-124.0,-25.0,-36.0
-mauritius,Miscellaneous Manufactured Articles (20),13.0,-17.0,-6.0,-15.0,-6.0,-5.0,-36.0
-mauritius,Mineral Products (5),19.0,-21.0,-14.0,-4.0,3.0,-19.0,-36.0
-tanzania,Articles of Wood (9),11.0,-26.0,7.0,17.0,-33.0,-11.0,-35.0
-vietnam,Articles of Base Metal (15),3.0,-42.0,14.0,3.0,-13.0,0.0,-35.0
-dominican_republic,Vegetable products (2),-1.0,1.0,-48.0,9.0,11.0,-7.0,-35.0
-uganda,"Footwear, Headgear, Umbrellas, Feathers (12)",64.0,-31.0,-37.0,3.0,-34.0,1.0,-34.0
-armenia,Vehicles and Transport Equipment (17),-14.0,-10.0,-19.0,48.0,33.0,-72.0,-34.0
-uzbekistan,Arms and Ammunition (19),16.0,11.0,6.0,2.0,-25.0,-44.0,-34.0
-jamaica,"Articles of Stone, Ceramics, Glass (13)",-128.0,103.0,20.0,-5.0,-41.0,17.0,-34.0
-oman,Mineral Products (5),-25.0,-11.0,31.0,-17.0,-15.0,4.0,-33.0
-dominican_republic,Prepared Foodstuffs (4),0.0,-6.0,-22.0,-6.0,2.0,-1.0,-33.0
-gabon,Miscellaneous Manufactured Articles (20),-13.0,9.0,21.0,-38.0,0.0,-11.0,-32.0
-philippines,Collectors' Art and Antiques (21),7.0,0.0,14.0,-45.0,13.0,-21.0,-32.0
-ghana,Vegetable products (2),-79.0,22.0,38.0,-24.0,-7.0,18.0,-32.0
-tanzania,Articles of Plastic and Rubber (7),-21.0,-39.0,-14.0,62.0,-20.0,0.0,-32.0
-senegal,Miscellaneous Manufactured Articles (20),-51.0,22.0,0.0,22.0,-34.0,10.0,-31.0
-tanzania,Prepared Foodstuffs (4),-28.0,-13.0,20.0,-12.0,15.0,-13.0,-31.0
-iran,Live Animals; Animal Products (1),-10.0,7.0,40.0,-52.0,7.0,-23.0,-31.0
-burkina_faso,Machinery and Mechanical Appliances (16),-59.0,84.0,-65.0,18.0,-32.0,24.0,-30.0
-yemen,Raw Hides and Skins (8),-7.0,-10.0,18.0,-23.0,2.0,-10.0,-30.0
-oman,Articles of Plastic and Rubber (7),10.0,0.0,-16.0,-16.0,0.0,-8.0,-30.0
-pakistan,Products of the Chemical or Allied Industries (6),-15.0,-28.0,17.0,2.0,-7.0,1.0,-30.0
-dominican_republic,Miscellaneous Manufactured Articles (20),52.0,-13.0,2.0,-12.0,-55.0,-3.0,-29.0
-tunisia,Miscellaneous Manufactured Articles (20),2.0,-17.0,-8.0,-9.0,-1.0,4.0,-29.0
-armenia,Arms and Ammunition (19),16.0,-55.0,17.0,20.0,-27.0,0.0,-29.0
-yemen,Pulp of Wood (10),-24.0,42.0,18.0,-17.0,-92.0,45.0,-28.0
-pakistan,Animal or Vegetable Fats (3),14.0,-85.0,14.0,6.0,19.0,4.0,-28.0
-oman,"Articles of Stone, Ceramics, Glass (13)",-14.0,-21.0,12.0,-10.0,7.0,-2.0,-28.0
-uzbekistan,Vegetable products (2),-10.0,-6.0,-6.0,11.0,-26.0,9.0,-28.0
-angola,Prepared Foodstuffs (4),-67.0,-7.0,62.0,9.0,-21.0,-4.0,-28.0
-armenia,Animal or Vegetable Fats (3),-77.0,35.0,47.0,3.0,3.0,-38.0,-27.0
-nepal,Miscellaneous Manufactured Articles (20),-6.0,-11.0,-11.0,-5.0,12.0,-6.0,-27.0
-bosnia_and_herzegovina,Articles of Base Metal (15),-43.0,4.0,14.0,-2.0,-4.0,4.0,-27.0
-cambodia,"Optical Instruments, Clocks, Musical Instruments (18)",20.0,0.0,-5.0,-49.0,-4.0,12.0,-26.0
-singapore,Raw Hides and Skins (8),-7.0,-1.0,-1.0,-5.0,-16.0,4.0,-26.0
-tanzania,Pulp of Wood (10),56.0,-9.0,-79.0,33.0,-13.0,-14.0,-26.0
-jamaica,Prepared Foodstuffs (4),-8.0,13.0,-27.0,22.0,-19.0,-7.0,-26.0
-jamaica,Pulp of Wood (10),-8.0,25.0,-58.0,24.0,-1.0,-8.0,-26.0
-bulgaria,Vehicles and Transport Equipment (17),-10.0,-41.0,6.0,27.0,-30.0,22.0,-26.0
-cambodia,Vehicles and Transport Equipment (17),6.0,-2.0,-42.0,27.0,-10.0,-4.0,-25.0
-uzbekistan,Mineral Products (5),11.0,-17.0,-5.0,13.0,-7.0,-20.0,-25.0
-morocco,Collectors' Art and Antiques (21),-9.0,8.0,-18.0,-24.0,40.0,-22.0,-25.0
-burkina_faso,Vegetable products (2),13.0,-7.0,-66.0,9.0,4.0,23.0,-24.0
-uganda,Animal or Vegetable Fats (3),-40.0,3.0,-27.0,6.0,8.0,26.0,-24.0
-tanzania,Special Classification provisions and Temporary Legislation (22),-34.0,-29.0,-17.0,7.0,101.0,-52.0,-24.0
-vietnam,Pulp of Wood (10),-13.0,-4.0,-4.0,14.0,-28.0,11.0,-24.0
-mauritius,Raw Hides and Skins (8),12.0,-19.0,-32.0,26.0,-13.0,3.0,-23.0
-tunisia,Collectors' Art and Antiques (21),-15.0,1.0,-10.0,17.0,14.0,-30.0,-23.0
-burkina_faso,Arms and Ammunition (19),-18.0,47.0,-80.0,52.0,-15.0,-9.0,-23.0
-tunisia,"Articles of Stone, Ceramics, Glass (13)",-9.0,-3.0,5.0,9.0,-3.0,-22.0,-23.0
-lebanon,Vehicles and Transport Equipment (17),-67.0,89.0,-77.0,96.0,-82.0,19.0,-22.0
-malaysia,Vegetable products (2),2.0,-2.0,-25.0,-3.0,9.0,-3.0,-22.0
-malawi,Articles of Textiles (11),-19.0,8.0,-15.0,2.0,35.0,-33.0,-22.0
-malawi,Articles of Plastic and Rubber (7),13.0,-2.0,-31.0,-25.0,29.0,-6.0,-22.0
-mauritius,Machinery and Mechanical Appliances (16),29.0,-93.0,77.0,-70.0,24.0,11.0,-22.0
-ghana,Animal or Vegetable Fats (3),-15.0,1.0,4.0,-28.0,-2.0,18.0,-22.0
-myanmar,Miscellaneous Manufactured Articles (20),-40.0,13.0,59.0,-53.0,2.0,-3.0,-22.0
-ethiopia,Articles of Wood (9),-3.0,10.0,10.0,-33.0,-7.0,1.0,-22.0
-iran,Articles of Wood (9),-27.0,26.0,33.0,-6.0,-28.0,-19.0,-21.0
-bahrain,Machinery and Mechanical Appliances (16),22.0,-11.0,-14.0,-29.0,15.0,-4.0,-21.0
-jamaica,Machinery and Mechanical Appliances (16),4.0,6.0,-6.0,9.0,5.0,-39.0,-21.0
-armenia,Prepared Foodstuffs (4),-28.0,-6.0,-1.0,0.0,1.0,13.0,-21.0
-thailand,Animal or Vegetable Fats (3),-4.0,-5.0,-2.0,-1.0,7.0,-16.0,-21.0
-bahrain,Vegetable products (2),-22.0,12.0,1.0,12.0,-20.0,-4.0,-21.0
-thailand,Raw Hides and Skins (8),12.0,-8.0,17.0,-9.0,-31.0,-1.0,-20.0
-bulgaria,Articles of Textiles (11),-12.0,-11.0,8.0,-10.0,2.0,3.0,-20.0
-uzbekistan,Prepared Foodstuffs (4),-23.0,27.0,-3.0,0.0,0.0,-21.0,-20.0
-india,Arms and Ammunition (19),11.0,3.0,-3.0,-23.0,-8.0,0.0,-20.0
-united_arab_emirates,Special Classification provisions and Temporary Legislation (22),-50.0,13.0,-8.0,0.0,68.0,-43.0,-20.0
-nepal,Collectors' Art and Antiques (21),-13.0,5.0,-9.0,0.0,-2.0,0.0,-19.0
-india,Articles of Wood (9),-9.0,15.0,2.0,-10.0,-16.0,-1.0,-19.0
-philippines,Arms and Ammunition (19),7.0,-1.0,-16.0,10.0,-9.0,-10.0,-19.0
-angola,Products of the Chemical or Allied Industries (6),7.0,3.0,-16.0,10.0,-12.0,-11.0,-19.0
-senegal,Articles of Plastic and Rubber (7),-57.0,9.0,12.0,-3.0,-4.0,24.0,-19.0
-jamaica,Articles of Plastic and Rubber (7),2.0,-4.0,30.0,-51.0,9.0,-5.0,-19.0
-tunisia,Special Classification provisions and Temporary Legislation (22),30.0,-27.0,17.0,19.0,-74.0,17.0,-18.0
-tunisia,Machinery and Mechanical Appliances (16),3.0,-5.0,-15.0,-6.0,-2.0,7.0,-18.0
-pakistan,Vegetable products (2),-31.0,-9.0,4.0,0.0,10.0,8.0,-18.0
-thailand,Arms and Ammunition (19),18.0,-32.0,23.0,7.0,-21.0,-13.0,-18.0
-uzbekistan,"Optical Instruments, Clocks, Musical Instruments (18)",14.0,-57.0,-21.0,-49.0,104.0,-9.0,-18.0
-vietnam,Articles of Textiles (11),-5.0,3.0,-19.0,6.0,0.0,-3.0,-18.0
-angola,"Footwear, Headgear, Umbrellas, Feathers (12)",-17.0,-61.0,71.0,-2.0,-21.0,12.0,-18.0
-jamaica,Articles of Wood (9),11.0,7.0,-8.0,-3.0,-27.0,2.0,-18.0
-laos,Articles of Base Metal (15),17.0,-27.0,22.0,-9.0,-40.0,20.0,-17.0
-iran,Mineral Products (5),-11.0,20.0,-18.0,3.0,7.0,-18.0,-17.0
-lebanon,Articles of Base Metal (15),-23.0,-19.0,24.0,-26.0,16.0,11.0,-17.0
-benin,Machinery and Mechanical Appliances (16),-8.0,-31.0,-47.0,58.0,-4.0,15.0,-17.0
-bulgaria,Miscellaneous Manufactured Articles (20),-6.0,-8.0,-2.0,-6.0,2.0,4.0,-16.0
-iran,Pulp of Wood (10),-11.0,-26.0,21.0,8.0,-56.0,48.0,-16.0
-mauritius,Articles of Textiles (11),-3.0,8.0,-11.0,2.0,-14.0,2.0,-16.0
-bulgaria,"Optical Instruments, Clocks, Musical Instruments (18)",-2.0,-4.0,-7.0,-1.0,-3.0,1.0,-16.0
-angola,Special Classification provisions and Temporary Legislation (22),1.0,31.0,-6.0,-49.0,19.0,-12.0,-16.0
-dominican_republic,Articles of Base Metal (15),28.0,-31.0,-11.0,15.0,-26.0,9.0,-16.0
-mauritius,Articles of Wood (9),-7.0,1.0,18.0,22.0,-41.0,-9.0,-16.0
-uganda,Articles of Textiles (11),-29.0,-10.0,22.0,3.0,-14.0,12.0,-16.0
-myanmar,Arms and Ammunition (19),16.0,,,,-43.0,-3.0,-15.0
-sri_lanka,Articles of Textiles (11),-6.0,3.0,-7.0,2.0,-9.0,2.0,-15.0
-tanzania,Live Animals; Animal Products (1),-43.0,5.0,19.0,13.0,-2.0,-7.0,-15.0
-angola,Pulp of Wood (10),-37.0,36.0,-93.0,-1.0,68.0,12.0,-15.0
-malaysia,Raw Hides and Skins (8),7.0,13.0,-6.0,-12.0,-2.0,-15.0,-15.0
-gabon,Vehicles and Transport Equipment (17),-1.0,-67.0,-18.0,-26.0,0.0,97.0,-15.0
-jamaica,Mineral Products (5),18.0,8.0,-39.0,-23.0,30.0,-9.0,-15.0
-sri_lanka,Prepared Foodstuffs (4),30.0,-23.0,-9.0,8.0,-20.0,-1.0,-15.0
-angola,Collectors' Art and Antiques (21),-65.0,26.0,54.0,11.0,-44.0,3.0,-15.0
-bulgaria,Animal or Vegetable Fats (3),30.0,-2.0,-26.0,3.0,-7.0,-12.0,-14.0
-yemen,Prepared Foodstuffs (4),-12.0,-37.0,34.0,-27.0,47.0,-19.0,-14.0
-uzbekistan,Animal or Vegetable Fats (3),1.0,-4.0,23.0,27.0,-84.0,23.0,-14.0
-senegal,Vegetable products (2),15.0,-1.0,9.0,-10.0,-25.0,-2.0,-14.0
-benin,Articles of Wood (9),20.0,-43.0,-17.0,-7.0,36.0,-3.0,-14.0
-india,Machinery and Mechanical Appliances (16),21.0,-16.0,4.0,-18.0,-6.0,2.0,-13.0
-thailand,Special Classification provisions and Temporary Legislation (22),1.0,41.0,-55.0,63.0,-75.0,12.0,-13.0
-burkina_faso,Articles of Textiles (11),-8.0,-11.0,5.0,3.0,-1.0,-1.0,-13.0
-lebanon,Prepared Foodstuffs (4),-4.0,1.0,-2.0,-16.0,2.0,6.0,-13.0
-armenia,Pulp of Wood (10),-83.0,-43.0,98.0,7.0,-28.0,36.0,-13.0
-dominican_republic,"Articles of Stone, Ceramics, Glass (13)",16.0,-53.0,43.0,-7.0,-4.0,-7.0,-12.0
-malaysia,Special Classification provisions and Temporary Legislation (22),33.0,-32.0,-10.0,-2.0,-6.0,5.0,-12.0
-guinea,Collectors' Art and Antiques (21),-32.0,-22.0,10.0,50.0,16.0,-34.0,-12.0
-armenia,Articles of Plastic and Rubber (7),-76.0,19.0,4.0,65.0,3.0,-27.0,-12.0
-sri_lanka,Live Animals; Animal Products (1),12.0,-3.0,-15.0,12.0,-8.0,-9.0,-11.0
-thailand,Vegetable products (2),-6.0,-2.0,5.0,-8.0,3.0,-3.0,-11.0
-indonesia,Animal or Vegetable Fats (3),-6.0,-5.0,-2.0,-1.0,2.0,1.0,-11.0
-tanzania,Mineral Products (5),36.0,8.0,-38.0,15.0,-26.0,-6.0,-11.0
-nepal,Articles of Plastic and Rubber (7),-27.0,-85.0,47.0,25.0,17.0,12.0,-11.0
-oman,Arms and Ammunition (19),-7.0,47.0,-5.0,19.0,-59.0,-6.0,-11.0
-tunisia,Arms and Ammunition (19),30.0,9.0,-5.0,-4.0,-27.0,-14.0,-11.0
-vietnam,Miscellaneous Manufactured Articles (20),-7.0,-6.0,-1.0,10.0,-5.0,-2.0,-11.0
-philippines,Vehicles and Transport Equipment (17),18.0,-35.0,19.0,-20.0,6.0,1.0,-11.0
-myanmar,Products of the Chemical or Allied Industries (6),15.0,4.0,4.0,-4.0,-49.0,19.0,-11.0
-indonesia,Live Animals; Animal Products (1),-10.0,5.0,6.0,-1.0,-8.0,-2.0,-10.0
-oman,Articles of Base Metal (15),58.0,-13.0,18.0,-65.0,-12.0,4.0,-10.0
-indonesia,Raw Hides and Skins (8),-5.0,1.0,11.0,3.0,-20.0,0.0,-10.0
-cambodia,Vegetable products (2),67.0,-14.0,-16.0,-11.0,-11.0,-25.0,-10.0
-uganda,Vegetable products (2),-1.0,-7.0,0.0,1.0,-1.0,-2.0,-10.0
-ghana,Articles of Plastic and Rubber (7),-1.0,19.0,-9.0,-32.0,4.0,9.0,-10.0
-myanmar,Articles of Base Metal (15),5.0,11.0,10.0,-10.0,-31.0,5.0,-10.0
-taiwan,Arms and Ammunition (19),9.0,2.0,-10.0,2.0,-13.0,0.0,-10.0
-pakistan,Pulp of Wood (10),10.0,-13.0,4.0,-20.0,3.0,7.0,-9.0
-malaysia,"Optical Instruments, Clocks, Musical Instruments (18)",-18.0,22.0,0.0,-4.0,-3.0,-6.0,-9.0
-thailand,Articles of Wood (9),-6.0,1.0,0.0,-2.0,-11.0,9.0,-9.0
-united_arab_emirates,Collectors' Art and Antiques (21),50.0,13.0,-40.0,-23.0,-23.0,14.0,-9.0
-bosnia_and_herzegovina,"Optical Instruments, Clocks, Musical Instruments (18)",12.0,-30.0,8.0,27.0,-36.0,10.0,-9.0
-guinea,Special Classification provisions and Temporary Legislation (22),-106.0,-30.0,105.0,-61.0,53.0,30.0,-9.0
-ethiopia,Prepared Foodstuffs (4),-32.0,-13.0,47.0,-4.0,0.0,-7.0,-9.0
-dominican_republic,Machinery and Mechanical Appliances (16),9.0,-36.0,31.0,-1.0,-25.0,13.0,-9.0
-india,Products of the Chemical or Allied Industries (6),0.0,-8.0,4.0,0.0,-4.0,-1.0,-9.0
-benin,Articles of Textiles (11),0.0,-5.0,32.0,-27.0,-9.0,0.0,-9.0
-qatar,Arms and Ammunition (19),-27.0,14.0,-45.0,65.0,-4.0,-11.0,-8.0
-uganda,Raw Hides and Skins (8),-43.0,38.0,-13.0,-20.0,19.0,11.0,-8.0
-united_arab_emirates,Pulp of Wood (10),94.0,-57.0,18.0,-38.0,-8.0,-17.0,-8.0
-guinea,Articles of Textiles (11),-3.0,62.0,-8.0,-30.0,0.0,-29.0,-8.0
-bulgaria,Arms and Ammunition (19),-1.0,5.0,3.0,0.0,-7.0,-8.0,-8.0
-india,"Articles of Stone, Ceramics, Glass (13)",-2.0,2.0,1.0,-5.0,-5.0,1.0,-8.0
-india,Live Animals; Animal Products (1),-12.0,8.0,-1.0,-8.0,13.0,-8.0,-8.0
-uzbekistan,Articles of Textiles (11),1.0,6.0,-6.0,-7.0,-4.0,2.0,-8.0
-indonesia,"Optical Instruments, Clocks, Musical Instruments (18)",-16.0,0.0,3.0,3.0,1.0,1.0,-8.0
-laos,Prepared Foodstuffs (4),20.0,-19.0,-68.0,-48.0,53.0,54.0,-8.0
-iran,Miscellaneous Manufactured Articles (20),-64.0,49.0,38.0,-22.0,-61.0,53.0,-7.0
-cambodia,Prepared Foodstuffs (4),10.0,-13.0,5.0,-7.0,2.0,-4.0,-7.0
-myanmar,Machinery and Mechanical Appliances (16),13.0,21.0,12.0,-30.0,-69.0,46.0,-7.0
-united_arab_emirates,Articles of Base Metal (15),70.0,-85.0,45.0,-8.0,-36.0,7.0,-7.0
-sri_lanka,Articles of Base Metal (15),36.0,18.0,-22.0,-32.0,-6.0,-1.0,-7.0
-lebanon,Mineral Products (5),-37.0,-4.0,30.0,46.0,-2.0,-40.0,-7.0
-bahrain,Collectors' Art and Antiques (21),-4.0,9.0,-47.0,-19.0,54.0,0.0,-7.0
-senegal,"Articles of Stone, Ceramics, Glass (13)",-17.0,-2.0,17.0,15.0,-46.0,26.0,-7.0
-pakistan,Prepared Foodstuffs (4),35.0,-13.0,-7.0,-21.0,14.0,-15.0,-7.0
-bangladesh,Animal or Vegetable Fats (3),12.0,17.0,-17.0,-9.0,-29.0,19.0,-7.0
-bahrain,Products of the Chemical or Allied Industries (6),-1.0,-7.0,42.0,-1.0,-34.0,-6.0,-7.0
-pakistan,Collectors' Art and Antiques (21),-8.0,18.0,29.0,-51.0,-45.0,50.0,-7.0
-senegal,Machinery and Mechanical Appliances (16),-33.0,7.0,21.0,-9.0,7.0,1.0,-6.0
-tanzania,Articles of Base Metal (15),20.0,-61.0,-24.0,-17.0,24.0,52.0,-6.0
-thailand,Articles of Base Metal (15),21.0,-11.0,2.0,-14.0,-19.0,15.0,-6.0
-indonesia,Prepared Foodstuffs (4),26.0,-13.0,-8.0,-11.0,8.0,-8.0,-6.0
-malawi,Miscellaneous Manufactured Articles (20),7.0,-23.0,26.0,-29.0,51.0,-38.0,-6.0
-senegal,Prepared Foodstuffs (4),25.0,-12.0,-23.0,4.0,1.0,-1.0,-6.0
-gabon,Articles of Plastic and Rubber (7),38.0,-61.0,-11.0,63.0,-1.0,-34.0,-6.0
-oman,Raw Hides and Skins (8),12.0,-5.0,10.0,-21.0,-18.0,16.0,-6.0
-vietnam,Mineral Products (5),13.0,-2.0,-12.0,-17.0,5.0,7.0,-6.0
-pakistan,Machinery and Mechanical Appliances (16),11.0,-27.0,0.0,11.0,4.0,-5.0,-6.0
-united_arab_emirates,"Optical Instruments, Clocks, Musical Instruments (18)",98.0,-95.0,28.0,-9.0,-25.0,-3.0,-6.0
-bosnia_and_herzegovina,Articles of Textiles (11),-14.0,46.0,-27.0,-9.0,-13.0,12.0,-5.0
-dominican_republic,Live Animals; Animal Products (1),12.0,-21.0,-6.0,-16.0,24.0,2.0,-5.0
-vietnam,Products of the Chemical or Allied Industries (6),-8.0,-13.0,6.0,13.0,-5.0,2.0,-5.0
-lebanon,Arms and Ammunition (19),37.0,-24.0,-8.0,23.0,-27.0,-6.0,-5.0
-tanzania,Miscellaneous Manufactured Articles (20),13.0,-10.0,-68.0,32.0,27.0,1.0,-5.0
-ghana,Articles of Textiles (11),-29.0,30.0,-6.0,-21.0,0.0,21.0,-5.0
-indonesia,Products of the Chemical or Allied Industries (6),0.0,-6.0,11.0,-11.0,-2.0,3.0,-5.0
-thailand,Vehicles and Transport Equipment (17),23.0,-25.0,-7.0,15.0,-16.0,5.0,-5.0
-india,Miscellaneous Manufactured Articles (20),-3.0,4.0,3.0,-8.0,0.0,-1.0,-5.0
-oman,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,-14.0,-48.0,80.0,-27.0,7.0,-5.0
-singapore,Vehicles and Transport Equipment (17),13.0,6.0,-35.0,16.0,-1.0,-4.0,-5.0
-india,Vehicles and Transport Equipment (17),21.0,-11.0,-38.0,9.0,7.0,8.0,-4.0
-india,Pulp of Wood (10),17.0,-6.0,11.0,-11.0,-9.0,-6.0,-4.0
-myanmar,Pulp of Wood (10),13.0,0.0,-40.0,-66.0,35.0,54.0,-4.0
-bulgaria,Machinery and Mechanical Appliances (16),10.0,-5.0,-8.0,-9.0,-2.0,10.0,-4.0
-burkina_faso,Prepared Foodstuffs (4),-70.0,48.0,12.0,28.0,-15.0,-7.0,-4.0
-senegal,"Footwear, Headgear, Umbrellas, Feathers (12)",4.0,0.0,10.0,-24.0,2.0,4.0,-4.0
-malawi,Products of the Chemical or Allied Industries (6),6.0,24.0,-27.0,-5.0,-3.0,1.0,-4.0
-united_arab_emirates,Machinery and Mechanical Appliances (16),89.0,-79.0,33.0,-15.0,-40.0,8.0,-4.0
-malaysia,Products of the Chemical or Allied Industries (6),9.0,-7.0,6.0,-25.0,15.0,-2.0,-4.0
-tanzania,Articles of Textiles (11),1.0,2.0,5.0,-13.0,-1.0,3.0,-3.0
-bahrain,Miscellaneous Manufactured Articles (20),-6.0,-25.0,25.0,-21.0,45.0,-21.0,-3.0
-gabon,Articles of Wood (9),3.0,-4.0,9.0,12.0,-19.0,-4.0,-3.0
-iran,Vegetable products (2),-19.0,20.0,-8.0,3.0,-18.0,19.0,-3.0
-morocco,Machinery and Mechanical Appliances (16),-10.0,-7.0,3.0,-8.0,4.0,15.0,-3.0
-bosnia_and_herzegovina,Miscellaneous Manufactured Articles (20),1.0,-3.0,-5.0,3.0,0.0,1.0,-3.0
-thailand,Articles of Plastic and Rubber (7),1.0,-4.0,1.0,-4.0,2.0,1.0,-3.0
-ghana,"Footwear, Headgear, Umbrellas, Feathers (12)",-24.0,16.0,18.0,-31.0,20.0,-2.0,-3.0
-tunisia,Articles of Wood (9),-7.0,2.0,4.0,-3.0,1.0,0.0,-3.0
-tunisia,Articles of Textiles (11),2.0,-4.0,7.0,-6.0,-3.0,1.0,-3.0
-myanmar,Articles of Plastic and Rubber (7),43.0,-9.0,-7.0,-7.0,-19.0,-4.0,-3.0
-cambodia,Live Animals; Animal Products (1),0.0,19.0,12.0,2.0,-17.0,-19.0,-3.0
-bosnia_and_herzegovina,"Articles of Stone, Ceramics, Glass (13)",55.0,-44.0,6.0,13.0,-28.0,-5.0,-3.0
-bangladesh,Articles of Wood (9),17.0,11.0,14.0,3.0,-43.0,-5.0,-3.0
-malaysia,"Articles of Stone, Ceramics, Glass (13)",9.0,4.0,-10.0,-11.0,5.0,0.0,-3.0
-lebanon,Products of the Chemical or Allied Industries (6),-10.0,4.0,2.0,-18.0,5.0,14.0,-3.0
-malaysia,Pulp of Wood (10),18.0,2.0,-1.0,-31.0,-3.0,12.0,-3.0
-tunisia,Vegetable products (2),-17.0,2.0,9.0,2.0,-1.0,3.0,-2.0
-malawi,Prepared Foodstuffs (4),-1.0,-3.0,1.0,2.0,0.0,-1.0,-2.0
-nepal,Mineral Products (5),-12.0,-32.0,-35.0,109.0,-3.0,-29.0,-2.0
-sri_lanka,Articles of Plastic and Rubber (7),5.0,-9.0,2.0,-4.0,2.0,2.0,-2.0
-malaysia,Mineral Products (5),17.0,-6.0,-17.0,9.0,-1.0,-4.0,-2.0
-india,Articles of Plastic and Rubber (7),11.0,-17.0,17.0,-10.0,0.0,-3.0,-2.0
-united_arab_emirates,Vegetable products (2),23.0,-27.0,6.0,14.0,-22.0,4.0,-2.0
-tunisia,"Footwear, Headgear, Umbrellas, Feathers (12)",-10.0,-5.0,9.0,7.0,-5.0,2.0,-2.0
-pakistan,Articles of Wood (9),14.0,-21.0,16.0,-14.0,-11.0,14.0,-2.0
-taiwan,Vegetable products (2),7.0,-2.0,-2.0,-4.0,1.0,-2.0,-2.0
-armenia,"Articles of Stone, Ceramics, Glass (13)",-12.0,-9.0,-11.0,10.0,12.0,8.0,-2.0
-tunisia,Articles of Plastic and Rubber (7),6.0,0.0,13.0,-13.0,-9.0,1.0,-2.0
-taiwan,Machinery and Mechanical Appliances (16),1.0,3.0,5.0,-5.0,-1.0,-4.0,-1.0
-yemen,Miscellaneous Manufactured Articles (20),11.0,-25.0,32.0,-33.0,51.0,-37.0,-1.0
-philippines,Articles of Plastic and Rubber (7),23.0,14.0,-4.0,-21.0,-10.0,-3.0,-1.0
-thailand,Products of the Chemical or Allied Industries (6),11.0,-11.0,10.0,-11.0,5.0,-5.0,-1.0
-myanmar,Prepared Foodstuffs (4),4.0,3.0,8.0,-66.0,39.0,11.0,-1.0
-bangladesh,Prepared Foodstuffs (4),9.0,-9.0,-1.0,-1.0,1.0,0.0,-1.0
-ethiopia,Pulp of Wood (10),1.0,6.0,-13.0,15.0,-14.0,4.0,-1.0
-sri_lanka,Machinery and Mechanical Appliances (16),0.0,8.0,25.0,-11.0,-18.0,-5.0,-1.0
-mauritius,Prepared Foodstuffs (4),9.0,-3.0,-6.0,4.0,-6.0,1.0,-1.0
-ethiopia,Articles of Base Metal (15),-7.0,-38.0,21.0,19.0,-29.0,33.0,-1.0
-bulgaria,"Articles of Stone, Ceramics, Glass (13)",6.0,-1.0,-9.0,2.0,-2.0,3.0,-1.0
-morocco,Miscellaneous Manufactured Articles (20),12.0,-13.0,12.0,5.0,-25.0,8.0,-1.0
-bosnia_and_herzegovina,"Footwear, Headgear, Umbrellas, Feathers (12)",5.0,1.0,-8.0,2.0,4.0,-5.0,-1.0
-india,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,-5.0,6.0,1.0,0.0,1.0,0.0
-singapore,"Optical Instruments, Clocks, Musical Instruments (18)",-3.0,19.0,-8.0,-9.0,2.0,-1.0,0.0
-cambodia,Pulp of Wood (10),-115.0,0.0,-2.0,159.0,-147.0,105.0,0.0
-indonesia,Pulp of Wood (10),-3.0,-1.0,-3.0,3.0,-3.0,7.0,0.0
-ghana,Live Animals; Animal Products (1),-5.0,-4.0,11.0,10.0,-13.0,1.0,0.0
-armenia,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,54.0,-49.0,0.0,-28.0,26.0,0.0
-tanzania,Vegetable products (2),-1.0,0.0,-7.0,12.0,-7.0,3.0,0.0
-jamaica,Products of the Chemical or Allied Industries (6),-4.0,-11.0,4.0,1.0,0.0,10.0,0.0
-ethiopia,Vegetable products (2),-2.0,0.0,6.0,4.0,-7.0,-1.0,0.0
-uganda,Miscellaneous Manufactured Articles (20),17.0,-36.0,-11.0,14.0,-24.0,40.0,0.0
-philippines,Machinery and Mechanical Appliances (16),-5.0,3.0,14.0,-12.0,-2.0,2.0,0.0
-dominican_republic,Raw Hides and Skins (8),15.0,-49.0,39.0,19.0,-18.0,-6.0,0.0
-bosnia_and_herzegovina,Raw Hides and Skins (8),-7.0,6.0,-3.0,8.0,-3.0,-1.0,0.0
-united_arab_emirates,Miscellaneous Manufactured Articles (20),90.0,-90.0,51.0,-4.0,-44.0,-3.0,0.0
-jamaica,Animal or Vegetable Fats (3),49.0,9.0,-31.0,4.0,7.0,-38.0,0.0
-pakistan,Articles of Textiles (11),-3.0,2.0,1.0,2.0,2.0,-3.0,1.0
-benin,Prepared Foodstuffs (4),-6.0,-54.0,55.0,10.0,-11.0,7.0,1.0
-india,Articles of Base Metal (15),-3.0,-2.0,13.0,-7.0,-7.0,7.0,1.0
-india,"Optical Instruments, Clocks, Musical Instruments (18)",-13.0,3.0,17.0,3.0,-9.0,0.0,1.0
-cambodia,Arms and Ammunition (19),11.0,-21.0,-3.0,2.0,2.0,10.0,1.0
-tunisia,Raw Hides and Skins (8),-9.0,4.0,6.0,3.0,-7.0,4.0,1.0
-bangladesh,"Footwear, Headgear, Umbrellas, Feathers (12)",7.0,-5.0,16.0,-3.0,-9.0,-5.0,1.0
-morocco,Products of the Chemical or Allied Industries (6),23.0,4.0,-23.0,16.0,-18.0,-1.0,1.0
-malawi,"Footwear, Headgear, Umbrellas, Feathers (12)",29.0,50.0,-16.0,-42.0,11.0,-31.0,1.0
-morocco,"Articles of Stone, Ceramics, Glass (13)",4.0,-15.0,20.0,3.0,-23.0,13.0,2.0
-mauritius,"Optical Instruments, Clocks, Musical Instruments (18)",-5.0,12.0,-1.0,-1.0,-3.0,0.0,2.0
-oman,Vegetable products (2),-43.0,20.0,46.0,-30.0,-6.0,15.0,2.0
-pakistan,Articles of Base Metal (15),-8.0,12.0,-1.0,-6.0,-12.0,17.0,2.0
-united_arab_emirates,Vehicles and Transport Equipment (17),96.0,-71.0,49.0,-47.0,-21.0,-4.0,2.0
-dominican_republic,Articles of Wood (9),27.0,-16.0,1.0,-48.0,31.0,7.0,2.0
-qatar,Mineral Products (5),32.0,-17.0,-17.0,23.0,18.0,-37.0,2.0
-singapore,Machinery and Mechanical Appliances (16),-1.0,13.0,-7.0,-2.0,2.0,-3.0,2.0
-nepal,Articles of Textiles (11),2.0,-2.0,0.0,1.0,0.0,1.0,2.0
-united_arab_emirates,Arms and Ammunition (19),27.0,-25.0,28.0,-18.0,-16.0,6.0,2.0
-sri_lanka,Arms and Ammunition (19),4.0,7.0,15.0,-5.0,-70.0,51.0,2.0
-ethiopia,Articles of Plastic and Rubber (7),20.0,-2.0,0.0,-7.0,-15.0,6.0,2.0
-jamaica,Raw Hides and Skins (8),12.0,13.0,-21.0,15.0,-6.0,-11.0,2.0
-benin,Articles of Base Metal (15),21.0,27.0,-4.0,-98.0,109.0,-53.0,2.0
-vietnam,Vehicles and Transport Equipment (17),16.0,5.0,-21.0,15.0,-4.0,-8.0,3.0
-nepal,"Footwear, Headgear, Umbrellas, Feathers (12)",-8.0,-7.0,-9.0,6.0,24.0,-3.0,3.0
-bulgaria,Articles of Wood (9),-15.0,5.0,12.0,7.0,-9.0,3.0,3.0
-bangladesh,Articles of Textiles (11),1.0,-3.0,-1.0,6.0,0.0,0.0,3.0
-bahrain,Mineral Products (5),36.0,-36.0,21.0,-21.0,36.0,-33.0,3.0
-morocco,Raw Hides and Skins (8),-10.0,10.0,-9.0,16.0,-1.0,-3.0,3.0
-yemen,Vegetable products (2),-3.0,-18.0,48.0,-41.0,-5.0,22.0,3.0
-vietnam,Articles of Plastic and Rubber (7),-1.0,-19.0,1.0,25.0,6.0,-9.0,3.0
-philippines,Vegetable products (2),25.0,-2.0,-7.0,-5.0,-11.0,3.0,3.0
-tanzania,Animal or Vegetable Fats (3),-56.0,29.0,-26.0,-20.0,63.0,13.0,3.0
-lebanon,Vegetable products (2),26.0,-8.0,14.0,-19.0,-6.0,-3.0,4.0
-ethiopia,Mineral Products (5),-9.0,7.0,9.0,-28.0,16.0,9.0,4.0
-malaysia,Articles of Plastic and Rubber (7),10.0,-6.0,-2.0,-5.0,-4.0,11.0,4.0
-indonesia,"Footwear, Headgear, Umbrellas, Feathers (12)",1.0,0.0,2.0,-4.0,4.0,1.0,4.0
-dominican_republic,Articles of Textiles (11),-4.0,23.0,-13.0,-6.0,8.0,-4.0,4.0
-bahrain,Special Classification provisions and Temporary Legislation (22),17.0,-30.0,-3.0,54.0,-56.0,22.0,4.0
-myanmar,Collectors' Art and Antiques (21),-35.0,-29.0,57.0,6.0,35.0,-30.0,4.0
-armenia,"Optical Instruments, Clocks, Musical Instruments (18)",-18.0,-6.0,8.0,-1.0,-12.0,33.0,4.0
-thailand,Prepared Foodstuffs (4),3.0,7.0,0.0,-9.0,16.0,-13.0,4.0
-pakistan,Raw Hides and Skins (8),1.0,-1.0,-2.0,1.0,0.0,5.0,4.0
-myanmar,"Articles of Stone, Ceramics, Glass (13)",12.0,-4.0,16.0,-43.0,13.0,10.0,4.0
-tunisia,Pulp of Wood (10),16.0,-2.0,4.0,-12.0,-1.0,0.0,5.0
-thailand,Machinery and Mechanical Appliances (16),-2.0,2.0,6.0,-6.0,3.0,2.0,5.0
-thailand,Articles of Textiles (11),11.0,-1.0,-6.0,2.0,-4.0,3.0,5.0
-sri_lanka,Animal or Vegetable Fats (3),25.0,-72.0,70.0,-46.0,9.0,19.0,5.0
-singapore,Articles of Base Metal (15),14.0,-17.0,-2.0,-3.0,4.0,9.0,5.0
-lebanon,Machinery and Mechanical Appliances (16),11.0,-23.0,-15.0,12.0,3.0,17.0,5.0
-malaysia,Animal or Vegetable Fats (3),0.0,1.0,-6.0,2.0,7.0,1.0,5.0
-bulgaria,Vegetable products (2),12.0,-10.0,-11.0,6.0,-2.0,10.0,5.0
-philippines,Raw Hides and Skins (8),16.0,8.0,6.0,-13.0,-9.0,-3.0,5.0
-dominican_republic,Arms and Ammunition (19),16.0,11.0,4.0,3.0,-44.0,15.0,5.0
-philippines,Products of the Chemical or Allied Industries (6),22.0,-6.0,-10.0,-11.0,7.0,3.0,5.0
-india,Collectors' Art and Antiques (21),45.0,-114.0,24.0,13.0,29.0,9.0,6.0
-indonesia,Articles of Plastic and Rubber (7),8.0,-10.0,-2.0,3.0,2.0,5.0,6.0
-indonesia,Articles of Textiles (11),-3.0,15.0,-6.0,-10.0,4.0,6.0,6.0
-yemen,Collectors' Art and Antiques (21),2.0,39.0,-7.0,-3.0,21.0,-46.0,6.0
-angola,Articles of Plastic and Rubber (7),-10.0,-36.0,18.0,8.0,11.0,15.0,6.0
-pakistan,"Articles of Stone, Ceramics, Glass (13)",7.0,-20.0,-34.0,16.0,37.0,0.0,6.0
-taiwan,Articles of Base Metal (15),0.0,1.0,7.0,-9.0,0.0,7.0,6.0
-sri_lanka,Products of the Chemical or Allied Industries (6),19.0,-12.0,8.0,-8.0,-10.0,9.0,6.0
-thailand,"Articles of Stone, Ceramics, Glass (13)",0.0,2.0,4.0,3.0,2.0,-4.0,7.0
-lebanon,Pulp of Wood (10),2.0,4.0,-5.0,1.0,2.0,3.0,7.0
-bosnia_and_herzegovina,Mineral Products (5),4.0,-14.0,18.0,3.0,-5.0,1.0,7.0
-malaysia,Machinery and Mechanical Appliances (16),0.0,2.0,7.0,-2.0,0.0,0.0,7.0
+country,name_short_en,1995-2000_rank_shift,2000-2005_rank_shift,2005-2010_rank_shift,2010-2015_rank_shift,2015-2020_rank_shift,2020-2022_rank_shift,1995_export_value,2022_export_value,1995-2022_rank_shift
+benin,Special Classification provisions and Temporary Legislation (22),-123.0,47.0,95.0,-13.0,-52.0,-107.0,128397,421154899,-153.0
+laos,Articles of Plastic and Rubber (7),22.0,-88.0,-26.0,-42.0,7.0,-11.0,181654,581084097,-138.0
+myanmar,Special Classification provisions and Temporary Legislation (22),-94.0,-44.0,3.0,37.0,15.0,-53.0,1779890,4424764888,-136.0
+cambodia,Miscellaneous Manufactured Articles (20),2.0,4.0,-29.0,-38.0,-63.0,-5.0,209558,1281845019,-129.0
+cambodia,Raw Hides and Skins (8),-11.0,12.0,2.0,-125.0,-4.0,-3.0,266516,2319460762,-129.0
+burkina_faso,Products of the Chemical or Allied Industries (6),-67.0,69.0,-27.0,13.0,-126.0,10.0,454206,22663755,-128.0
+burkina_faso,Special Classification provisions and Temporary Legislation (22),18.0,-9.0,9.0,8.0,-6.0,-147.0,217152,190933874,-127.0
+guinea,Articles of Plastic and Rubber (7),6.0,-124.0,-4.0,-9.0,6.0,-2.0,359229,25369811,-127.0
+laos,Pulp of Wood (10),49.0,-27.0,-79.0,32.0,-104.0,2.0,141072,683325042,-127.0
+ghana,Special Classification provisions and Temporary Legislation (22),-65.0,38.0,-80.0,145.0,-90.0,-71.0,2750981,3183285417,-123.0
+armenia,Miscellaneous Manufactured Articles (20),-72.0,21.0,-3.0,-58.0,0.0,-11.0,0,34991455,-123.0
+bahrain,Live Animals; Animal Products (1),-21.0,-9.0,-70.0,74.0,-58.0,-34.0,7609542,524124875,-118.0
+laos,Special Classification provisions and Temporary Legislation (22),-22.0,-75.0,131.0,-116.0,-41.0,6.0,695475,1829664842,-117.0
+laos,"Articles of Stone, Ceramics, Glass (13)",16.0,-36.0,32.0,-25.0,-40.0,-61.0,19064,70765557,-114.0
+angola,"Articles of Stone, Ceramics, Glass (13)",-35.0,-44.0,63.0,-27.0,-41.0,-29.0,0,22271116,-113.0
+uzbekistan,Articles of Plastic and Rubber (7),17.0,-106.0,30.0,2.0,-62.0,8.0,200660,398703156,-111.0
+senegal,Articles of Base Metal (15),-37.0,-1.0,-15.0,-64.0,25.0,-16.0,14329,6227713,-108.0
+uzbekistan,"Articles of Stone, Ceramics, Glass (13)",-10.0,-21.0,9.0,-29.0,-38.0,-18.0,333660,154038734,-107.0
+guinea,Prepared Foodstuffs (4),10.0,-44.0,29.0,-50.0,-35.0,-17.0,4065504,84863430,-107.0
+vietnam,Machinery and Mechanical Appliances (16),-61.0,-1.0,-2.0,-34.0,-5.0,-2.0,57031359,168148185984,-105.0
+iran,Articles of Plastic and Rubber (7),-78.0,21.0,-32.0,-14.0,-1.0,-1.0,12232469,2817478579,-105.0
+uzbekistan,Machinery and Mechanical Appliances (16),-30.0,26.0,-28.0,26.0,-63.0,-35.0,2492424,582826244,-104.0
+nepal,"Optical Instruments, Clocks, Musical Instruments (18)",8.0,-67.0,-11.0,-17.0,-15.0,-1.0,389948,8195395,-103.0
+uzbekistan,Pulp of Wood (10),26.0,-23.0,-27.0,-66.0,3.0,-16.0,537661,125465922,-103.0
+mauritius,Live Animals; Animal Products (1),-49.0,-26.0,-12.0,4.0,-13.0,-7.0,15025088,113077669,-103.0
+oman,Articles of Wood (9),2.0,5.0,-80.0,-31.0,41.0,-39.0,831542,19979434,-102.0
+uganda,"Articles of Stone, Ceramics, Glass (13)",24.0,-25.0,-14.0,-59.0,16.0,-44.0,242824,25525257,-102.0
+tanzania,"Articles of Stone, Ceramics, Glass (13)",-55.0,-12.0,3.0,-32.0,-8.0,3.0,440612,101099029,-101.0
+equatorial_guinea,Special Classification provisions and Temporary Legislation (22),29.0,-65.0,-37.0,-13.0,-9.0,-6.0,497715,362741510,-101.0
+laos,"Optical Instruments, Clocks, Musical Instruments (18)",16.0,-27.0,-93.0,68.0,-34.0,-31.0,46234,165928921,-101.0
+bahrain,"Footwear, Headgear, Umbrellas, Feathers (12)",-115.0,63.0,60.0,-105.0,0.0,-2.0,176593,17902090,-99.0
+ethiopia,Special Classification provisions and Temporary Legislation (22),-59.0,4.0,-15.0,-21.0,-12.0,4.0,1212762,472186754,-99.0
+nepal,"Articles of Stone, Ceramics, Glass (13)",17.0,-59.0,-35.0,-2.0,-4.0,-14.0,58199,12704199,-97.0
+gabon,Collectors' Art and Antiques (21),-74.0,-19.0,24.0,14.0,-17.0,-25.0,56329,2358416,-97.0
+nepal,Vegetable products (2),-8.0,-40.0,-62.0,16.0,-4.0,2.0,14086835,130907713,-96.0
+mauritius,Collectors' Art and Antiques (21),-26.0,20.0,6.0,-18.0,-49.0,-28.0,171697,4558684,-95.0
+albania,Special Classification provisions and Temporary Legislation (22),33.0,9.0,-92.0,-22.0,-13.0,-7.0,1778957,2309678583,-92.0
+tanzania,"Footwear, Headgear, Umbrellas, Feathers (12)",-23.0,-37.0,28.0,3.0,-66.0,3.0,77870,17377306,-92.0
+guinea,Articles of Base Metal (15),18.0,12.0,-137.0,101.0,-98.0,13.0,60866,863355,-91.0
+morocco,Vehicles and Transport Equipment (17),-15.0,4.0,-44.0,-18.0,-15.0,-1.0,29290941,7365028823,-89.0
+benin,Raw Hides and Skins (8),-137.0,145.0,16.0,-25.0,-82.0,-4.0,45349,3182578,-87.0
+ghana,Raw Hides and Skins (8),6.0,4.0,-12.0,-2.0,-57.0,-26.0,97093,14625521,-87.0
+ghana,"Articles of Stone, Ceramics, Glass (13)",-28.0,8.0,24.0,-24.0,-87.0,21.0,223378,67975892,-86.0
+cambodia,Machinery and Mechanical Appliances (16),8.0,15.0,-41.0,-16.0,-36.0,-15.0,1398485,2530095068,-85.0
+burkina_faso,Animal or Vegetable Fats (3),-98.0,30.0,14.0,-38.0,-14.0,21.0,19188,26813774,-85.0
+myanmar,"Footwear, Headgear, Umbrellas, Feathers (12)",-55.0,12.0,-16.0,-7.0,-14.0,-4.0,882436,824572248,-84.0
+burkina_faso,Mineral Products (5),33.0,-2.0,-52.0,-4.0,-54.0,-5.0,127909,82186802,-84.0
+uganda,Pulp of Wood (10),-13.0,4.0,-33.0,-26.0,19.0,-32.0,804907,23838190,-81.0
+sri_lanka,Pulp of Wood (10),-15.0,-25.0,-36.0,-1.0,-4.0,0.0,4129523,167256842,-81.0
+tanzania,Products of the Chemical or Allied Industries (6),-11.0,-33.0,-13.0,30.0,-41.0,-11.0,3019584,229161223,-79.0
+nepal,Articles of Base Metal (15),15.0,3.0,-91.0,91.0,-124.0,28.0,12718,1083432,-78.0
+bosnia_and_herzegovina,Arms and Ammunition (19),-76.0,1.0,9.0,-3.0,-9.0,0.0,0,125836717,-78.0
+vietnam,Special Classification provisions and Temporary Legislation (22),-49.0,2.0,7.0,-45.0,-14.0,22.0,12316712,40856342424,-77.0
+ghana,Collectors' Art and Antiques (21),-58.0,65.0,11.0,-26.0,-46.0,-23.0,147767,17501282,-77.0
+oman,Collectors' Art and Antiques (21),-107.0,103.0,9.0,-33.0,22.0,-70.0,42923,10189383,-76.0
+uzbekistan,"Footwear, Headgear, Umbrellas, Feathers (12)",0.0,25.0,-65.0,-21.0,-17.0,2.0,612345,45953255,-76.0
+cambodia,"Footwear, Headgear, Umbrellas, Feathers (12)",-76.0,5.0,0.0,-10.0,2.0,4.0,783184,2007615450,-75.0
+pakistan,Special Classification provisions and Temporary Legislation (22),-89.0,68.0,-18.0,-2.0,-7.0,-27.0,10126035,1815463822,-75.0
+cambodia,Special Classification provisions and Temporary Legislation (22),66.0,2.0,-84.0,-37.0,-17.0,-4.0,1743907,3794393669,-74.0
+ghana,Products of the Chemical or Allied Industries (6),-35.0,5.0,-12.0,-31.0,-14.0,14.0,1410362,230894278,-73.0
+equatorial_guinea,Products of the Chemical or Allied Industries (6),10.0,-151.0,61.0,-35.0,7.0,36.0,5252,114390678,-72.0
+laos,Products of the Chemical or Allied Industries (6),12.0,-6.0,-25.0,-64.0,32.0,-21.0,3630521,635476488,-72.0
+iran,"Articles of Stone, Ceramics, Glass (13)",-61.0,-1.0,-2.0,-6.0,-2.0,2.0,9118725,349011409,-70.0
+uzbekistan,Raw Hides and Skins (8),-18.0,48.0,-57.0,-23.0,-30.0,10.0,3409157,43916453,-70.0
+myanmar,Articles of Textiles (11),-42.0,40.0,-8.0,-32.0,-33.0,6.0,102741788,5649870990,-69.0
+uganda,Products of the Chemical or Allied Industries (6),-1.0,-37.0,-13.0,2.0,0.0,-20.0,5041568,114536619,-69.0
+laos,"Footwear, Headgear, Umbrellas, Feathers (12)",-27.0,-7.0,-2.0,-10.0,-21.0,-2.0,526059,200333998,-69.0
+bosnia_and_herzegovina,Products of the Chemical or Allied Industries (6),-30.0,-11.0,-4.0,-11.0,-4.0,-8.0,759496,663544778,-68.0
+dominican_republic,Products of the Chemical or Allied Industries (6),-2.0,-28.0,-25.0,-6.0,-1.0,-6.0,47343982,581130839,-68.0
+uganda,Live Animals; Animal Products (1),-47.0,-18.0,19.0,10.0,-16.0,-15.0,55073731,212095760,-67.0
+armenia,Vegetable products (2),11.0,-47.0,-5.0,-29.0,3.0,1.0,12027,180241503,-66.0
+bahrain,"Articles of Stone, Ceramics, Glass (13)",1.0,-10.0,-50.0,-4.0,-1.0,0.0,1199399,166734083,-64.0
+singapore,Collectors' Art and Antiques (21),22.0,-27.0,-37.0,-20.0,-4.0,2.0,16773941,428307946,-64.0
+jamaica,Live Animals; Animal Products (1),-2.0,4.0,-29.0,4.0,-3.0,-38.0,19523714,27608932,-64.0
+malawi,"Optical Instruments, Clocks, Musical Instruments (18)",3.0,-21.0,-62.0,42.0,30.0,-56.0,75374,2603043,-64.0
+pakistan,Mineral Products (5),11.0,-68.0,-34.0,14.0,6.0,8.0,2259563,357468307,-63.0
+mauritius,Pulp of Wood (10),-32.0,-7.0,-2.0,-38.0,27.0,-11.0,3728082,22462131,-63.0
+ghana,Pulp of Wood (10),-40.0,-61.0,67.0,-48.0,23.0,-4.0,146070,73405250,-63.0
+mauritius,Articles of Plastic and Rubber (7),5.0,-43.0,15.0,-11.0,-29.0,0.0,2805379,46431680,-63.0
+armenia,Live Animals; Animal Products (1),39.0,-79.0,9.0,-52.0,3.0,18.0,27722,171130702,-62.0
+uganda,Mineral Products (5),26.0,-63.0,-56.0,13.0,7.0,11.0,504277,33892486,-62.0
+ethiopia,Articles of Textiles (11),17.0,-10.0,-42.0,-8.0,5.0,-24.0,16449104,226775362,-62.0
+dominican_republic,Mineral Products (5),-23.0,-10.0,-46.0,8.0,14.0,-5.0,961326,97187523,-62.0
+ghana,Articles of Base Metal (15),-43.0,10.0,-70.0,-9.0,-12.0,62.0,2803,3801880,-62.0
+ethiopia,"Footwear, Headgear, Umbrellas, Feathers (12)",-2.0,-24.0,-51.0,-19.0,41.0,-7.0,85369,8700145,-62.0
+laos,Machinery and Mechanical Appliances (16),16.0,-32.0,-29.0,-75.0,24.0,35.0,563282,339718503,-61.0
+bosnia_and_herzegovina,Animal or Vegetable Fats (3),1.0,-68.0,-8.0,-3.0,14.0,3.0,12119,79333963,-61.0
+ethiopia,Live Animals; Animal Products (1),-10.0,-75.0,-2.0,5.0,12.0,9.0,3799693,101336752,-61.0
+guinea,Vegetable products (2),18.0,-11.0,-25.0,4.0,4.0,-50.0,53900938,111400976,-60.0
+senegal,Special Classification provisions and Temporary Legislation (22),41.0,4.0,-6.0,-122.0,80.0,-57.0,1764170,299544113,-60.0
+malawi,Vegetable products (2),-31.0,16.0,-22.0,-7.0,-2.0,-13.0,47537918,230937026,-59.0
+oman,Pulp of Wood (10),9.0,-10.0,37.0,-30.0,-93.0,29.0,5995484,186472854,-58.0
+uzbekistan,Vehicles and Transport Equipment (17),-87.0,-3.0,-5.0,79.0,-28.0,-14.0,734259,323922787,-58.0
+jamaica,Articles of Base Metal (15),30.0,-1.0,-62.0,48.0,-31.0,-41.0,272072,580167,-57.0
+myanmar,Raw Hides and Skins (8),-16.0,12.0,-8.0,-3.0,-62.0,20.0,2555731,343636507,-57.0
+uganda,Collectors' Art and Antiques (21),-59.0,38.0,-23.0,42.0,-35.0,-20.0,60692,872484,-57.0
+nepal,Prepared Foodstuffs (4),5.0,-46.0,-12.0,-38.0,45.0,-10.0,3529340,120529382,-56.0
+mauritius,Special Classification provisions and Temporary Legislation (22),20.0,-105.0,96.0,-6.0,-7.0,-54.0,3786928,88053496,-56.0
+uzbekistan,Miscellaneous Manufactured Articles (20),-3.0,-2.0,-51.0,22.0,-48.0,26.0,494352,33242896,-56.0
+armenia,Articles of Wood (9),16.0,-93.0,27.0,95.0,13.0,-114.0,75671,5238565,-56.0
+malawi,Articles of Wood (9),5.0,-16.0,-17.0,8.0,-24.0,-11.0,555951,9562099,-55.0
+dominican_republic,Pulp of Wood (10),13.0,-70.0,-13.0,18.0,-2.0,-1.0,6789413,159661495,-55.0
+uzbekistan,Live Animals; Animal Products (1),0.0,-22.0,19.0,-20.0,-16.0,-16.0,1293556,46929696,-55.0
+indonesia,Vegetable products (2),-4.0,-18.0,7.0,-15.0,-23.0,-1.0,1264586845,3746776940,-54.0
+armenia,Raw Hides and Skins (8),-93.0,93.0,-70.0,-28.0,37.0,7.0,2183,10571670,-54.0
+mauritius,Articles of Base Metal (15),14.0,-32.0,-2.0,-12.0,-35.0,13.0,290053,1698634,-54.0
+united_arab_emirates,Articles of Wood (9),65.0,-126.0,57.0,-38.0,-17.0,5.0,24213691,382511314,-54.0
+guinea,Animal or Vegetable Fats (3),6.0,-7.0,-8.0,-14.0,-4.0,-27.0,129599,4515608,-54.0
+nepal,Arms and Ammunition (19),-24.0,39.0,-45.0,23.0,-39.0,-7.0,3229,2630451,-53.0
+bosnia_and_herzegovina,Articles of Plastic and Rubber (7),-21.0,1.0,14.0,-31.0,-16.0,1.0,327951,402348038,-52.0
+malawi,Live Animals; Animal Products (1),9.0,0.0,-23.0,-82.0,83.0,-39.0,352090,5652573,-52.0
+tunisia,"Optical Instruments, Clocks, Musical Instruments (18)",-23.0,-5.0,-11.0,-16.0,4.0,-1.0,35690614,765311459,-52.0
+gabon,Animal or Vegetable Fats (3),84.0,-28.0,-20.0,12.0,-79.0,-20.0,1591514,53886445,-51.0
+jamaica,Vegetable products (2),-4.0,4.0,-28.0,8.0,5.0,-36.0,121266212,49126615,-51.0
+qatar,Special Classification provisions and Temporary Legislation (22),-47.0,2.0,-2.0,-3.0,-1.0,0.0,12828932,60436461275,-51.0
+laos,Vegetable products (2),5.0,-47.0,-5.0,4.0,5.0,-13.0,26927995,819607957,-51.0
+tunisia,Vehicles and Transport Equipment (17),0.0,15.0,-33.0,-8.0,-26.0,2.0,49801972,946385118,-50.0
+nepal,Articles of Wood (9),-13.0,-25.0,-24.0,5.0,43.0,-36.0,295863,17635548,-50.0
+myanmar,"Optical Instruments, Clocks, Musical Instruments (18)",20.0,-34.0,9.0,-34.0,-20.0,10.0,683597,109920750,-49.0
+uzbekistan,Articles of Base Metal (15),-47.0,48.0,-2.0,4.0,-26.0,-26.0,4867,2611599,-49.0
+mauritius,Products of the Chemical or Allied Industries (6),-3.0,-17.0,-18.0,-1.0,2.0,-12.0,11979599,86649443,-49.0
+uganda,Prepared Foodstuffs (4),-69.0,21.0,-17.0,1.0,-2.0,17.0,20306003,180697131,-49.0
+dominican_republic,Articles of Plastic and Rubber (7),22.0,-23.0,-17.0,-24.0,-4.0,-2.0,50359427,809916336,-48.0
+ethiopia,Collectors' Art and Antiques (21),-11.0,-91.0,33.0,65.0,-19.0,-25.0,67210,1773998,-48.0
+benin,Animal or Vegetable Fats (3),-71.0,-12.0,1.0,5.0,28.0,1.0,86234,15746243,-48.0
+iran,Products of the Chemical or Allied Industries (6),-56.0,8.0,16.0,-29.0,5.0,8.0,148104105,1807665991,-48.0
+burkina_faso,Articles of Base Metal (15),-49.0,115.0,-4.0,-30.0,-64.0,-15.0,76100,2561561,-47.0
+myanmar,Vehicles and Transport Equipment (17),25.0,9.0,4.0,4.0,-45.0,-44.0,690134,125316858,-47.0
+mauritius,"Footwear, Headgear, Umbrellas, Feathers (12)",-5.0,-15.0,26.0,6.0,-29.0,-30.0,1721850,12039913,-47.0
+yemen,Articles of Plastic and Rubber (7),20.0,28.0,8.0,8.0,-30.0,-80.0,700975,33839164,-46.0
+sri_lanka,Vegetable products (2),-29.0,-15.0,-7.0,4.0,-1.0,2.0,314044051,1889049661,-46.0
+ghana,Arms and Ammunition (19),17.0,-14.0,17.0,-67.0,65.0,-64.0,2540,3532971,-46.0
+dominican_republic,Animal or Vegetable Fats (3),32.0,-41.0,-34.0,-2.0,23.0,-24.0,1545270,97208173,-46.0
+senegal,Collectors' Art and Antiques (21),-86.0,24.0,-7.0,23.0,6.0,-6.0,50540,1405313,-46.0
+malawi,Machinery and Mechanical Appliances (16),17.0,4.0,-9.0,-38.0,36.0,-55.0,3074735,31445558,-45.0
+lebanon,Articles of Plastic and Rubber (7),2.0,-17.0,8.0,-25.0,14.0,-27.0,5976571,408994047,-45.0
+senegal,Articles of Wood (9),-39.0,-15.0,-4.0,1.0,8.0,4.0,582111,9027823,-45.0
+ethiopia,Vehicles and Transport Equipment (17),-30.0,29.0,8.0,-74.0,20.0,3.0,1056071,38007998,-44.0
+iran,Animal or Vegetable Fats (3),-91.0,21.0,12.0,2.0,13.0,-1.0,55077,36300312,-44.0
+sri_lanka,Vehicles and Transport Equipment (17),-50.0,-6.0,21.0,-20.0,2.0,10.0,4709208,186097975,-43.0
+ethiopia,Arms and Ammunition (19),16.0,-18.0,-68.0,105.0,-35.0,-43.0,0,654464,-43.0
+oman,Products of the Chemical or Allied Industries (6),7.0,-32.0,22.0,-24.0,-1.0,-15.0,46344813,5274327511,-43.0
+pakistan,Articles of Plastic and Rubber (7),-6.0,-49.0,18.0,6.0,-17.0,5.0,12321767,491980626,-43.0
+taiwan,Special Classification provisions and Temporary Legislation (22),-26.0,-9.0,3.0,-16.0,-5.0,11.0,1543147258,77733562762,-42.0
+cambodia,Mineral Products (5),20.0,0.0,-15.0,-8.0,-3.0,-36.0,5242,54833013,-42.0
+jamaica,"Optical Instruments, Clocks, Musical Instruments (18)",37.0,0.0,-80.0,30.0,-37.0,8.0,2014303,3233833,-42.0
+bulgaria,Special Classification provisions and Temporary Legislation (22),-59.0,19.0,3.0,6.0,-8.0,-3.0,16076958,3029479189,-42.0
+mauritius,Animal or Vegetable Fats (3),19.0,1.0,-25.0,-13.0,-1.0,-23.0,1117360,25066968,-42.0
+laos,Mineral Products (5),-31.0,-2.0,-12.0,15.0,-18.0,6.0,247234,93348156,-42.0
+uzbekistan,Articles of Wood (9),-3.0,-5.0,-2.0,-3.0,-18.0,-11.0,42347,20186608,-42.0
+bahrain,"Optical Instruments, Clocks, Musical Instruments (18)",41.0,-66.0,8.0,15.0,-29.0,-11.0,5490897,205015721,-42.0
+philippines,Special Classification provisions and Temporary Legislation (22),32.0,-93.0,-23.0,24.0,15.0,3.0,126770023,8887244876,-42.0
+vietnam,"Optical Instruments, Clocks, Musical Instruments (18)",-46.0,-16.0,-4.0,8.0,12.0,4.0,8094160,4614609979,-42.0
+guinea,Live Animals; Animal Products (1),-14.0,-22.0,8.0,-2.0,-13.0,2.0,20760106,42912463,-41.0
+yemen,Vehicles and Transport Equipment (17),62.0,-99.0,71.0,-66.0,43.0,-52.0,1067850,14919162,-41.0
+nepal,Animal or Vegetable Fats (3),-36.0,-3.0,50.0,48.0,-103.0,3.0,2229480,374349377,-41.0
+uganda,Articles of Plastic and Rubber (7),-2.0,11.0,-6.0,-44.0,-19.0,19.0,1713441,26401899,-41.0
+uzbekistan,Products of the Chemical or Allied Industries (6),6.0,-21.0,-50.0,-6.0,30.0,0.0,39763862,798981642,-41.0
+yemen,Arms and Ammunition (19),-30.0,34.0,2.0,29.0,-68.0,-7.0,0,61604,-40.0
+pakistan,Live Animals; Animal Products (1),3.0,6.0,-31.0,1.0,-3.0,-16.0,125718387,928405168,-40.0
+yemen,Products of the Chemical or Allied Industries (6),10.0,-52.0,53.0,-49.0,38.0,-40.0,2045537,38901766,-40.0
+uganda,Articles of Wood (9),45.0,-22.0,-28.0,9.0,-34.0,-9.0,873773,48695638,-39.0
+senegal,Articles of Textiles (11),10.0,-12.0,-8.0,-18.0,-26.0,15.0,16290070,72760546,-39.0
+cambodia,"Articles of Stone, Ceramics, Glass (13)",23.0,-9.0,-3.0,3.0,-32.0,-21.0,38976,38993911,-39.0
+senegal,Products of the Chemical or Allied Industries (6),-31.0,-20.0,3.0,30.0,-21.0,0.0,32030131,917270743,-39.0
+malawi,Raw Hides and Skins (8),-13.0,9.0,4.0,-44.0,0.0,6.0,710569,1118777,-38.0
+senegal,Vehicles and Transport Equipment (17),-84.0,-28.0,75.0,8.0,-41.0,32.0,359006,32259886,-38.0
+bahrain,Articles of Base Metal (15),55.0,-55.0,9.0,-70.0,11.0,12.0,165034,6101889,-38.0
+bahrain,Prepared Foodstuffs (4),-16.0,11.0,-46.0,17.0,1.0,-4.0,4561042,310239577,-37.0
+laos,Live Animals; Animal Products (1),-119.0,32.0,25.0,-40.0,-35.0,100.0,149385,11417126,-37.0
+ethiopia,"Articles of Stone, Ceramics, Glass (13)",15.0,-38.0,21.0,16.0,-23.0,-28.0,142714,15389849,-37.0
+lebanon,Articles of Wood (9),-7.0,-21.0,-24.0,13.0,14.0,-12.0,281969,15768694,-37.0
+angola,Vehicles and Transport Equipment (17),56.0,-55.0,-42.0,41.0,-40.0,3.0,1660395,890662778,-37.0
+yemen,Animal or Vegetable Fats (3),-49.0,3.0,29.0,-26.0,10.0,-4.0,118709,7892713,-37.0
+equatorial_guinea,Vehicles and Transport Equipment (17),11.0,-77.0,-87.0,85.0,44.0,-12.0,19931,3062202,-36.0
+mauritius,Miscellaneous Manufactured Articles (20),13.0,-17.0,-6.0,-15.0,-6.0,-5.0,17861110,42149848,-36.0
+mauritius,Mineral Products (5),19.0,-21.0,-14.0,-4.0,3.0,-19.0,221487,3441193,-36.0
+oman,Special Classification provisions and Temporary Legislation (22),-50.0,-10.0,0.0,173.0,-124.0,-25.0,23972016,3153533783,-36.0
+cambodia,Articles of Textiles (11),-39.0,-4.0,10.0,-9.0,-6.0,12.0,63854253,9776636984,-36.0
+tanzania,Articles of Wood (9),11.0,-26.0,7.0,17.0,-33.0,-11.0,5560298,105980461,-35.0
+vietnam,Articles of Base Metal (15),3.0,-42.0,14.0,3.0,-13.0,0.0,3507243,1045666703,-35.0
+dominican_republic,Vegetable products (2),-1.0,1.0,-48.0,9.0,11.0,-7.0,184580672,552565262,-35.0
+jamaica,"Articles of Stone, Ceramics, Glass (13)",-128.0,103.0,20.0,-5.0,-41.0,17.0,356715,1679841,-34.0
+uzbekistan,Arms and Ammunition (19),16.0,11.0,6.0,2.0,-25.0,-44.0,0,733914,-34.0
+uganda,"Footwear, Headgear, Umbrellas, Feathers (12)",64.0,-31.0,-37.0,3.0,-34.0,1.0,237868,4558868,-34.0
+armenia,Vehicles and Transport Equipment (17),-14.0,-10.0,-19.0,48.0,33.0,-72.0,43909,338473619,-34.0
+oman,Mineral Products (5),-25.0,-11.0,31.0,-17.0,-15.0,4.0,6457838,771574914,-33.0
+dominican_republic,Prepared Foodstuffs (4),0.0,-6.0,-22.0,-6.0,2.0,-1.0,325824116,1732334025,-33.0
+gabon,Miscellaneous Manufactured Articles (20),-13.0,9.0,21.0,-38.0,0.0,-11.0,39748,845365,-32.0
+tanzania,Articles of Plastic and Rubber (7),-21.0,-39.0,-14.0,62.0,-20.0,0.0,582935,45397138,-32.0
+ghana,Vegetable products (2),-79.0,22.0,38.0,-24.0,-7.0,18.0,55060241,756449207,-32.0
+philippines,Collectors' Art and Antiques (21),7.0,0.0,14.0,-45.0,13.0,-21.0,1093535,18593308,-32.0
+iran,Live Animals; Animal Products (1),-10.0,7.0,40.0,-52.0,7.0,-23.0,75050120,563908418,-31.0
+senegal,Miscellaneous Manufactured Articles (20),-51.0,22.0,0.0,22.0,-34.0,10.0,298271,11432274,-31.0
+tanzania,Prepared Foodstuffs (4),-28.0,-13.0,20.0,-12.0,15.0,-13.0,38103637,426537754,-31.0
+pakistan,Products of the Chemical or Allied Industries (6),-15.0,-28.0,17.0,2.0,-7.0,1.0,26333427,621160800,-30.0
+burkina_faso,Machinery and Mechanical Appliances (16),-59.0,84.0,-65.0,18.0,-32.0,24.0,1192406,33389832,-30.0
+oman,Articles of Plastic and Rubber (7),10.0,0.0,-16.0,-16.0,0.0,-8.0,30816824,2841211022,-30.0
+yemen,Raw Hides and Skins (8),-7.0,-10.0,18.0,-23.0,2.0,-10.0,2567540,9248902,-30.0
+dominican_republic,Miscellaneous Manufactured Articles (20),52.0,-13.0,2.0,-12.0,-55.0,-3.0,25241677,186596174,-29.0
+tunisia,Miscellaneous Manufactured Articles (20),2.0,-17.0,-8.0,-9.0,-1.0,4.0,34978205,414792840,-29.0
+armenia,Arms and Ammunition (19),16.0,-55.0,17.0,20.0,-27.0,0.0,0,228928,-29.0
+oman,"Articles of Stone, Ceramics, Glass (13)",-14.0,-21.0,12.0,-10.0,7.0,-2.0,11508311,365897073,-28.0
+uzbekistan,Vegetable products (2),-10.0,-6.0,-6.0,11.0,-26.0,9.0,17201352,1349707454,-28.0
+pakistan,Animal or Vegetable Fats (3),14.0,-85.0,14.0,6.0,19.0,4.0,654163,105906969,-28.0
+yemen,Pulp of Wood (10),-24.0,42.0,18.0,-17.0,-92.0,45.0,537709,4109247,-28.0
+angola,Prepared Foodstuffs (4),-67.0,-7.0,62.0,9.0,-21.0,-4.0,12011,43989795,-28.0
+armenia,Animal or Vegetable Fats (3),-77.0,35.0,47.0,3.0,3.0,-38.0,0,7313528,-27.0
+nepal,Miscellaneous Manufactured Articles (20),-6.0,-11.0,-11.0,-5.0,12.0,-6.0,516165,7235566,-27.0
+bosnia_and_herzegovina,Articles of Base Metal (15),-43.0,4.0,14.0,-2.0,-4.0,4.0,66993,20842821,-27.0
+cambodia,"Optical Instruments, Clocks, Musical Instruments (18)",20.0,0.0,-5.0,-49.0,-4.0,12.0,440320,40028113,-26.0
+singapore,Raw Hides and Skins (8),-7.0,-1.0,-1.0,-5.0,-16.0,4.0,131287189,1161050927,-26.0
+tanzania,Pulp of Wood (10),56.0,-9.0,-79.0,33.0,-13.0,-14.0,2660610,77621787,-26.0
+jamaica,Prepared Foodstuffs (4),-8.0,13.0,-27.0,22.0,-19.0,-7.0,207045681,222100308,-26.0
+jamaica,Pulp of Wood (10),-8.0,25.0,-58.0,24.0,-1.0,-8.0,1699599,3331954,-26.0
+bulgaria,Vehicles and Transport Equipment (17),-10.0,-41.0,6.0,27.0,-30.0,22.0,26469525,1799086414,-26.0
+cambodia,Vehicles and Transport Equipment (17),6.0,-2.0,-42.0,27.0,-10.0,-4.0,394756,988227737,-25.0
+morocco,Collectors' Art and Antiques (21),-9.0,8.0,-18.0,-24.0,40.0,-22.0,708671,9473085,-25.0
+uzbekistan,Mineral Products (5),11.0,-17.0,-5.0,13.0,-7.0,-20.0,2921891,96803034,-25.0
+uganda,Animal or Vegetable Fats (3),-40.0,3.0,-27.0,6.0,8.0,26.0,1509050,24147703,-24.0
+tanzania,Special Classification provisions and Temporary Legislation (22),-34.0,-29.0,-17.0,7.0,101.0,-52.0,1867144,100865419,-24.0
+vietnam,Pulp of Wood (10),-13.0,-4.0,-4.0,14.0,-28.0,11.0,4244297,2142396019,-24.0
+burkina_faso,Vegetable products (2),13.0,-7.0,-66.0,9.0,4.0,23.0,12979810,214486964,-24.0
+tunisia,Collectors' Art and Antiques (21),-15.0,1.0,-10.0,17.0,14.0,-30.0,287533,2666653,-23.0
+mauritius,Raw Hides and Skins (8),12.0,-19.0,-32.0,26.0,-13.0,3.0,8797793,20339316,-23.0
+tunisia,"Articles of Stone, Ceramics, Glass (13)",-9.0,-3.0,5.0,9.0,-3.0,-22.0,39040347,202436991,-23.0
+burkina_faso,Arms and Ammunition (19),-18.0,47.0,-80.0,52.0,-15.0,-9.0,1926,318771,-23.0
+myanmar,Miscellaneous Manufactured Articles (20),-40.0,13.0,59.0,-53.0,2.0,-3.0,1712118,66610693,-22.0
+ethiopia,Articles of Wood (9),-3.0,10.0,10.0,-33.0,-7.0,1.0,152931,3681919,-22.0
+malaysia,Vegetable products (2),2.0,-2.0,-25.0,-3.0,9.0,-3.0,286001362,1196261792,-22.0
+malawi,Articles of Textiles (11),-19.0,8.0,-15.0,2.0,35.0,-33.0,10024611,15245529,-22.0
+malawi,Articles of Plastic and Rubber (7),13.0,-2.0,-31.0,-25.0,29.0,-6.0,1453964,12605120,-22.0
+lebanon,Vehicles and Transport Equipment (17),-67.0,89.0,-77.0,96.0,-82.0,19.0,2249992,232193905,-22.0
+ghana,Animal or Vegetable Fats (3),-15.0,1.0,4.0,-28.0,-2.0,18.0,3361119,202016212,-22.0
+mauritius,Machinery and Mechanical Appliances (16),29.0,-93.0,77.0,-70.0,24.0,11.0,20663520,78716810,-22.0
+thailand,Animal or Vegetable Fats (3),-4.0,-5.0,-2.0,-1.0,7.0,-16.0,30466122,2050132289,-21.0
+bahrain,Vegetable products (2),-22.0,12.0,1.0,12.0,-20.0,-4.0,448587,21584988,-21.0
+bahrain,Machinery and Mechanical Appliances (16),22.0,-11.0,-14.0,-29.0,15.0,-4.0,29439248,943482947,-21.0
+armenia,Prepared Foodstuffs (4),-28.0,-6.0,-1.0,0.0,1.0,13.0,492981,868306089,-21.0
+jamaica,Machinery and Mechanical Appliances (16),4.0,6.0,-6.0,9.0,5.0,-39.0,13994541,15479335,-21.0
+iran,Articles of Wood (9),-27.0,26.0,33.0,-6.0,-28.0,-19.0,1571203,29042029,-21.0
+uzbekistan,Prepared Foodstuffs (4),-23.0,27.0,-3.0,0.0,0.0,-21.0,12749100,228679572,-20.0
+india,Arms and Ammunition (19),11.0,3.0,-3.0,-23.0,-8.0,0.0,3034606,223724213,-20.0
+united_arab_emirates,Special Classification provisions and Temporary Legislation (22),-50.0,13.0,-8.0,0.0,68.0,-43.0,116262483,32885097581,-20.0
+bulgaria,Articles of Textiles (11),-12.0,-11.0,8.0,-10.0,2.0,3.0,498096806,2391117134,-20.0
+thailand,Raw Hides and Skins (8),12.0,-8.0,17.0,-9.0,-31.0,-1.0,905940605,1442604475,-20.0
+nepal,Collectors' Art and Antiques (21),-13.0,5.0,-9.0,0.0,-2.0,0.0,1044996,18039802,-19.0
+jamaica,Articles of Plastic and Rubber (7),2.0,-4.0,30.0,-51.0,9.0,-5.0,4267258,9762118,-19.0
+angola,Products of the Chemical or Allied Industries (6),7.0,3.0,-16.0,10.0,-12.0,-11.0,22195,11694049,-19.0
+philippines,Arms and Ammunition (19),7.0,-1.0,-16.0,10.0,-9.0,-10.0,3012457,89857070,-19.0
+india,Articles of Wood (9),-9.0,15.0,2.0,-10.0,-16.0,-1.0,66737678,827811811,-19.0
+senegal,Articles of Plastic and Rubber (7),-57.0,9.0,12.0,-3.0,-4.0,24.0,1273291,46312998,-19.0
+thailand,Arms and Ammunition (19),18.0,-32.0,23.0,7.0,-21.0,-13.0,1813866,100970266,-18.0
+angola,"Footwear, Headgear, Umbrellas, Feathers (12)",-17.0,-61.0,71.0,-2.0,-21.0,12.0,12265,1360178,-18.0
+vietnam,Articles of Textiles (11),-5.0,3.0,-19.0,6.0,0.0,-3.0,843800297,44211666836,-18.0
+uzbekistan,"Optical Instruments, Clocks, Musical Instruments (18)",14.0,-57.0,-21.0,-49.0,104.0,-9.0,139368,13839458,-18.0
+tunisia,Special Classification provisions and Temporary Legislation (22),30.0,-27.0,17.0,19.0,-74.0,17.0,12702245,265239103,-18.0
+pakistan,Vegetable products (2),-31.0,-9.0,4.0,0.0,10.0,8.0,339760560,3478112138,-18.0
+jamaica,Articles of Wood (9),11.0,7.0,-8.0,-3.0,-27.0,2.0,1263481,2359574,-18.0
+tunisia,Machinery and Mechanical Appliances (16),3.0,-5.0,-15.0,-6.0,-2.0,7.0,490564342,5208878486,-18.0
+lebanon,Articles of Base Metal (15),-23.0,-19.0,24.0,-26.0,16.0,11.0,260869,4099309,-17.0
+benin,Machinery and Mechanical Appliances (16),-8.0,-31.0,-47.0,58.0,-4.0,15.0,356900,12940900,-17.0
+iran,Mineral Products (5),-11.0,20.0,-18.0,3.0,7.0,-18.0,40716363,562723975,-17.0
+laos,Articles of Base Metal (15),17.0,-27.0,22.0,-9.0,-40.0,20.0,4246,953149,-17.0
+mauritius,Articles of Textiles (11),-3.0,8.0,-11.0,2.0,-14.0,2.0,853418290,533581598,-16.0
+iran,Pulp of Wood (10),-11.0,-26.0,21.0,8.0,-56.0,48.0,1115541,24504858,-16.0
+uganda,Articles of Textiles (11),-29.0,-10.0,22.0,3.0,-14.0,12.0,15102574,29857010,-16.0
+bulgaria,Miscellaneous Manufactured Articles (20),-6.0,-8.0,-2.0,-6.0,2.0,4.0,43862281,1409547869,-16.0
+angola,Special Classification provisions and Temporary Legislation (22),1.0,31.0,-6.0,-49.0,19.0,-12.0,5065192,1204815099,-16.0
+mauritius,Articles of Wood (9),-7.0,1.0,18.0,22.0,-41.0,-9.0,1992004,6091453,-16.0
+bulgaria,"Optical Instruments, Clocks, Musical Instruments (18)",-2.0,-4.0,-7.0,-1.0,-3.0,1.0,15728797,1045911339,-16.0
+dominican_republic,Articles of Base Metal (15),28.0,-31.0,-11.0,15.0,-26.0,9.0,487134,2822700,-16.0
+angola,Pulp of Wood (10),-37.0,36.0,-93.0,-1.0,68.0,12.0,15659,8529911,-15.0
+gabon,Vehicles and Transport Equipment (17),-1.0,-67.0,-18.0,-26.0,0.0,97.0,1063296,7057742,-15.0
+tanzania,Live Animals; Animal Products (1),-43.0,5.0,19.0,13.0,-2.0,-7.0,43474832,232960417,-15.0
+malaysia,Raw Hides and Skins (8),7.0,13.0,-6.0,-12.0,-2.0,-15.0,110601914,170217258,-15.0
+angola,Collectors' Art and Antiques (21),-65.0,26.0,54.0,11.0,-44.0,3.0,4660,452940,-15.0
+jamaica,Mineral Products (5),18.0,8.0,-39.0,-23.0,30.0,-9.0,6425206,8692928,-15.0
+sri_lanka,Prepared Foodstuffs (4),30.0,-23.0,-9.0,8.0,-20.0,-1.0,75597171,692509464,-15.0
+myanmar,Arms and Ammunition (19),16.0,,,,-43.0,-3.0,0,393679,-15.0
+sri_lanka,Articles of Textiles (11),-6.0,3.0,-7.0,2.0,-9.0,2.0,1618078220,6457690693,-15.0
+uzbekistan,Animal or Vegetable Fats (3),1.0,-4.0,23.0,27.0,-84.0,23.0,598689,34525422,-14.0
+bulgaria,Animal or Vegetable Fats (3),30.0,-2.0,-26.0,3.0,-7.0,-12.0,18137312,1756130523,-14.0
+yemen,Prepared Foodstuffs (4),-12.0,-37.0,34.0,-27.0,47.0,-19.0,1781626,36696313,-14.0
+senegal,Vegetable products (2),15.0,-1.0,9.0,-10.0,-25.0,-2.0,23013304,433154878,-14.0
+benin,Articles of Wood (9),20.0,-43.0,-17.0,-7.0,36.0,-3.0,2339391,38842932,-14.0
+armenia,Pulp of Wood (10),-83.0,-43.0,98.0,7.0,-28.0,36.0,1342,8997509,-13.0
+lebanon,Prepared Foodstuffs (4),-4.0,1.0,-2.0,-16.0,2.0,6.0,35202210,385480395,-13.0
+india,Machinery and Mechanical Appliances (16),21.0,-16.0,4.0,-18.0,-6.0,2.0,1726012743,51047592151,-13.0
+thailand,Special Classification provisions and Temporary Legislation (22),1.0,41.0,-55.0,63.0,-75.0,12.0,642399778,17939087891,-13.0
+burkina_faso,Articles of Textiles (11),-8.0,-11.0,5.0,3.0,-1.0,-1.0,72960789,336875285,-13.0
+armenia,Articles of Plastic and Rubber (7),-76.0,19.0,4.0,65.0,3.0,-27.0,63600,65427885,-12.0
+dominican_republic,"Articles of Stone, Ceramics, Glass (13)",16.0,-53.0,43.0,-7.0,-4.0,-7.0,7852504,38399251,-12.0
+guinea,Collectors' Art and Antiques (21),-32.0,-22.0,10.0,50.0,16.0,-34.0,73927,135222,-12.0
+malaysia,Special Classification provisions and Temporary Legislation (22),33.0,-32.0,-10.0,-2.0,-6.0,5.0,2233711998,45817845622,-12.0
+tunisia,Arms and Ammunition (19),30.0,9.0,-5.0,-4.0,-27.0,-14.0,40800,616981,-11.0
+vietnam,Miscellaneous Manufactured Articles (20),-7.0,-6.0,-1.0,10.0,-5.0,-2.0,99844129,18354657386,-11.0
+tanzania,Mineral Products (5),36.0,8.0,-38.0,15.0,-26.0,-6.0,7384338,175635985,-11.0
+philippines,Vehicles and Transport Equipment (17),18.0,-35.0,19.0,-20.0,6.0,1.0,190598178,2031066531,-11.0
+oman,Arms and Ammunition (19),-7.0,47.0,-5.0,19.0,-59.0,-6.0,17647,1425423,-11.0
+sri_lanka,Live Animals; Animal Products (1),12.0,-3.0,-15.0,12.0,-8.0,-9.0,64741762,294352427,-11.0
+thailand,Vegetable products (2),-6.0,-2.0,5.0,-8.0,3.0,-3.0,2933811248,13893192837,-11.0
+myanmar,Products of the Chemical or Allied Industries (6),15.0,4.0,4.0,-4.0,-49.0,19.0,11502064,498607234,-11.0
+indonesia,Animal or Vegetable Fats (3),-6.0,-5.0,-2.0,-1.0,2.0,1.0,1359566032,41274550192,-11.0
+nepal,Articles of Plastic and Rubber (7),-27.0,-85.0,47.0,25.0,17.0,12.0,315941,10941849,-11.0
+myanmar,Articles of Base Metal (15),5.0,11.0,10.0,-10.0,-31.0,5.0,16114,2330812,-10.0
+taiwan,Arms and Ammunition (19),9.0,2.0,-10.0,2.0,-13.0,0.0,15896183,239339570,-10.0
+oman,Articles of Base Metal (15),58.0,-13.0,18.0,-65.0,-12.0,4.0,593288,11598902,-10.0
+indonesia,Raw Hides and Skins (8),-5.0,1.0,11.0,3.0,-20.0,0.0,313849599,1392232998,-10.0
+indonesia,Live Animals; Animal Products (1),-10.0,5.0,6.0,-1.0,-8.0,-2.0,1593604517,4499551638,-10.0
+cambodia,Vegetable products (2),67.0,-14.0,-16.0,-11.0,-11.0,-25.0,6674352,2256033557,-10.0
+ghana,Articles of Plastic and Rubber (7),-1.0,19.0,-9.0,-32.0,4.0,9.0,10242598,285392178,-10.0
+uganda,Vegetable products (2),-1.0,-7.0,0.0,1.0,-1.0,-2.0,426293931,882091285,-10.0
+malaysia,"Optical Instruments, Clocks, Musical Instruments (18)",-18.0,22.0,0.0,-4.0,-3.0,-6.0,1293157685,16161734631,-9.0
+india,Products of the Chemical or Allied Industries (6),0.0,-8.0,4.0,0.0,-4.0,-1.0,2533504560,56769252953,-9.0
+thailand,Articles of Wood (9),-6.0,1.0,0.0,-2.0,-11.0,9.0,418026604,2928414464,-9.0
+bosnia_and_herzegovina,"Optical Instruments, Clocks, Musical Instruments (18)",12.0,-30.0,8.0,27.0,-36.0,10.0,235185,53754721,-9.0
+guinea,Special Classification provisions and Temporary Legislation (22),-106.0,-30.0,105.0,-61.0,53.0,30.0,304460,1573717,-9.0
+benin,Articles of Textiles (11),0.0,-5.0,32.0,-27.0,-9.0,0.0,132266770,600429089,-9.0
+ethiopia,Prepared Foodstuffs (4),-32.0,-13.0,47.0,-4.0,0.0,-7.0,2496960,42421120,-9.0
+pakistan,Pulp of Wood (10),10.0,-13.0,4.0,-20.0,3.0,7.0,2467902,106985107,-9.0
+united_arab_emirates,Collectors' Art and Antiques (21),50.0,13.0,-40.0,-23.0,-23.0,14.0,2814442,218279194,-9.0
+dominican_republic,Machinery and Mechanical Appliances (16),9.0,-36.0,31.0,-1.0,-25.0,13.0,210078814,1180122000,-9.0
+indonesia,"Optical Instruments, Clocks, Musical Instruments (18)",-16.0,0.0,3.0,3.0,1.0,1.0,329587427,1929969987,-8.0
+uganda,Raw Hides and Skins (8),-43.0,38.0,-13.0,-20.0,19.0,11.0,12229202,6763625,-8.0
+qatar,Arms and Ammunition (19),-27.0,14.0,-45.0,65.0,-4.0,-11.0,0,948238,-8.0
+india,Live Animals; Animal Products (1),-12.0,8.0,-1.0,-8.0,13.0,-8.0,1234717271,10454924978,-8.0
+india,"Articles of Stone, Ceramics, Glass (13)",-2.0,2.0,1.0,-5.0,-5.0,1.0,336628534,5610244770,-8.0
+laos,Prepared Foodstuffs (4),20.0,-19.0,-68.0,-48.0,53.0,54.0,1101227,88284909,-8.0
+uzbekistan,Articles of Textiles (11),1.0,6.0,-6.0,-7.0,-4.0,2.0,943631305,3074492363,-8.0
+guinea,Articles of Textiles (11),-3.0,62.0,-8.0,-30.0,0.0,-29.0,11584798,4507909,-8.0
+bulgaria,Arms and Ammunition (19),-1.0,5.0,3.0,0.0,-7.0,-8.0,3391520,538682802,-8.0
+united_arab_emirates,Pulp of Wood (10),94.0,-57.0,18.0,-38.0,-8.0,-17.0,94319340,4890192898,-8.0
+pakistan,Prepared Foodstuffs (4),35.0,-13.0,-7.0,-21.0,14.0,-15.0,225417792,1302304598,-7.0
+myanmar,Machinery and Mechanical Appliances (16),13.0,21.0,12.0,-30.0,-69.0,46.0,9410233,359292115,-7.0
+lebanon,Mineral Products (5),-37.0,-4.0,30.0,46.0,-2.0,-40.0,2969416,63594888,-7.0
+sri_lanka,Articles of Base Metal (15),36.0,18.0,-22.0,-32.0,-6.0,-1.0,1798699,10043316,-7.0
+bahrain,Collectors' Art and Antiques (21),-4.0,9.0,-47.0,-19.0,54.0,0.0,90201,1445467,-7.0
+senegal,"Articles of Stone, Ceramics, Glass (13)",-17.0,-2.0,17.0,15.0,-46.0,26.0,485295,14337144,-7.0
+cambodia,Prepared Foodstuffs (4),10.0,-13.0,5.0,-7.0,2.0,-4.0,341938,277340437,-7.0
+iran,Miscellaneous Manufactured Articles (20),-64.0,49.0,38.0,-22.0,-61.0,53.0,2422134,20880422,-7.0
+pakistan,Collectors' Art and Antiques (21),-8.0,18.0,29.0,-51.0,-45.0,50.0,1147499,6441462,-7.0
+united_arab_emirates,Articles of Base Metal (15),70.0,-85.0,45.0,-8.0,-36.0,7.0,8988319,466752025,-7.0
+bangladesh,Animal or Vegetable Fats (3),12.0,17.0,-17.0,-9.0,-29.0,19.0,1224022,168467782,-7.0
+bahrain,Products of the Chemical or Allied Industries (6),-1.0,-7.0,42.0,-1.0,-34.0,-6.0,127114311,1217712844,-7.0
+oman,Raw Hides and Skins (8),12.0,-5.0,10.0,-21.0,-18.0,16.0,442951,3763007,-6.0
+pakistan,Machinery and Mechanical Appliances (16),11.0,-27.0,0.0,11.0,4.0,-5.0,25490737,275206485,-6.0
+thailand,Articles of Base Metal (15),21.0,-11.0,2.0,-14.0,-19.0,15.0,86382622,510217408,-6.0
+indonesia,Prepared Foodstuffs (4),26.0,-13.0,-8.0,-11.0,8.0,-8.0,1078265973,11538102572,-6.0
+vietnam,Mineral Products (5),13.0,-2.0,-12.0,-17.0,5.0,7.0,5544694,1839868425,-6.0
+united_arab_emirates,"Optical Instruments, Clocks, Musical Instruments (18)",98.0,-95.0,28.0,-9.0,-25.0,-3.0,88139872,3849198543,-6.0
+malawi,Miscellaneous Manufactured Articles (20),7.0,-23.0,26.0,-29.0,51.0,-38.0,461092,2045543,-6.0
+gabon,Articles of Plastic and Rubber (7),38.0,-61.0,-11.0,63.0,-1.0,-34.0,4168517,10317092,-6.0
+tanzania,Articles of Base Metal (15),20.0,-61.0,-24.0,-17.0,24.0,52.0,116961,1054988,-6.0
+senegal,Prepared Foodstuffs (4),25.0,-12.0,-23.0,4.0,1.0,-1.0,65289191,494107878,-6.0
+senegal,Machinery and Mechanical Appliances (16),-33.0,7.0,21.0,-9.0,7.0,1.0,6093210,114009622,-6.0
+indonesia,Products of the Chemical or Allied Industries (6),0.0,-6.0,11.0,-11.0,-2.0,3.0,1254363802,12720311963,-5.0
+india,Miscellaneous Manufactured Articles (20),-3.0,4.0,3.0,-8.0,0.0,-1.0,199585770,3601321084,-5.0
+dominican_republic,Live Animals; Animal Products (1),12.0,-21.0,-6.0,-16.0,24.0,2.0,5604598,21565820,-5.0
+thailand,Vehicles and Transport Equipment (17),23.0,-25.0,-7.0,15.0,-16.0,5.0,1376275880,33100530714,-5.0
+ghana,Articles of Textiles (11),-29.0,30.0,-6.0,-21.0,0.0,21.0,5516899,61758869,-5.0
+vietnam,Products of the Chemical or Allied Industries (6),-8.0,-13.0,6.0,13.0,-5.0,2.0,22659687,7598780130,-5.0
+bosnia_and_herzegovina,Articles of Textiles (11),-14.0,46.0,-27.0,-9.0,-13.0,12.0,9157702,502770517,-5.0
+lebanon,Arms and Ammunition (19),37.0,-24.0,-8.0,23.0,-27.0,-6.0,191717,2250293,-5.0
+tanzania,Miscellaneous Manufactured Articles (20),13.0,-10.0,-68.0,32.0,27.0,1.0,373747,6062510,-5.0
+oman,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,-14.0,-48.0,80.0,-27.0,7.0,526220,15544451,-5.0
+singapore,Vehicles and Transport Equipment (17),13.0,6.0,-35.0,16.0,-1.0,-4.0,2189824351,9792745564,-5.0
+united_arab_emirates,Machinery and Mechanical Appliances (16),89.0,-79.0,33.0,-15.0,-40.0,8.0,485156234,54276401722,-4.0
+senegal,"Footwear, Headgear, Umbrellas, Feathers (12)",4.0,0.0,10.0,-24.0,2.0,4.0,6233634,72394724,-4.0
+myanmar,Pulp of Wood (10),13.0,0.0,-40.0,-66.0,35.0,54.0,257014,16874967,-4.0
+malawi,Products of the Chemical or Allied Industries (6),6.0,24.0,-27.0,-5.0,-3.0,1.0,1229760,20330667,-4.0
+malaysia,Products of the Chemical or Allied Industries (6),9.0,-7.0,6.0,-25.0,15.0,-2.0,1550979640,16170795213,-4.0
+india,Vehicles and Transport Equipment (17),21.0,-11.0,-38.0,9.0,7.0,8.0,905523776,25315137565,-4.0
+bulgaria,Machinery and Mechanical Appliances (16),10.0,-5.0,-8.0,-9.0,-2.0,10.0,269550555,7945001182,-4.0
+india,Pulp of Wood (10),17.0,-6.0,11.0,-11.0,-9.0,-6.0,155993973,3501018391,-4.0
+burkina_faso,Prepared Foodstuffs (4),-70.0,48.0,12.0,28.0,-15.0,-7.0,1142752,23862819,-4.0
+myanmar,Articles of Plastic and Rubber (7),43.0,-9.0,-7.0,-7.0,-19.0,-4.0,31566152,598744272,-3.0
+malaysia,"Articles of Stone, Ceramics, Glass (13)",9.0,4.0,-10.0,-11.0,5.0,0.0,575807160,2861210720,-3.0
+thailand,Articles of Plastic and Rubber (7),1.0,-4.0,1.0,-4.0,2.0,1.0,5600193033,33169300282,-3.0
+tunisia,Articles of Textiles (11),2.0,-4.0,7.0,-6.0,-3.0,1.0,2406510625,2916390472,-3.0
+tunisia,Articles of Wood (9),-7.0,2.0,4.0,-3.0,1.0,0.0,9992859,30344628,-3.0
+morocco,Machinery and Mechanical Appliances (16),-10.0,-7.0,3.0,-8.0,4.0,15.0,437172988,5984734087,-3.0
+gabon,Articles of Wood (9),3.0,-4.0,9.0,12.0,-19.0,-4.0,408817111,636357281,-3.0
+tanzania,Articles of Textiles (11),1.0,2.0,5.0,-13.0,-1.0,3.0,124957235,307787706,-3.0
+bosnia_and_herzegovina,"Articles of Stone, Ceramics, Glass (13)",55.0,-44.0,6.0,13.0,-28.0,-5.0,694742,117450518,-3.0
+bangladesh,Articles of Wood (9),17.0,11.0,14.0,3.0,-43.0,-5.0,14284109,56482455,-3.0
+bahrain,Miscellaneous Manufactured Articles (20),-6.0,-25.0,25.0,-21.0,45.0,-21.0,2993516,71076118,-3.0
+malaysia,Pulp of Wood (10),18.0,2.0,-1.0,-31.0,-3.0,12.0,412591179,2370868521,-3.0
+cambodia,Live Animals; Animal Products (1),0.0,19.0,12.0,2.0,-17.0,-19.0,4689737,39111167,-3.0
+iran,Vegetable products (2),-19.0,20.0,-8.0,3.0,-18.0,19.0,444484270,1113227465,-3.0
+ghana,"Footwear, Headgear, Umbrellas, Feathers (12)",-24.0,16.0,18.0,-31.0,20.0,-2.0,348872,4166748,-3.0
+lebanon,Products of the Chemical or Allied Industries (6),-10.0,4.0,2.0,-18.0,5.0,14.0,40111446,352198068,-3.0
+bosnia_and_herzegovina,Miscellaneous Manufactured Articles (20),1.0,-3.0,-5.0,3.0,0.0,1.0,2375712,735323049,-3.0
+malawi,Prepared Foodstuffs (4),-1.0,-3.0,1.0,2.0,0.0,-1.0,272965225,361136847,-2.0
+tunisia,Articles of Plastic and Rubber (7),6.0,0.0,13.0,-13.0,-9.0,1.0,60081456,673835135,-2.0
+united_arab_emirates,Vegetable products (2),23.0,-27.0,6.0,14.0,-22.0,4.0,114652358,4167570162,-2.0
+nepal,Mineral Products (5),-12.0,-32.0,-35.0,109.0,-3.0,-29.0,71286,772489,-2.0
+tunisia,"Footwear, Headgear, Umbrellas, Feathers (12)",-10.0,-5.0,9.0,7.0,-5.0,2.0,193059473,612596487,-2.0
+malaysia,Mineral Products (5),17.0,-6.0,-17.0,9.0,-1.0,-4.0,57065266,510954283,-2.0
+armenia,"Articles of Stone, Ceramics, Glass (13)",-12.0,-9.0,-11.0,10.0,12.0,8.0,60349,37072045,-2.0
+india,Articles of Plastic and Rubber (7),11.0,-17.0,17.0,-10.0,0.0,-3.0,862145633,12781516772,-2.0
+taiwan,Vegetable products (2),7.0,-2.0,-2.0,-4.0,1.0,-2.0,491469752,740434113,-2.0
+pakistan,Articles of Wood (9),14.0,-21.0,16.0,-14.0,-11.0,14.0,2709386,34736120,-2.0
+sri_lanka,Articles of Plastic and Rubber (7),5.0,-9.0,2.0,-4.0,2.0,2.0,211896441,1104074206,-2.0
+tunisia,Vegetable products (2),-17.0,2.0,9.0,2.0,-1.0,3.0,114029011,413941699,-2.0
+myanmar,Prepared Foodstuffs (4),4.0,3.0,8.0,-66.0,39.0,11.0,6485638,270301604,-1.0
+ethiopia,Pulp of Wood (10),1.0,6.0,-13.0,15.0,-14.0,4.0,117909,2334260,-1.0
+ethiopia,Articles of Base Metal (15),-7.0,-38.0,21.0,19.0,-29.0,33.0,1482,224728,-1.0
+sri_lanka,Machinery and Mechanical Appliances (16),0.0,8.0,25.0,-11.0,-18.0,-5.0,91140741,769843810,-1.0
+bosnia_and_herzegovina,"Footwear, Headgear, Umbrellas, Feathers (12)",5.0,1.0,-8.0,2.0,4.0,-5.0,9167327,503465310,-1.0
+philippines,Articles of Plastic and Rubber (7),23.0,14.0,-4.0,-21.0,-10.0,-3.0,203773084,1819424019,-1.0
+bangladesh,Prepared Foodstuffs (4),9.0,-9.0,-1.0,-1.0,1.0,0.0,6482465,366457950,-1.0
+morocco,Miscellaneous Manufactured Articles (20),12.0,-13.0,12.0,5.0,-25.0,8.0,22507887,302108305,-1.0
+yemen,Miscellaneous Manufactured Articles (20),11.0,-25.0,32.0,-33.0,51.0,-37.0,28850,846547,-1.0
+mauritius,Prepared Foodstuffs (4),9.0,-3.0,-6.0,4.0,-6.0,1.0,443462096,476730943,-1.0
+thailand,Products of the Chemical or Allied Industries (6),11.0,-11.0,10.0,-11.0,5.0,-5.0,1240489582,13718474950,-1.0
+bulgaria,"Articles of Stone, Ceramics, Glass (13)",6.0,-1.0,-9.0,2.0,-2.0,3.0,65599171,1172609740,-1.0
+taiwan,Machinery and Mechanical Appliances (16),1.0,3.0,5.0,-5.0,-1.0,-4.0,48078081856,311963085653,-1.0
+indonesia,Pulp of Wood (10),-3.0,-1.0,-3.0,3.0,-3.0,7.0,1526340000,8612326737,0.0
+united_arab_emirates,Miscellaneous Manufactured Articles (20),90.0,-90.0,51.0,-4.0,-44.0,-3.0,35874775,2598109945,0.0
+bosnia_and_herzegovina,Raw Hides and Skins (8),-7.0,6.0,-3.0,8.0,-3.0,-1.0,887331,63954160,0.0
+armenia,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,54.0,-49.0,0.0,-28.0,26.0,10853,12586300,0.0
+cambodia,Pulp of Wood (10),-115.0,0.0,-2.0,159.0,-147.0,105.0,707735,84370270,0.0
+india,"Footwear, Headgear, Umbrellas, Feathers (12)",-3.0,-5.0,6.0,1.0,0.0,1.0,597182453,3572246819,0.0
+philippines,Machinery and Mechanical Appliances (16),-5.0,3.0,14.0,-12.0,-2.0,2.0,7361761687,52163371887,0.0
+ethiopia,Vegetable products (2),-2.0,0.0,6.0,4.0,-7.0,-1.0,341905616,2356465397,0.0
+tanzania,Vegetable products (2),-1.0,0.0,-7.0,12.0,-7.0,3.0,239349165,1358139395,0.0
+jamaica,Animal or Vegetable Fats (3),49.0,9.0,-31.0,4.0,7.0,-38.0,1686465,3479356,0.0
+ghana,Live Animals; Animal Products (1),-5.0,-4.0,11.0,10.0,-13.0,1.0,29045986,98483947,0.0
+uganda,Miscellaneous Manufactured Articles (20),17.0,-36.0,-11.0,14.0,-24.0,40.0,869273,1781367,0.0
+singapore,"Optical Instruments, Clocks, Musical Instruments (18)",-3.0,19.0,-8.0,-9.0,2.0,-1.0,2637644954,18505034644,0.0
+jamaica,Products of the Chemical or Allied Industries (6),-4.0,-11.0,4.0,1.0,0.0,10.0,506858308,212276130,0.0
+dominican_republic,Raw Hides and Skins (8),15.0,-49.0,39.0,19.0,-18.0,-6.0,45846851,41030305,0.0
+tunisia,Raw Hides and Skins (8),-9.0,4.0,6.0,3.0,-7.0,4.0,52572002,148123618,1.0
+pakistan,Articles of Textiles (11),-3.0,2.0,1.0,2.0,2.0,-3.0,4577571061,16988304439,1.0
+bangladesh,"Footwear, Headgear, Umbrellas, Feathers (12)",7.0,-5.0,16.0,-3.0,-9.0,-5.0,98646024,2211473328,1.0
+morocco,Products of the Chemical or Allied Industries (6),23.0,4.0,-23.0,16.0,-18.0,-1.0,1108724779,9550772535,1.0
+india,Articles of Base Metal (15),-3.0,-2.0,13.0,-7.0,-7.0,7.0,153599030,1104303721,1.0
+india,"Optical Instruments, Clocks, Musical Instruments (18)",-13.0,3.0,17.0,3.0,-9.0,0.0,148375033,4630187688,1.0
+cambodia,Arms and Ammunition (19),11.0,-21.0,-3.0,2.0,2.0,10.0,0,166103,1.0
+malawi,"Footwear, Headgear, Umbrellas, Feathers (12)",29.0,50.0,-16.0,-42.0,11.0,-31.0,169172,2354998,1.0
+benin,Prepared Foodstuffs (4),-6.0,-54.0,55.0,10.0,-11.0,7.0,2468358,38041668,1.0
+morocco,"Articles of Stone, Ceramics, Glass (13)",4.0,-15.0,20.0,3.0,-23.0,13.0,25436027,214512984,2.0
+singapore,Machinery and Mechanical Appliances (16),-1.0,13.0,-7.0,-2.0,2.0,-3.0,60258508100,179209644797,2.0
+mauritius,"Optical Instruments, Clocks, Musical Instruments (18)",-5.0,12.0,-1.0,-1.0,-3.0,0.0,65548732,86815813,2.0
+sri_lanka,Arms and Ammunition (19),4.0,7.0,15.0,-5.0,-70.0,51.0,0,74577,2.0
+united_arab_emirates,Vehicles and Transport Equipment (17),96.0,-71.0,49.0,-47.0,-21.0,-4.0,310470858,19434022514,2.0
+oman,Vegetable products (2),-43.0,20.0,46.0,-30.0,-6.0,15.0,38402463,278433780,2.0
+united_arab_emirates,Arms and Ammunition (19),27.0,-25.0,28.0,-18.0,-16.0,6.0,201657,21225792,2.0
+qatar,Mineral Products (5),32.0,-17.0,-17.0,23.0,18.0,-37.0,2941664,910521700,2.0
+pakistan,Articles of Base Metal (15),-8.0,12.0,-1.0,-6.0,-12.0,17.0,30646353,82253961,2.0
+dominican_republic,Articles of Wood (9),27.0,-16.0,1.0,-48.0,31.0,7.0,471271,4803979,2.0
+ethiopia,Articles of Plastic and Rubber (7),20.0,-2.0,0.0,-7.0,-15.0,6.0,379081,13025488,2.0
+nepal,Articles of Textiles (11),2.0,-2.0,0.0,1.0,0.0,1.0,266583344,404789359,2.0
+jamaica,Raw Hides and Skins (8),12.0,13.0,-21.0,15.0,-6.0,-11.0,1260107,139450,2.0
+benin,Articles of Base Metal (15),21.0,27.0,-4.0,-98.0,109.0,-53.0,35830,280831,2.0
+vietnam,Vehicles and Transport Equipment (17),16.0,5.0,-21.0,15.0,-4.0,-8.0,17469290,6178851285,3.0
+bulgaria,Articles of Wood (9),-15.0,5.0,12.0,7.0,-9.0,3.0,73622054,467439490,3.0
+yemen,Vegetable products (2),-3.0,-18.0,48.0,-41.0,-5.0,22.0,25629916,61783690,3.0
+bahrain,Mineral Products (5),36.0,-36.0,21.0,-21.0,36.0,-33.0,1456451,31063965,3.0
+philippines,Vegetable products (2),25.0,-2.0,-7.0,-5.0,-11.0,3.0,719617224,2237353893,3.0
+morocco,Raw Hides and Skins (8),-10.0,10.0,-9.0,16.0,-1.0,-3.0,76090882,114041940,3.0
+vietnam,Articles of Plastic and Rubber (7),-1.0,-19.0,1.0,25.0,6.0,-9.0,88751964,14152271117,3.0
+bangladesh,Articles of Textiles (11),1.0,-3.0,-1.0,6.0,0.0,0.0,2457236494,46734378818,3.0
+nepal,"Footwear, Headgear, Umbrellas, Feathers (12)",-8.0,-7.0,-9.0,6.0,24.0,-3.0,883164,12203269,3.0
+tanzania,Animal or Vegetable Fats (3),-56.0,29.0,-26.0,-20.0,63.0,13.0,940368,20762919,3.0
+pakistan,Raw Hides and Skins (8),1.0,-1.0,-2.0,1.0,0.0,5.0,613418525,861069421,4.0
+malaysia,Articles of Plastic and Rubber (7),10.0,-6.0,-2.0,-5.0,-4.0,11.0,3781780044,17987564778,4.0
+ethiopia,Mineral Products (5),-9.0,7.0,9.0,-28.0,16.0,9.0,192498,2404910,4.0
+bahrain,Special Classification provisions and Temporary Legislation (22),17.0,-30.0,-3.0,54.0,-56.0,22.0,15370346,679487440,4.0
+indonesia,"Footwear, Headgear, Umbrellas, Feathers (12)",1.0,0.0,2.0,-4.0,4.0,1.0,2099173087,7983916849,4.0
+myanmar,"Articles of Stone, Ceramics, Glass (13)",12.0,-4.0,16.0,-43.0,13.0,10.0,268230,9959932,4.0
+thailand,Prepared Foodstuffs (4),3.0,7.0,0.0,-9.0,16.0,-13.0,4285155910,22461787344,4.0
+dominican_republic,Articles of Textiles (11),-4.0,23.0,-13.0,-6.0,8.0,-4.0,1580933859,981854194,4.0
+myanmar,Collectors' Art and Antiques (21),-35.0,-29.0,57.0,6.0,35.0,-30.0,73413,1259202,4.0
+lebanon,Vegetable products (2),26.0,-8.0,14.0,-19.0,-6.0,-3.0,54703603,313307354,4.0
+armenia,"Optical Instruments, Clocks, Musical Instruments (18)",-18.0,-6.0,8.0,-1.0,-12.0,33.0,120641,112808119,4.0
+tunisia,Pulp of Wood (10),16.0,-2.0,4.0,-12.0,-1.0,0.0,45409648,285875033,5.0
+thailand,Machinery and Mechanical Appliances (16),-2.0,2.0,6.0,-6.0,3.0,2.0,17035440796,87119091142,5.0
+bulgaria,Vegetable products (2),12.0,-10.0,-11.0,6.0,-2.0,10.0,227641619,3510679824,5.0
+malaysia,Animal or Vegetable Fats (3),0.0,1.0,-6.0,2.0,7.0,1.0,4972511093,26390692374,5.0
+philippines,Raw Hides and Skins (8),16.0,8.0,6.0,-13.0,-9.0,-3.0,252807882,847845699,5.0
+sri_lanka,Animal or Vegetable Fats (3),25.0,-72.0,70.0,-46.0,9.0,19.0,8044617,101968949,5.0
+dominican_republic,Arms and Ammunition (19),16.0,11.0,4.0,3.0,-44.0,15.0,0,46600,5.0
+philippines,Products of the Chemical or Allied Industries (6),22.0,-6.0,-10.0,-11.0,7.0,3.0,155932548,1580474644,5.0
+singapore,Articles of Base Metal (15),14.0,-17.0,-2.0,-3.0,4.0,9.0,263318012,639734950,5.0
+thailand,Articles of Textiles (11),11.0,-1.0,-6.0,2.0,-4.0,3.0,6246745716,6810833684,5.0
+lebanon,Machinery and Mechanical Appliances (16),11.0,-23.0,-15.0,12.0,3.0,17.0,25403752,397251394,5.0
+yemen,Collectors' Art and Antiques (21),2.0,39.0,-7.0,-3.0,21.0,-46.0,324940,1210412,6.0
+angola,Articles of Plastic and Rubber (7),-10.0,-36.0,18.0,8.0,11.0,15.0,21677,5393644,6.0
+taiwan,Articles of Base Metal (15),0.0,1.0,7.0,-9.0,0.0,7.0,1155382749,3571949357,6.0
+pakistan,"Articles of Stone, Ceramics, Glass (13)",7.0,-20.0,-34.0,16.0,37.0,0.0,10289922,79686092,6.0
+sri_lanka,Products of the Chemical or Allied Industries (6),19.0,-12.0,8.0,-8.0,-10.0,9.0,24967194,284938705,6.0
+indonesia,Articles of Textiles (11),-3.0,15.0,-6.0,-10.0,4.0,6.0,6108721385,14400378644,6.0
+indonesia,Articles of Plastic and Rubber (7),8.0,-10.0,-2.0,3.0,2.0,5.0,2806114224,9447679930,6.0
+india,Collectors' Art and Antiques (21),45.0,-114.0,24.0,13.0,29.0,9.0,8863888,97193214,6.0
+malaysia,Machinery and Mechanical Appliances (16),0.0,2.0,7.0,-2.0,0.0,0.0,39219897631,155969366450,7.0
+thailand,"Articles of Stone, Ceramics, Glass (13)",0.0,2.0,4.0,3.0,2.0,-4.0,583320175,2402648336,7.0
+bosnia_and_herzegovina,Mineral Products (5),4.0,-14.0,18.0,3.0,-5.0,1.0,381404,72997313,7.0
+lebanon,Pulp of Wood (10),2.0,4.0,-5.0,1.0,2.0,3.0,35757131,134476060,7.0
+vietnam,"Footwear, Headgear, Umbrellas, Feathers (12)",-5.0,-2.0,3.0,6.0,5.0,0.0,467298425,23884207704,7.0
+bosnia_and_herzegovina,Pulp of Wood (10),52.0,-26.0,-18.0,4.0,-4.0,-1.0,988697,279911156,7.0
+ghana,Prepared Foodstuffs (4),-2.0,2.0,2.0,-3.0,0.0,8.0,453023994,2127573546,7.0
+senegal,Mineral Products (5),3.0,1.0,-5.0,1.0,5.0,2.0,27650081,239380035,7.0
+albania,Pulp of Wood (10),-10.0,5.0,-41.0,10.0,3.0,40.0,823064,36016072,7.0
+benin,Articles of Plastic and Rubber (7),18.0,-17.0,4.0,-12.0,-14.0,28.0,79437,3016776,7.0
+guinea,"Optical Instruments, Clocks, Musical Instruments (18)",-19.0,13.0,-6.0,20.0,-10.0,9.0,357555,885809,7.0
+malaysia,Articles of Textiles (11),14.0,1.0,-10.0,-10.0,9.0,3.0,2681774308,3396815413,7.0
+singapore,Products of the Chemical or Allied Industries (6),13.0,1.0,8.0,-9.0,-1.0,-5.0,5247370839,31220954199,7.0
+guinea,Pulp of Wood (10),-149.0,177.0,-2.0,-175.0,161.0,-4.0,88962,80409,8.0
+pakistan,Arms and Ammunition (19),-8.0,11.0,-8.0,-4.0,12.0,5.0,1550915,4625579,8.0
+bahrain,Pulp of Wood (10),-1.0,-2.0,-8.0,-7.0,14.0,12.0,10248869,91212089,8.0
+lebanon,Miscellaneous Manufactured Articles (20),4.0,-11.0,1.0,9.0,6.0,-1.0,6207823,66256219,8.0
+pakistan,Miscellaneous Manufactured Articles (20),3.0,-14.0,16.0,0.0,12.0,-9.0,158733090,524807127,8.0
+indonesia,Vehicles and Transport Equipment (17),43.0,-21.0,-11.0,12.0,-13.0,-2.0,484053883,12856433670,8.0
+morocco,Live Animals; Animal Products (1),-8.0,-15.0,8.0,7.0,4.0,12.0,634875610,1074888745,8.0
+angola,Mineral Products (5),-9.0,-6.0,15.0,17.0,-2.0,-7.0,1431889,120503001,8.0
+armenia,Products of the Chemical or Allied Industries (6),-30.0,35.0,3.0,4.0,5.0,-9.0,211731,80544180,8.0
+gabon,Pulp of Wood (10),-24.0,-78.0,103.0,-11.0,14.0,4.0,7849,171157,8.0
+albania,Mineral Products (5),14.0,0.0,-56.0,19.0,7.0,24.0,1027626,29062116,8.0
+taiwan,Products of the Chemical or Allied Industries (6),15.0,-12.0,3.0,-11.0,5.0,8.0,3243452357,24217008546,8.0
+senegal,Raw Hides and Skins (8),-10.0,-17.0,28.0,-34.0,26.0,16.0,4524200,3359827,9.0
+bangladesh,Mineral Products (5),24.0,-16.0,-34.0,11.0,38.0,-14.0,44441,10840966,9.0
+lebanon,Articles of Textiles (11),4.0,9.0,-4.0,-24.0,21.0,3.0,43531753,62467241,9.0
+sri_lanka,Collectors' Art and Antiques (21),18.0,3.0,0.0,0.0,-1.0,-11.0,124622,695500,9.0
+lebanon,"Optical Instruments, Clocks, Musical Instruments (18)",24.0,-16.0,9.0,2.0,-8.0,-2.0,10252641,42947222,9.0
+iran,Collectors' Art and Antiques (21),7.0,23.0,37.0,9.0,-8.0,-59.0,33751643,38690988,9.0
+ghana,Machinery and Mechanical Appliances (16),-5.0,30.0,-23.0,-21.0,38.0,-10.0,6901396,86928946,9.0
+singapore,Special Classification provisions and Temporary Legislation (22),31.0,-72.0,32.0,21.0,-7.0,4.0,2800666086,29850114322,9.0
+morocco,Articles of Textiles (11),7.0,4.0,-9.0,6.0,-5.0,6.0,1274252031,4356622085,9.0
+india,Articles of Textiles (11),-5.0,1.0,6.0,-1.0,1.0,7.0,8011290330,36996815034,9.0
+tunisia,Animal or Vegetable Fats (3),-2.0,3.0,7.0,-15.0,11.0,5.0,250419731,913726679,9.0
+gabon,Articles of Textiles (11),4.0,8.0,-7.0,0.0,5.0,-1.0,849956,373672,9.0
+malaysia,Articles of Base Metal (15),-2.0,-19.0,0.0,4.0,19.0,7.0,43191487,173323989,9.0
+angola,Raw Hides and Skins (8),13.0,-10.0,17.0,0.0,-14.0,3.0,41948,370936,9.0
+iran,"Footwear, Headgear, Umbrellas, Feathers (12)",-73.0,37.0,17.0,9.0,-25.0,45.0,1623210,8091778,10.0
+oman,Live Animals; Animal Products (1),4.0,-8.0,36.0,-25.0,12.0,-9.0,134300872,952504547,10.0
+tunisia,Prepared Foodstuffs (4),5.0,-14.0,17.0,-4.0,10.0,-4.0,80547446,482472883,10.0
+albania,Vehicles and Transport Equipment (17),55.0,-8.0,-9.0,16.0,15.0,-59.0,1494071,36997035,10.0
+pakistan,"Optical Instruments, Clocks, Musical Instruments (18)",4.0,4.0,2.0,-6.0,3.0,3.0,72812963,458423670,10.0
+morocco,Animal or Vegetable Fats (3),48.0,-62.0,8.0,2.0,12.0,2.0,29661712,345058638,10.0
+cambodia,Products of the Chemical or Allied Industries (6),33.0,-12.0,3.0,-34.0,21.0,-1.0,621307,113490183,10.0
+dominican_republic,"Optical Instruments, Clocks, Musical Instruments (18)",-1.0,12.0,2.0,-4.0,3.0,-1.0,264744874,1465576603,11.0
+mauritius,Vegetable products (2),-7.0,12.0,-13.0,12.0,3.0,4.0,19360003,25307776,11.0
+jamaica,Arms and Ammunition (19),12.0,7.0,-45.0,53.0,-31.0,15.0,0,2228,11.0
+pakistan,"Footwear, Headgear, Umbrellas, Feathers (12)",16.0,-16.0,16.0,0.0,-4.0,-1.0,41412687,191570669,11.0
+gabon,"Footwear, Headgear, Umbrellas, Feathers (12)",-29.0,16.0,19.0,-3.0,12.0,-4.0,2509,23652,11.0
+albania,"Footwear, Headgear, Umbrellas, Feathers (12)",-1.0,-2.0,0.0,0.0,1.0,13.0,40450372,284388509,11.0
+morocco,Vegetable products (2),4.0,0.0,10.0,2.0,-9.0,4.0,534382235,3451200302,11.0
+equatorial_guinea,Articles of Base Metal (15),19.0,-106.0,27.0,5.0,-21.0,87.0,1775,35784,11.0
+tanzania,Raw Hides and Skins (8),-9.0,5.0,-8.0,31.0,-28.0,20.0,11331510,9013251,11.0
+indonesia,Collectors' Art and Antiques (21),-1.0,-10.0,-2.0,10.0,8.0,6.0,2708945,11031418,11.0
+gabon,Machinery and Mechanical Appliances (16),4.0,-29.0,27.0,-66.0,21.0,54.0,4153571,8653941,11.0
+burkina_faso,Pulp of Wood (10),-43.0,62.0,-8.0,6.0,19.0,-25.0,168755,2622786,11.0
+qatar,"Footwear, Headgear, Umbrellas, Feathers (12)",6.0,-42.0,60.0,-1.0,-3.0,-8.0,20945,2806995,12.0
+malawi,"Articles of Stone, Ceramics, Glass (13)",24.0,-14.0,5.0,-90.0,73.0,14.0,65059,181896,12.0
+uganda,"Optical Instruments, Clocks, Musical Instruments (18)",-46.0,48.0,-47.0,17.0,30.0,10.0,231731,1553977,12.0
+sri_lanka,Miscellaneous Manufactured Articles (20),8.0,-6.0,7.0,-1.0,8.0,-4.0,89092055,218841524,12.0
+bangladesh,Pulp of Wood (10),9.0,-50.0,42.0,9.0,-2.0,4.0,1264789,34887760,12.0
+senegal,Live Animals; Animal Products (1),-12.0,11.0,6.0,2.0,-1.0,6.0,175577402,459211108,12.0
+united_arab_emirates,Articles of Plastic and Rubber (7),82.0,-69.0,7.0,6.0,-24.0,11.0,200350609,10712088238,13.0
+philippines,"Optical Instruments, Clocks, Musical Instruments (18)",2.0,7.0,25.0,-13.0,1.0,-9.0,596124983,3027540643,13.0
+nepal,Raw Hides and Skins (8),14.0,-11.0,-9.0,5.0,43.0,-29.0,12115912,6672078,13.0
+uganda,Machinery and Mechanical Appliances (16),-11.0,-35.0,-35.0,34.0,41.0,19.0,3401716,10776681,13.0
+cambodia,Articles of Base Metal (15),19.0,5.0,7.0,-3.0,-4.0,-11.0,33994,3870067,13.0
+dominican_republic,Vehicles and Transport Equipment (17),8.0,6.0,-2.0,-18.0,24.0,-4.0,640363,20505776,14.0
+pakistan,Vehicles and Transport Equipment (17),23.0,-23.0,1.0,23.0,-40.0,30.0,7031895,99409421,14.0
+united_arab_emirates,Articles of Textiles (11),76.0,-62.0,29.0,-22.0,-10.0,3.0,580133695,6357495717,14.0
+bulgaria,Articles of Plastic and Rubber (7),10.0,11.0,15.0,-35.0,0.0,13.0,123875714,1898568502,14.0
+bulgaria,Articles of Base Metal (15),-7.0,10.0,11.0,-7.0,-5.0,12.0,7919717,65942034,14.0
+malaysia,Live Animals; Animal Products (1),26.0,1.0,-7.0,-2.0,-5.0,1.0,601728964,1569444333,14.0
+malaysia,Prepared Foodstuffs (4),22.0,-9.0,-11.0,-8.0,22.0,-2.0,1055424713,7577944710,14.0
+singapore,Live Animals; Animal Products (1),15.0,3.0,7.0,-2.0,-3.0,-6.0,592436134,504147624,14.0
+equatorial_guinea,Articles of Wood (9),0.0,12.0,5.0,-11.0,-1.0,9.0,54858111,121712768,14.0
+senegal,Pulp of Wood (10),9.0,-7.0,16.0,-7.0,-2.0,6.0,4347940,26506002,15.0
+sri_lanka,Special Classification provisions and Temporary Legislation (22),5.0,-12.0,9.0,48.0,-28.0,-7.0,19701830,201109476,15.0
+malawi,Mineral Products (5),-15.0,56.0,-19.0,5.0,5.0,-17.0,202079,407171,15.0
+angola,Articles of Wood (9),-40.0,32.0,87.0,-43.0,-26.0,5.0,1586309,46281811,15.0
+ghana,Mineral Products (5),19.0,41.0,-48.0,-14.0,11.0,6.0,4737154,43776982,15.0
+morocco,Articles of Plastic and Rubber (7),-3.0,47.0,-4.0,-16.0,-22.0,13.0,42499657,463507375,15.0
+ethiopia,Raw Hides and Skins (8),3.0,1.0,-1.0,-1.0,9.0,4.0,79550692,37297222,15.0
+equatorial_guinea,Raw Hides and Skins (8),-2.0,7.0,8.0,-3.0,-1.0,6.0,0,4334,15.0
+morocco,"Footwear, Headgear, Umbrellas, Feathers (12)",-7.0,-6.0,1.0,21.0,-2.0,8.0,106315554,399204687,15.0
+tunisia,Live Animals; Animal Products (1),24.0,-27.0,4.0,-11.0,32.0,-7.0,103337078,286015668,15.0
+benin,Pulp of Wood (10),-13.0,11.0,12.0,10.0,-14.0,9.0,239103,1402134,15.0
+bangladesh,Vegetable products (2),-8.0,-34.0,14.0,-2.0,23.0,22.0,44130941,98756307,15.0
+equatorial_guinea,Articles of Textiles (11),15.0,0.0,-9.0,1.0,11.0,-3.0,113470,33703,15.0
+indonesia,Machinery and Mechanical Appliances (16),-19.0,12.0,19.0,-10.0,7.0,7.0,3626016352,22128259730,16.0
+philippines,Pulp of Wood (10),40.0,-6.0,-10.0,-8.0,-10.0,10.0,92210365,384415686,16.0
+morocco,Articles of Wood (9),0.0,9.0,-2.0,-4.0,11.0,2.0,46728855,91038470,16.0
+armenia,Articles of Base Metal (15),16.0,1.0,61.0,-23.0,38.0,-77.0,34442,9211546,16.0
+laos,Collectors' Art and Antiques (21),5.0,-88.0,22.0,81.0,2.0,-6.0,4868,105084,16.0
+mauritius,Vehicles and Transport Equipment (17),42.0,22.0,-58.0,35.0,-15.0,-10.0,20472325,32541982,16.0
+singapore,Arms and Ammunition (19),21.0,1.0,-18.0,15.0,-4.0,1.0,12105531,16760118,16.0
+singapore,Articles of Plastic and Rubber (7),10.0,10.0,2.0,-19.0,14.0,-1.0,2769357456,12877188258,16.0
+burkina_faso,Articles of Wood (9),32.0,30.0,-44.0,47.0,0.0,-49.0,593494,1359054,16.0
+guinea,"Articles of Stone, Ceramics, Glass (13)",25.0,-2.0,-23.0,28.0,-1.0,-11.0,31152,28463,16.0
+myanmar,Vegetable products (2),32.0,-25.0,-2.0,-3.0,13.0,1.0,330962505,3563563324,16.0
+iran,Prepared Foodstuffs (4),-46.0,45.0,-8.0,-12.0,2.0,35.0,78365186,268157732,16.0
+india,Vegetable products (2),-9.0,7.0,11.0,1.0,6.0,0.0,3331921125,24803373456,16.0
+qatar,Articles of Wood (9),17.0,-8.0,-36.0,48.0,-20.0,15.0,37244,1301662,16.0
+nepal,Pulp of Wood (10),24.0,-19.0,3.0,-17.0,45.0,-20.0,1913943,17382957,16.0
+bangladesh,"Optical Instruments, Clocks, Musical Instruments (18)",-12.0,22.0,9.0,1.0,-10.0,6.0,4936944,94796036,16.0
+bahrain,Articles of Plastic and Rubber (7),21.0,4.0,19.0,-31.0,-3.0,7.0,23977776,336414468,17.0
+iran,Articles of Base Metal (15),-38.0,23.0,26.0,18.0,-17.0,5.0,239268,927472,17.0
+bulgaria,Pulp of Wood (10),15.0,9.0,-7.0,-3.0,-5.0,8.0,57914724,551673303,17.0
+singapore,Vegetable products (2),1.0,11.0,8.0,-9.0,6.0,0.0,813185193,543827198,17.0
+guinea,"Footwear, Headgear, Umbrellas, Feathers (12)",48.0,-14.0,16.0,9.0,-3.0,-39.0,259239,220814,17.0
+armenia,Special Classification provisions and Temporary Legislation (22),115.0,-63.0,-36.0,31.0,55.0,-85.0,643882,514643867,17.0
+bosnia_and_herzegovina,Machinery and Mechanical Appliances (16),56.0,-52.0,25.0,-11.0,-6.0,5.0,7311338,1273780927,17.0
+yemen,Live Animals; Animal Products (1),3.0,17.0,27.0,-25.0,5.0,-10.0,25324623,153652369,17.0
+lebanon,"Articles of Stone, Ceramics, Glass (13)",6.0,1.0,4.0,11.0,9.0,-13.0,13408726,33827527,18.0
+gabon,"Optical Instruments, Clocks, Musical Instruments (18)",-21.0,33.0,-72.0,69.0,2.0,7.0,1157358,1562766,18.0
+albania,Vegetable products (2),-3.0,10.0,14.0,-4.0,-11.0,12.0,14737437,127193094,18.0
+philippines,Live Animals; Animal Products (1),21.0,-2.0,-12.0,9.0,4.0,-2.0,356441613,370065562,18.0
+tanzania,"Optical Instruments, Clocks, Musical Instruments (18)",21.0,-11.0,-53.0,38.0,30.0,-7.0,535377,4057614,18.0
+malawi,Collectors' Art and Antiques (21),-1.0,-50.0,65.0,-7.0,13.0,-2.0,9304,13038,18.0
+bangladesh,Collectors' Art and Antiques (21),-6.0,5.0,3.0,10.0,5.0,1.0,17748,155231,18.0
+taiwan,Prepared Foodstuffs (4),17.0,8.0,0.0,-7.0,1.0,-1.0,645063935,2809354310,18.0
+guinea,Mineral Products (5),-13.0,27.0,7.0,-6.0,0.0,3.0,5388,37409,18.0
+indonesia,Miscellaneous Manufactured Articles (20),0.0,2.0,7.0,5.0,2.0,2.0,1338222347,4070478715,18.0
+lebanon,Raw Hides and Skins (8),0.0,13.0,12.0,3.0,-25.0,16.0,8999692,12760086,19.0
+thailand,Live Animals; Animal Products (1),-2.0,27.0,-2.0,2.0,-23.0,17.0,3182512748,3256829663,19.0
+vietnam,Articles of Wood (9),1.0,-7.0,11.0,13.0,1.0,0.0,91302123,5934085086,19.0
+sri_lanka,Mineral Products (5),37.0,-14.0,-2.0,-7.0,1.0,4.0,4647753,19318093,19.0
+benin,Vehicles and Transport Equipment (17),23.0,-17.0,10.0,-41.0,61.0,-17.0,397524,4517003,19.0
+albania,Prepared Foodstuffs (4),-48.0,18.0,13.0,7.0,8.0,21.0,3945855,63790079,19.0
+benin,"Articles of Stone, Ceramics, Glass (13)",-12.0,-16.0,47.0,-5.0,-21.0,26.0,48705,443035,19.0
+iran,Machinery and Mechanical Appliances (16),-19.0,13.0,9.0,-9.0,-38.0,63.0,34117429,118164231,19.0
+equatorial_guinea,"Articles of Stone, Ceramics, Glass (13)",4.0,6.0,-1.0,13.0,-4.0,2.0,1104,7190,20.0
+indonesia,Mineral Products (5),2.0,7.0,21.0,3.0,-18.0,5.0,124136036,484349102,20.0
+qatar,"Articles of Stone, Ceramics, Glass (13)",18.0,-39.0,4.0,30.0,11.0,-4.0,52040,6230970,20.0
+bulgaria,Prepared Foodstuffs (4),12.0,8.0,-14.0,6.0,17.0,-9.0,256025409,2537308683,20.0
+bosnia_and_herzegovina,Articles of Wood (9),8.0,5.0,5.0,-5.0,5.0,2.0,4089916,585549960,20.0
+lebanon,Collectors' Art and Antiques (21),-2.0,16.0,28.0,-31.0,-4.0,13.0,1444970,4539848,20.0
+bosnia_and_herzegovina,Vehicles and Transport Equipment (17),12.0,-46.0,69.0,-4.0,-9.0,-1.0,1084658,227518645,21.0
+united_arab_emirates,Prepared Foodstuffs (4),81.0,-41.0,12.0,8.0,-40.0,1.0,292844595,10367884882,21.0
+singapore,"Footwear, Headgear, Umbrellas, Feathers (12)",18.0,32.0,1.0,-10.0,-12.0,-8.0,130892669,546323351,21.0
+oman,Animal or Vegetable Fats (3),0.0,-5.0,24.0,-11.0,18.0,-5.0,22214224,391232429,21.0
+india,Raw Hides and Skins (8),1.0,3.0,7.0,3.0,3.0,4.0,1264092264,3076143914,21.0
+united_arab_emirates,Raw Hides and Skins (8),26.0,-21.0,23.0,11.0,-26.0,8.0,20046231,614086206,21.0
+sri_lanka,"Footwear, Headgear, Umbrellas, Feathers (12)",4.0,5.0,6.0,4.0,2.0,0.0,69420493,74768271,21.0
+ghana,Vehicles and Transport Equipment (17),-52.0,-18.0,109.0,-51.0,58.0,-25.0,3424236,41810951,21.0
+angola,Articles of Textiles (11),27.0,-40.0,34.0,2.0,-8.0,6.0,236609,2224935,21.0
+equatorial_guinea,Pulp of Wood (10),1.0,16.0,-6.0,13.0,-6.0,3.0,1267,21799,21.0
+india,Prepared Foodstuffs (4),26.0,4.0,-12.0,19.0,-8.0,-8.0,1169258528,13522872956,21.0
+tunisia,Articles of Base Metal (15),11.0,-7.0,14.0,-13.0,8.0,8.0,3139857,8028566,21.0
+iran,"Optical Instruments, Clocks, Musical Instruments (18)",-2.0,16.0,17.0,-4.0,-56.0,50.0,9375205,14320300,21.0
+guinea,Machinery and Mechanical Appliances (16),13.0,35.0,4.0,-44.0,50.0,-36.0,7683161,9173146,22.0
+qatar,Vegetable products (2),21.0,-12.0,10.0,3.0,-1.0,1.0,981183,8111698,22.0
+vietnam,Raw Hides and Skins (8),18.0,-14.0,1.0,1.0,13.0,3.0,153590794,3848772572,22.0
+philippines,Animal or Vegetable Fats (3),18.0,10.0,-10.0,4.0,9.0,-9.0,736500827,2284002798,22.0
+singapore,Prepared Foodstuffs (4),34.0,4.0,-8.0,-11.0,3.0,0.0,2104750787,9144840091,22.0
+gabon,Vegetable products (2),18.0,-9.0,5.0,1.0,-1.0,8.0,1402035,86341,22.0
+angola,Vegetable products (2),-2.0,28.0,25.0,-33.0,1.0,3.0,4153166,15597760,22.0
+malawi,Vehicles and Transport Equipment (17),18.0,-16.0,-31.0,34.0,-11.0,28.0,3142592,7498644,22.0
+jamaica,Vehicles and Transport Equipment (17),4.0,2.0,-39.0,-8.0,32.0,31.0,2625570,6082623,22.0
+nepal,Machinery and Mechanical Appliances (16),36.0,-15.0,2.0,23.0,6.0,-29.0,3618245,12568488,23.0
+bulgaria,Products of the Chemical or Allied Industries (6),1.0,9.0,-13.0,23.0,3.0,0.0,542289711,4564153971,23.0
+morocco,Mineral Products (5),1.0,6.0,-3.0,8.0,15.0,-4.0,410391085,1674059437,23.0
+indonesia,Articles of Wood (9),9.0,-1.0,22.0,-13.0,-1.0,7.0,4967464270,4728857844,23.0
+malawi,Animal or Vegetable Fats (3),21.0,5.0,-14.0,7.0,25.0,-21.0,119445,473903,23.0
+gabon,Raw Hides and Skins (8),11.0,13.0,-14.0,6.0,-17.0,24.0,112161,13575,23.0
+jamaica,Miscellaneous Manufactured Articles (20),38.0,20.0,-43.0,28.0,-28.0,8.0,3760664,1307825,23.0
+nepal,Live Animals; Animal Products (1),-81.0,118.0,-20.0,-34.0,39.0,1.0,1755525,1901021,23.0
+bosnia_and_herzegovina,Vegetable products (2),26.0,-10.0,5.0,-13.0,2.0,13.0,1966712,119191383,23.0
+malawi,Pulp of Wood (10),-6.0,-67.0,87.0,-30.0,41.0,-2.0,527928,718267,23.0
+albania,"Optical Instruments, Clocks, Musical Instruments (18)",-90.0,62.0,47.0,13.0,1.0,-9.0,495702,5356664,24.0
+bahrain,Articles of Textiles (11),-42.0,26.0,4.0,-6.0,29.0,13.0,72323249,106494655,24.0
+gabon,Live Animals; Animal Products (1),-1.0,-17.0,49.0,2.0,-6.0,-3.0,8940670,1325527,24.0
+philippines,Articles of Textiles (11),29.0,5.0,9.0,-16.0,-3.0,0.0,2122169106,1403596678,24.0
+thailand,"Optical Instruments, Clocks, Musical Instruments (18)",1.0,5.0,12.0,-3.0,5.0,4.0,1533896916,6015125694,24.0
+morocco,Articles of Base Metal (15),28.0,-17.0,-3.0,24.0,-25.0,17.0,1952287,7124509,24.0
+malaysia,Miscellaneous Manufactured Articles (20),10.0,3.0,7.0,2.0,-1.0,3.0,1494047257,4850789931,24.0
+equatorial_guinea,Animal or Vegetable Fats (3),15.0,-3.0,3.0,7.0,-14.0,16.0,0,2785,24.0
+indonesia,Arms and Ammunition (19),20.0,12.0,-15.0,41.0,-23.0,-11.0,3393055,3957210,24.0
+jamaica,Collectors' Art and Antiques (21),46.0,4.0,-38.0,1.0,-97.0,108.0,427683,99433,24.0
+yemen,Special Classification provisions and Temporary Legislation (22),24.0,61.0,-121.0,163.0,-137.0,34.0,3337630,39147044,24.0
+bangladesh,Articles of Plastic and Rubber (7),14.0,-12.0,19.0,-6.0,2.0,7.0,8824332,165741379,24.0
+burkina_faso,Miscellaneous Manufactured Articles (20),-50.0,64.0,-11.0,-3.0,-12.0,37.0,154869,1158333,25.0
+oman,Vehicles and Transport Equipment (17),11.0,37.0,42.0,-79.0,-3.0,17.0,451316659,1387572038,25.0
+united_arab_emirates,"Footwear, Headgear, Umbrellas, Feathers (12)",75.0,-70.0,50.0,2.0,-33.0,1.0,14382685,1459474743,25.0
+bulgaria,"Footwear, Headgear, Umbrellas, Feathers (12)",-4.0,2.0,18.0,3.0,5.0,1.0,76791131,219604845,25.0
+bangladesh,Vehicles and Transport Equipment (17),26.0,-28.0,16.0,13.0,1.0,-3.0,5927668,193525384,25.0
+gabon,"Articles of Stone, Ceramics, Glass (13)",-25.0,41.0,23.0,-16.0,18.0,-16.0,115722,255662,25.0
+equatorial_guinea,Miscellaneous Manufactured Articles (20),24.0,-59.0,50.0,10.0,-3.0,3.0,5306,25481,25.0
+equatorial_guinea,Mineral Products (5),19.0,-2.0,-18.0,2.0,22.0,3.0,0,1184,26.0
+iran,Raw Hides and Skins (8),4.0,26.0,0.0,24.0,-20.0,-8.0,122553074,24359454,26.0
+cambodia,Articles of Plastic and Rubber (7),13.0,9.0,7.0,22.0,-28.0,3.0,39945353,1156014636,26.0
+gabon,Prepared Foodstuffs (4),0.0,-43.0,28.0,48.0,-1.0,-6.0,1933552,3198854,26.0
+dominican_republic,Special Classification provisions and Temporary Legislation (22),41.0,28.0,-64.0,42.0,-33.0,12.0,76181549,420458818,26.0
+tunisia,Mineral Products (5),24.0,2.0,-10.0,10.0,11.0,-11.0,116080935,269890137,26.0
+benin,Products of the Chemical or Allied Industries (6),-40.0,37.0,7.0,13.0,4.0,5.0,1014709,7045935,26.0
+armenia,Machinery and Mechanical Appliances (16),-5.0,54.0,-6.0,68.0,-21.0,-64.0,1046650,719171649,26.0
+benin,"Optical Instruments, Clocks, Musical Instruments (18)",43.0,-3.0,-21.0,15.0,15.0,-23.0,255880,1752343,26.0
+tanzania,Machinery and Mechanical Appliances (16),13.0,-14.0,-27.0,4.0,42.0,9.0,7189771,56848970,27.0
+uganda,Vehicles and Transport Equipment (17),8.0,3.0,-38.0,15.0,13.0,26.0,5236933,5401723,27.0
+singapore,Articles of Textiles (11),25.0,6.0,-1.0,-12.0,5.0,4.0,2507663311,1901534291,27.0
+thailand,Mineral Products (5),6.0,2.0,9.0,-7.0,11.0,6.0,275157706,828596210,27.0
+lebanon,Animal or Vegetable Fats (3),-8.0,21.0,-1.0,0.0,-14.0,29.0,2956590,27006065,27.0
+morocco,Prepared Foodstuffs (4),24.0,-4.0,-3.0,10.0,-3.0,4.0,429859801,2353155326,28.0
+albania,Machinery and Mechanical Appliances (16),0.0,-4.0,3.0,32.0,-9.0,6.0,5365807,126454519,28.0
+bangladesh,Raw Hides and Skins (8),8.0,2.0,4.0,6.0,9.0,-1.0,237617871,546141639,28.0
+bangladesh,Arms and Ammunition (19),16.0,-1.0,-6.0,-15.0,-13.0,47.0,0,32909,28.0
+dominican_republic,"Footwear, Headgear, Umbrellas, Feathers (12)",0.0,4.0,4.0,4.0,10.0,6.0,277447485,213380748,28.0
+malawi,Special Classification provisions and Temporary Legislation (22),12.0,-99.0,13.0,-7.0,104.0,5.0,706396,691720,28.0
+morocco,"Optical Instruments, Clocks, Musical Instruments (18)",-34.0,10.0,51.0,10.0,-10.0,2.0,17546001,94719121,29.0
+angola,"Optical Instruments, Clocks, Musical Instruments (18)",18.0,-18.0,24.0,-35.0,44.0,-4.0,702862,27452243,29.0
+ethiopia,Miscellaneous Manufactured Articles (20),50.0,-12.0,-25.0,3.0,8.0,5.0,417348,2672846,29.0
+angola,Arms and Ammunition (19),-43.0,70.0,6.0,-19.0,-4.0,19.0,0,682,29.0
+taiwan,Articles of Plastic and Rubber (7),10.0,-9.0,4.0,-2.0,19.0,7.0,8040013530,26318033636,29.0
+taiwan,Animal or Vegetable Fats (3),8.0,5.0,-3.0,2.0,17.0,0.0,30994887,184347745,29.0
+india,Mineral Products (5),9.0,-1.0,16.0,-1.0,1.0,5.0,316872981,2463843230,29.0
+equatorial_guinea,Vegetable products (2),20.0,1.0,9.0,10.0,-7.0,-3.0,1546491,562203,30.0
+nepal,Vehicles and Transport Equipment (17),15.0,-3.0,-45.0,51.0,-107.0,119.0,238789,1087658,30.0
+indonesia,Articles of Base Metal (15),10.0,0.0,52.0,-29.0,-8.0,5.0,68036659,129769450,30.0
+mauritius,Arms and Ammunition (19),10.0,11.0,4.0,-10.0,-5.0,20.0,0,158,30.0
+oman,"Optical Instruments, Clocks, Musical Instruments (18)",44.0,18.0,8.0,-14.0,-34.0,8.0,40847071,153888460,30.0
+philippines,"Articles of Stone, Ceramics, Glass (13)",23.0,-22.0,32.0,9.0,-11.0,-1.0,123656891,315408867,30.0
+ethiopia,Animal or Vegetable Fats (3),15.0,4.0,8.0,-14.0,14.0,3.0,1112892,9800218,30.0
+bahrain,Raw Hides and Skins (8),8.0,4.0,11.0,-23.0,24.0,6.0,1921283,5234548,30.0
+uganda,Arms and Ammunition (19),16.0,11.0,-5.0,-10.0,-2.0,21.0,0,0,31.0
+vietnam,"Articles of Stone, Ceramics, Glass (13)",-8.0,10.0,2.0,3.0,19.0,5.0,45818256,2338771759,31.0
+taiwan,"Optical Instruments, Clocks, Musical Instruments (18)",4.0,-1.0,7.0,3.0,17.0,1.0,2712837524,19405077460,31.0
+united_arab_emirates,Products of the Chemical or Allied Industries (6),94.0,-51.0,21.0,8.0,-43.0,2.0,345221656,11680620508,31.0
+united_arab_emirates,"Articles of Stone, Ceramics, Glass (13)",60.0,-56.0,1.0,20.0,0.0,6.0,56617695,1566211791,31.0
+taiwan,Mineral Products (5),27.0,-21.0,8.0,5.0,6.0,6.0,92574330,220880329,31.0
+malawi,Arms and Ammunition (19),-2.0,-70.0,58.0,49.0,-25.0,21.0,0,0,31.0
+benin,Arms and Ammunition (19),16.0,11.0,-92.0,100.0,-25.0,21.0,0,0,31.0
+oman,Prepared Foodstuffs (4),-2.0,18.0,41.0,-36.0,13.0,-3.0,126532478,873605208,31.0
+philippines,Prepared Foodstuffs (4),57.0,-14.0,-5.0,2.0,-3.0,-6.0,708602385,2701375169,31.0
+gabon,Arms and Ammunition (19),-58.0,25.0,-7.0,21.0,-1.0,51.0,0,0,31.0
+laos,Articles of Wood (9),0.0,2.0,-2.0,20.0,67.0,-56.0,94455858,288547887,31.0
+laos,Arms and Ammunition (19),16.0,-39.0,56.0,-42.0,19.0,21.0,0,0,31.0
+myanmar,Live Animals; Animal Products (1),-17.0,-2.0,21.0,4.0,-26.0,51.0,158443100,622729942,31.0
+qatar,Animal or Vegetable Fats (3),11.0,9.0,8.0,8.0,-3.0,-2.0,76372,9159587,31.0
+gabon,Special Classification provisions and Temporary Legislation (22),-88.0,111.0,-117.0,41.0,118.0,-34.0,4057278,7948060,31.0
+bulgaria,Live Animals; Animal Products (1),14.0,8.0,-3.0,13.0,2.0,-3.0,79542288,627447703,31.0
+united_arab_emirates,Mineral Products (5),50.0,-12.0,-6.0,-1.0,-2.0,3.0,77017657,2513869238,32.0
+tanzania,Vehicles and Transport Equipment (17),39.0,5.0,-26.0,21.0,-14.0,7.0,4748232,42583701,32.0
+laos,Vehicles and Transport Equipment (17),-119.0,128.0,-15.0,18.0,11.0,9.0,164791,3146995,32.0
+thailand,Pulp of Wood (10),15.0,13.0,-43.0,47.0,4.0,-4.0,556089015,2396718246,32.0
+benin,Vegetable products (2),-8.0,-35.0,-10.0,13.0,10.0,62.0,24417325,74585491,32.0
+morocco,Arms and Ammunition (19),27.0,-66.0,18.0,55.0,-18.0,17.0,45849,46364,33.0
+ghana,Articles of Wood (9),1.0,-3.0,18.0,-5.0,-3.0,25.0,221695598,178160081,33.0
+singapore,Articles of Wood (9),34.0,7.0,-1.0,-20.0,16.0,-3.0,352904485,109669200,33.0
+equatorial_guinea,"Optical Instruments, Clocks, Musical Instruments (18)",15.0,-15.0,7.0,-3.0,12.0,18.0,30807,280024,34.0
+malaysia,"Footwear, Headgear, Umbrellas, Feathers (12)",23.0,15.0,-1.0,8.0,-21.0,10.0,146559994,269714871,34.0
+ethiopia,Products of the Chemical or Allied Industries (6),39.0,-1.0,-2.0,12.0,-5.0,-9.0,3169480,17113138,34.0
+thailand,Miscellaneous Manufactured Articles (20),5.0,6.0,18.0,-2.0,4.0,3.0,1700567013,3103425024,34.0
+malaysia,Arms and Ammunition (19),28.0,9.0,-2.0,23.0,-38.0,14.0,8282485,4311458,34.0
+singapore,Mineral Products (5),31.0,-1.0,-2.0,3.0,7.0,-4.0,64611129,79074627,34.0
+laos,Animal or Vegetable Fats (3),23.0,2.0,-6.0,9.0,-3.0,9.0,17242,27363,34.0
+qatar,Prepared Foodstuffs (4),27.0,-1.0,4.0,3.0,0.0,1.0,381292,5413557,34.0
+vietnam,Prepared Foodstuffs (4),8.0,3.0,-7.0,21.0,14.0,-4.0,89522584,8229156934,35.0
+bahrain,Vehicles and Transport Equipment (17),64.0,-36.0,-21.0,7.0,-11.0,32.0,56848598,358913886,35.0
+burkina_faso,Collectors' Art and Antiques (21),-9.0,-2.0,30.0,-11.0,7.0,20.0,156220,411798,35.0
+equatorial_guinea,Articles of Plastic and Rubber (7),34.0,-8.0,-22.0,29.0,-5.0,7.0,28215,97651,35.0
+albania,Articles of Textiles (11),11.0,12.0,-21.0,6.0,-7.0,34.0,57435528,332695556,35.0
+philippines,Articles of Base Metal (15),27.0,4.0,25.0,-41.0,23.0,-2.0,11353675,28419158,36.0
+bosnia_and_herzegovina,Prepared Foodstuffs (4),45.0,-32.0,5.0,10.0,10.0,-2.0,2470071,238246443,36.0
+philippines,Articles of Wood (9),18.0,7.0,7.0,-19.0,23.0,0.0,265308006,635213904,36.0
+malaysia,Collectors' Art and Antiques (21),18.0,-9.0,8.0,5.0,14.0,0.0,4256461,3261364,36.0
+myanmar,Mineral Products (5),-14.0,23.0,3.0,3.0,-10.0,31.0,1428214,8210589,36.0
+equatorial_guinea,Machinery and Mechanical Appliances (16),17.0,-11.0,-35.0,16.0,-2.0,51.0,415116,963137,36.0
+laos,Miscellaneous Manufactured Articles (20),64.0,-114.0,81.0,-18.0,-1.0,25.0,1639761,24557775,37.0
+equatorial_guinea,Live Animals; Animal Products (1),-96.0,125.0,11.0,3.0,-15.0,9.0,1499087,115476,37.0
+indonesia,"Articles of Stone, Ceramics, Glass (13)",-3.0,3.0,14.0,5.0,12.0,6.0,360289078,857569547,37.0
+bangladesh,Articles of Base Metal (15),-10.0,-26.0,62.0,-9.0,11.0,10.0,601150,2615547,38.0
+bahrain,Articles of Wood (9),34.0,39.0,-4.0,-103.0,33.0,39.0,1285317,26993890,38.0
+sri_lanka,"Articles of Stone, Ceramics, Glass (13)",28.0,-11.0,20.0,-14.0,26.0,-11.0,45676889,78300812,38.0
+taiwan,"Articles of Stone, Ceramics, Glass (13)",15.0,2.0,3.0,-6.0,8.0,17.0,1057156870,2386531765,39.0
+india,Animal or Vegetable Fats (3),9.0,15.0,-3.0,7.0,2.0,9.0,263912797,2304065946,39.0
+burkina_faso,Vehicles and Transport Equipment (17),15.0,71.0,-74.0,15.0,37.0,-25.0,3787509,20181311,39.0
+oman,Articles of Textiles (11),19.0,10.0,23.0,2.0,-37.0,22.0,195738340,105160203,39.0
+qatar,Miscellaneous Manufactured Articles (20),-1.0,1.0,21.0,26.0,-8.0,0.0,211577,7816386,39.0
+qatar,Live Animals; Animal Products (1),42.0,-45.0,52.0,0.0,3.0,-13.0,1782575,25951518,39.0
+taiwan,Raw Hides and Skins (8),11.0,-5.0,14.0,7.0,7.0,6.0,1504487520,506098846,40.0
+indonesia,Special Classification provisions and Temporary Legislation (22),76.0,-81.0,63.0,-10.0,-20.0,12.0,267594832,1329546901,40.0
+senegal,Arms and Ammunition (19),-30.0,-17.0,2.0,16.0,-5.0,74.0,9718,14183,40.0
+bangladesh,Miscellaneous Manufactured Articles (20),81.0,-28.0,10.0,-8.0,-11.0,-4.0,57093939,241985183,40.0
+lebanon,"Footwear, Headgear, Umbrellas, Feathers (12)",16.0,-25.0,23.0,7.0,-7.0,27.0,5053707,7980037,41.0
+bulgaria,Collectors' Art and Antiques (21),-27.0,-25.0,44.0,26.0,15.0,8.0,548191,2199354,41.0
+equatorial_guinea,"Footwear, Headgear, Umbrellas, Feathers (12)",41.0,8.0,-5.0,3.0,-1.0,-5.0,2017,10479,41.0
+burkina_faso,Articles of Plastic and Rubber (7),-43.0,106.0,-17.0,-33.0,22.0,6.0,504003,3281782,41.0
+bosnia_and_herzegovina,Live Animals; Animal Products (1),38.0,11.0,-23.0,13.0,6.0,-4.0,1128431,99031687,41.0
+bulgaria,Raw Hides and Skins (8),-2.0,4.0,32.0,-2.0,-12.0,22.0,43188366,93331632,42.0
+iran,Articles of Textiles (11),0.0,15.0,16.0,-2.0,-6.0,19.0,675309788,165058205,42.0
+yemen,Articles of Textiles (11),-2.0,14.0,24.0,-20.0,39.0,-13.0,1536970,712451,42.0
+albania,Raw Hides and Skins (8),1.0,5.0,-11.0,21.0,18.0,8.0,7417541,12813116,42.0
+philippines,Miscellaneous Manufactured Articles (20),32.0,19.0,16.0,-27.0,0.0,3.0,590850277,835373014,43.0
+yemen,Articles of Wood (9),45.0,5.0,-6.0,-33.0,-5.0,37.0,163991,7141,43.0
+ethiopia,Machinery and Mechanical Appliances (16),38.0,44.0,-32.0,-46.0,-13.0,52.0,20220768,80292851,43.0
+taiwan,Collectors' Art and Antiques (21),30.0,9.0,-7.0,6.0,0.0,5.0,15647582,17452051,43.0
+benin,Miscellaneous Manufactured Articles (20),49.0,-27.0,25.0,-10.0,15.0,-9.0,239010,1077973,43.0
+myanmar,Animal or Vegetable Fats (3),37.0,3.0,12.0,-33.0,7.0,17.0,396057,1853289,43.0
+laos,Articles of Textiles (11),16.0,-13.0,2.0,27.0,13.0,-1.0,76987061,341387704,44.0
+mauritius,"Articles of Stone, Ceramics, Glass (13)",4.0,-11.0,-18.0,39.0,16.0,14.0,4335773,2009820,44.0
+burkina_faso,"Articles of Stone, Ceramics, Glass (13)",-16.0,37.0,-13.0,11.0,7.0,18.0,103427,294195,44.0
+burkina_faso,"Footwear, Headgear, Umbrellas, Feathers (12)",-1.0,-1.0,55.0,-3.0,-12.0,6.0,63049,115655,44.0
+oman,Machinery and Mechanical Appliances (16),21.0,3.0,39.0,-20.0,-23.0,24.0,131655424,1142919235,44.0
+guinea,Miscellaneous Manufactured Articles (20),47.0,6.0,-53.0,38.0,10.0,-3.0,229487,237599,45.0
+angola,Animal or Vegetable Fats (3),-42.0,21.0,74.0,-78.0,81.0,-10.0,33511,1429487,46.0
+benin,Mineral Products (5),16.0,-74.0,113.0,-107.0,17.0,81.0,647281,1207009,46.0
+cambodia,Animal or Vegetable Fats (3),80.0,-15.0,-48.0,17.0,-5.0,17.0,849074,43622975,46.0
+taiwan,Vehicles and Transport Equipment (17),10.0,17.0,6.0,6.0,15.0,-8.0,3759756932,16990562112,46.0
+singapore,Miscellaneous Manufactured Articles (20),36.0,6.0,0.0,-6.0,7.0,3.0,771250037,817657635,46.0
+malaysia,Vehicles and Transport Equipment (17),68.0,-15.0,-10.0,11.0,-27.0,20.0,2069795972,4622676014,47.0
+united_arab_emirates,Animal or Vegetable Fats (3),49.0,-19.0,-24.0,39.0,-11.0,13.0,30738937,1176979876,47.0
+yemen,Machinery and Mechanical Appliances (16),21.0,-3.0,18.0,-30.0,100.0,-59.0,4183099,15414466,47.0
+tanzania,Collectors' Art and Antiques (21),-1.0,6.0,11.0,9.0,-18.0,41.0,318102,663811,48.0
+ghana,Miscellaneous Manufactured Articles (20),10.0,22.0,45.0,-33.0,1.0,3.0,5158267,16775669,48.0
+sri_lanka,Articles of Wood (9),55.0,-33.0,22.0,-2.0,1.0,5.0,14971964,28762929,48.0
+taiwan,Articles of Textiles (11),5.0,21.0,0.0,-1.0,12.0,11.0,13262478926,9174913746,48.0
+philippines,Mineral Products (5),28.0,-4.0,16.0,5.0,-10.0,13.0,21640961,27865213,48.0
+taiwan,Miscellaneous Manufactured Articles (20),10.0,10.0,8.0,0.0,12.0,8.0,6107310302,5757230325,48.0
+guinea,Arms and Ammunition (19),33.0,11.0,6.0,2.0,-25.0,21.0,2690,0,48.0
+armenia,Collectors' Art and Antiques (21),28.0,32.0,-1.0,-1.0,-6.0,-3.0,76361,3204347,49.0
+angola,Miscellaneous Manufactured Articles (20),60.0,-74.0,19.0,29.0,-5.0,20.0,201680,2269989,49.0
+taiwan,Pulp of Wood (10),38.0,12.0,4.0,-19.0,-4.0,18.0,1100512519,2400774591,49.0
+taiwan,Live Animals; Animal Products (1),52.0,-5.0,-4.0,7.0,0.0,0.0,3035247703,1764498189,50.0
+angola,Articles of Base Metal (15),-27.0,9.0,-8.0,4.0,88.0,-16.0,139037,1524184,50.0
+dominican_republic,Collectors' Art and Antiques (21),62.0,-4.0,8.0,-5.0,12.0,-23.0,1560976,1204093,50.0
+vietnam,Arms and Ammunition (19),28.0,-13.0,17.0,28.0,-27.0,17.0,113736,754748,50.0
+sri_lanka,"Optical Instruments, Clocks, Musical Instruments (18)",31.0,18.0,24.0,-16.0,-17.0,10.0,6009400,123022505,50.0
+gabon,Mineral Products (5),21.0,-42.0,44.0,12.0,27.0,-12.0,526828,152032,50.0
+albania,Miscellaneous Manufactured Articles (20),-6.0,-5.0,17.0,19.0,5.0,20.0,1453173,30434797,50.0
+united_arab_emirates,Live Animals; Animal Products (1),70.0,-45.0,27.0,17.0,-12.0,-5.0,127886319,1753290487,52.0
+iran,Special Classification provisions and Temporary Legislation (22),68.0,-66.0,10.0,14.0,68.0,-42.0,1106931125,1010986752,52.0
+singapore,"Articles of Stone, Ceramics, Glass (13)",37.0,-4.0,18.0,-2.0,-3.0,6.0,422085970,520626211,52.0
+senegal,"Optical Instruments, Clocks, Musical Instruments (18)",-26.0,32.0,25.0,27.0,-10.0,4.0,721530,6851558,52.0
+qatar,Raw Hides and Skins (8),33.0,-12.0,29.0,-2.0,-13.0,17.0,1226603,6065495,52.0
+guinea,Raw Hides and Skins (8),3.0,19.0,2.0,-8.0,50.0,-14.0,906772,9668,52.0
+bulgaria,Mineral Products (5),16.0,17.0,20.0,-10.0,10.0,0.0,54356299,192252165,53.0
+tunisia,Products of the Chemical or Allied Industries (6),16.0,2.0,6.0,29.0,5.0,-5.0,626472030,1426936454,53.0
+bahrain,Arms and Ammunition (19),43.0,-38.0,27.0,-22.0,-6.0,50.0,6693,3728,54.0
+bangladesh,Live Animals; Animal Products (1),10.0,3.0,17.0,17.0,2.0,5.0,321274728,379888982,54.0
+myanmar,Articles of Wood (9),1.0,1.0,5.0,23.0,26.0,-2.0,443426507,260105712,54.0
+malaysia,Articles of Wood (9),13.0,8.0,5.0,4.0,16.0,8.0,4650169873,2723267982,54.0
+lebanon,Special Classification provisions and Temporary Legislation (22),-52.0,15.0,100.0,-60.0,40.0,11.0,3709320,16827034,54.0
+bosnia_and_herzegovina,Special Classification provisions and Temporary Legislation (22),33.0,51.0,-112.0,18.0,47.0,18.0,504983,37027677,55.0
+philippines,"Footwear, Headgear, Umbrellas, Feathers (12)",30.0,6.0,19.0,-13.0,4.0,10.0,293870320,258429287,56.0
+albania,Products of the Chemical or Allied Industries (6),35.0,11.0,12.0,-11.0,-13.0,22.0,3086559,26227877,56.0
+singapore,Pulp of Wood (10),17.0,16.0,0.0,-14.0,7.0,30.0,1081796664,1352282368,56.0
+thailand,"Footwear, Headgear, Umbrellas, Feathers (12)",10.0,6.0,25.0,8.0,10.0,-2.0,2072193710,775472986,57.0
+ethiopia,"Optical Instruments, Clocks, Musical Instruments (18)",-11.0,81.0,-41.0,-55.0,27.0,56.0,2699599,4601501,57.0
+guinea,Articles of Wood (9),-9.0,16.0,-44.0,34.0,56.0,5.0,8347971,1360213,58.0
+albania,Animal or Vegetable Fats (3),26.0,-44.0,55.0,37.0,-24.0,8.0,374420,2302163,58.0
+cambodia,Collectors' Art and Antiques (21),-54.0,-44.0,17.0,118.0,10.0,11.0,57434,526287,58.0
+taiwan,Articles of Wood (9),35.0,18.0,-10.0,19.0,-2.0,-1.0,633061889,161215367,59.0
+qatar,Articles of Base Metal (15),56.0,-20.0,47.0,11.0,-49.0,14.0,197675,9885525,59.0
+nepal,Special Classification provisions and Temporary Legislation (22),-66.0,-1.0,110.0,-29.0,24.0,22.0,2659295,4412083,60.0
+albania,Articles of Base Metal (15),6.0,-38.0,77.0,18.0,-32.0,29.0,111592,548649,60.0
+vietnam,Vegetable products (2),15.0,1.0,-3.0,28.0,17.0,2.0,1125979194,14240947359,60.0
+angola,Machinery and Mechanical Appliances (16),32.0,-38.0,46.0,-38.0,41.0,17.0,4954789,109944596,60.0
+sri_lanka,Raw Hides and Skins (8),2.0,28.0,25.0,7.0,-2.0,0.0,69160839,33761446,60.0
+senegal,Animal or Vegetable Fats (3),2.0,24.0,-16.0,6.0,46.0,-1.0,78141955,35054112,61.0
+qatar,Pulp of Wood (10),52.0,-17.0,4.0,-2.0,17.0,7.0,449813,9750202,61.0
+uganda,Special Classification provisions and Temporary Legislation (22),75.0,15.0,15.0,-32.0,57.0,-69.0,102439608,110941010,61.0
+albania,"Articles of Stone, Ceramics, Glass (13)",53.0,-26.0,-16.0,32.0,-9.0,27.0,2087428,10324330,61.0
+jamaica,Special Classification provisions and Temporary Legislation (22),58.0,-60.0,69.0,-49.0,69.0,-24.0,26224441,6051949,63.0
+vietnam,Live Animals; Animal Products (1),-5.0,15.0,18.0,34.0,10.0,-9.0,508958500,7853999299,63.0
+bangladesh,Products of the Chemical or Allied Industries (6),24.0,8.0,27.0,8.0,-3.0,0.0,130536179,251804256,64.0
+benin,"Footwear, Headgear, Umbrellas, Feathers (12)",46.0,-35.0,49.0,-48.0,39.0,13.0,166353,161869,64.0
+oman,Miscellaneous Manufactured Articles (20),6.0,14.0,62.0,-15.0,-20.0,17.0,16925113,58787762,64.0
+singapore,Animal or Vegetable Fats (3),33.0,5.0,-6.0,19.0,4.0,9.0,598047334,836453267,64.0
+qatar,Vehicles and Transport Equipment (17),27.0,-12.0,65.0,30.0,-115.0,69.0,6785206,266320728,64.0
+cambodia,Articles of Wood (9),39.0,25.0,24.0,-32.0,7.0,2.0,179553445,363018584,65.0
+taiwan,"Footwear, Headgear, Umbrellas, Feathers (12)",10.0,17.0,24.0,4.0,10.0,1.0,1564926581,495226127,66.0
+iran,Arms and Ammunition (19),-2.0,45.0,20.0,20.0,-8.0,-8.0,4242277,73615,67.0
+benin,Collectors' Art and Antiques (21),39.0,7.0,27.0,-5.0,-9.0,8.0,188419,194855,67.0
+bangladesh,Special Classification provisions and Temporary Legislation (22),45.0,41.0,-40.0,14.0,6.0,1.0,96928794,782441305,67.0
+vietnam,Collectors' Art and Antiques (21),9.0,12.0,26.0,13.0,2.0,6.0,737686,2928712,68.0
+nepal,Products of the Chemical or Allied Industries (6),-10.0,12.0,31.0,21.0,8.0,7.0,11564053,45169151,69.0
+uzbekistan,Special Classification provisions and Temporary Legislation (22),-2.0,-3.0,29.0,6.0,-6.0,45.0,269579741,483100295,69.0
+albania,Articles of Wood (9),29.0,1.0,16.0,-6.0,11.0,20.0,9614006,16726331,71.0
+laos,Raw Hides and Skins (8),17.0,22.0,-31.0,32.0,8.0,23.0,1587760,1237629,71.0
+yemen,"Footwear, Headgear, Umbrellas, Feathers (12)",30.0,21.0,-14.0,9.0,24.0,1.0,165500,13504,71.0
+bangladesh,Machinery and Mechanical Appliances (16),38.0,22.0,-1.0,4.0,13.0,-4.0,60030275,145822775,72.0
+armenia,Articles of Textiles (11),76.0,-8.0,29.0,-36.0,-10.0,21.0,2148893,310988371,72.0
+benin,Live Animals; Animal Products (1),50.0,-6.0,-104.0,117.0,13.0,2.0,3246557,1285934,72.0
+albania,Articles of Plastic and Rubber (7),71.0,-14.0,13.0,-13.0,-7.0,22.0,3289488,25185944,72.0
+iran,Vehicles and Transport Equipment (17),-25.0,28.0,14.0,39.0,5.0,12.0,11867318,31461419,73.0
+qatar,"Optical Instruments, Clocks, Musical Instruments (18)",61.0,-28.0,-18.0,84.0,-48.0,23.0,3879360,61086639,74.0
+jamaica,"Footwear, Headgear, Umbrellas, Feathers (12)",31.0,58.0,-8.0,32.0,-33.0,-6.0,6390729,304169,74.0
+tanzania,Arms and Ammunition (19),44.0,5.0,-11.0,2.0,12.0,24.0,136156,3056,76.0
+lebanon,Live Animals; Animal Products (1),87.0,-7.0,-4.0,-53.0,-7.0,60.0,12233371,14535382,76.0
+gabon,Articles of Base Metal (15),9.0,5.0,18.0,-47.0,19.0,73.0,463805,112711,77.0
+albania,Live Animals; Animal Products (1),81.0,-29.0,-51.0,53.0,3.0,21.0,9405746,29398545,78.0
+uganda,Articles of Base Metal (15),46.0,-21.0,31.0,15.0,25.0,-17.0,2580775,673914,79.0
+india,Special Classification provisions and Temporary Legislation (22),25.0,0.0,7.0,16.0,68.0,-37.0,784065016,3052496043,79.0
+yemen,"Articles of Stone, Ceramics, Glass (13)",58.0,-73.0,61.0,-62.0,45.0,51.0,190572,106721,80.0
+burkina_faso,Raw Hides and Skins (8),3.0,33.0,2.0,62.0,5.0,-22.0,11845642,1016643,83.0
+bangladesh,"Articles of Stone, Ceramics, Glass (13)",54.0,-18.0,29.0,16.0,-10.0,12.0,37504116,66682255,83.0
+malawi,Articles of Base Metal (15),5.0,13.0,79.0,-10.0,15.0,-18.0,385281,105161,84.0
+albania,Arms and Ammunition (19),-12.0,9.0,-1.0,38.0,3.0,49.0,85821,0,86.0
+thailand,Collectors' Art and Antiques (21),75.0,-7.0,16.0,-4.0,16.0,-9.0,30003868,12511465,87.0
+vietnam,Animal or Vegetable Fats (3),31.0,53.0,-13.0,-3.0,26.0,-6.0,49805341,695696414,88.0
+burkina_faso,"Optical Instruments, Clocks, Musical Instruments (18)",23.0,32.0,-21.0,57.0,-33.0,35.0,175082,1303775,93.0
+qatar,Articles of Plastic and Rubber (7),16.0,-12.0,1.0,63.0,3.0,23.0,80431081,1293739711,94.0
+morocco,Pulp of Wood (10),15.0,13.0,-5.0,51.0,13.0,8.0,100346171,139992266,95.0
+qatar,Machinery and Mechanical Appliances (16),61.0,-19.0,41.0,22.0,-11.0,3.0,13755387,278608112,97.0
+jamaica,Articles of Textiles (11),56.0,50.0,6.0,-5.0,1.0,-11.0,523397041,3451120,97.0
+gabon,Products of the Chemical or Allied Industries (6),76.0,14.0,0.0,15.0,-10.0,3.0,43506101,2759667,98.0
+morocco,Special Classification provisions and Temporary Legislation (22),122.0,-16.0,4.0,9.0,-26.0,5.0,857284681,719530497,98.0
+qatar,Articles of Textiles (11),53.0,21.0,23.0,7.0,-6.0,0.0,64759248,14506370,98.0
+equatorial_guinea,Prepared Foodstuffs (4),23.0,64.0,20.0,-1.0,-21.0,18.0,4017823,1778746,103.0
+yemen,Articles of Base Metal (15),63.0,-86.0,42.0,-38.0,122.0,0.0,67839,17275,103.0
+qatar,Collectors' Art and Antiques (21),100.0,22.0,-74.0,10.0,-10.0,58.0,763310,4816340,106.0
+angola,Live Animals; Animal Products (1),-4.0,24.0,67.0,-2.0,2.0,24.0,27326322,38899412,111.0
+bahrain,Animal or Vegetable Fats (3),0.0,102.0,26.0,-16.0,13.0,-14.0,12644264,5284062,111.0
+qatar,Products of the Chemical or Allied Industries (6),53.0,-42.0,49.0,45.0,-12.0,19.0,168644798,3685507489,112.0
+bosnia_and_herzegovina,Collectors' Art and Antiques (21),77.0,9.0,24.0,17.0,-27.0,14.0,196938,624489,114.0
+albania,Collectors' Art and Antiques (21),3.0,11.0,3.0,41.0,30.0,28.0,421414,230063,116.0
+burkina_faso,Live Animals; Animal Products (1),1.0,59.0,-10.0,34.0,38.0,0.0,6568692,1879997,122.0
+uzbekistan,Collectors' Art and Antiques (21),65.0,-68.0,89.0,-48.0,77.0,7.0,2484702,297194,122.0
+ghana,"Optical Instruments, Clocks, Musical Instruments (18)",80.0,5.0,5.0,7.0,-11.0,36.0,2922120,9960669,122.0
+yemen,Mineral Products (5),32.0,38.0,40.0,-26.0,39.0,0.0,1442298,64183,123.0
+guinea,Products of the Chemical or Allied Industries (6),5.0,-4.0,-4.0,83.0,-83.0,135.0,128302462,10419512,132.0
+yemen,"Optical Instruments, Clocks, Musical Instruments (18)",78.0,-45.0,76.0,-3.0,30.0,-3.0,1839323,206188,133.0
+guinea,Vehicles and Transport Equipment (17),110.0,-44.0,83.0,-143.0,149.0,1.0,10955250,1152963,156.0

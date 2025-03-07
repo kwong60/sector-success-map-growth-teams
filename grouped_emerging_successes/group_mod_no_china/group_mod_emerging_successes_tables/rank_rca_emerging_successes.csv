@@ -1,21 +1,21 @@
-country,name_short_en,rank_shifts
-burkina_faso,Special Classification provisions and Temporary Legislation (22),-28.585858585858585
-eswatini,Special Classification provisions and Temporary Legislation (22),-26.496405228758167
-burkina_faso,Mineral Products (5),-24.360606060606063
-oman,Collectors' Art and Antiques (21),-22.852525252525254
-laos,"Articles of Stone, Ceramics, Glass (13)",-22.546464646464646
-yemen,Machinery and Mechanical Appliances (16),-21.654545454545453
-laos,Pulp of Wood (10),-21.645454545454548
-nepal,Animal or Vegetable Fats (3),-21.330303030303032
-iran,Collectors' Art and Antiques (21),-20.63131313131313
-burkina_faso,Products of the Chemical or Allied Industries (6),-20.59191919191919
-armenia,Articles of Base Metal (15),-19.108080808080807
-uganda,"Articles of Stone, Ceramics, Glass (13)",-18.967676767676767
-ghana,Arms and Ammunition (19),-18.848484848484848
-ghana,Raw Hides and Skins (8),-16.66262626262626
-guinea,Prepared Foodstuffs (4),-16.645454545454545
-yemen,Pulp of Wood (10),-16.227272727272727
-gabon,Animal or Vegetable Fats (3),-16.225252525252525
-armenia,Vehicles and Transport Equipment (17),-16.15050505050505
-yemen,Products of the Chemical or Allied Industries (6),-16.123232323232322
-myanmar,Special Classification provisions and Temporary Legislation (22),-16.06969696969697
+country,name_short_en,rank_shifts,1995_export_value,2022_export_value
+burkina_faso,Special Classification provisions and Temporary Legislation (22),-28.585858585858585,217152,190933874
+eswatini,Special Classification provisions and Temporary Legislation (22),-26.496405228758167,0,287796356
+burkina_faso,Mineral Products (5),-24.360606060606063,127909,82186802
+oman,Collectors' Art and Antiques (21),-22.852525252525254,42923,10189383
+laos,"Articles of Stone, Ceramics, Glass (13)",-22.546464646464646,19064,70765557
+yemen,Machinery and Mechanical Appliances (16),-21.654545454545453,4183099,15414466
+laos,Pulp of Wood (10),-21.645454545454548,141072,683325042
+nepal,Animal or Vegetable Fats (3),-21.330303030303032,2229480,374349377
+iran,Collectors' Art and Antiques (21),-20.63131313131313,33751643,38690988
+burkina_faso,Products of the Chemical or Allied Industries (6),-20.59191919191919,454206,22663755
+armenia,Articles of Base Metal (15),-19.108080808080807,34442,9211546
+uganda,"Articles of Stone, Ceramics, Glass (13)",-18.967676767676767,242824,25525257
+ghana,Arms and Ammunition (19),-18.848484848484848,2540,3532971
+ghana,Raw Hides and Skins (8),-16.66262626262626,97093,14625521
+guinea,Prepared Foodstuffs (4),-16.645454545454545,4065504,84863430
+yemen,Pulp of Wood (10),-16.227272727272727,537709,4109247
+gabon,Animal or Vegetable Fats (3),-16.225252525252525,1591514,53886445
+armenia,Vehicles and Transport Equipment (17),-16.15050505050505,43909,338473619
+yemen,Products of the Chemical or Allied Industries (6),-16.123232323232322,2045537,38901766
+myanmar,Special Classification provisions and Temporary Legislation (22),-16.06969696969697,1779890,4424764888

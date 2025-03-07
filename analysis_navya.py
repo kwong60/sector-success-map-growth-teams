@@ -66,6 +66,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
     product_code_list = []
     hs_code_list =[]
     ranking_shift_list = []
+  
 
     #in each country, product group we are calculating the rank shift overall usually when start=1995, end=2022
     for name, group in grouped:
@@ -82,6 +83,7 @@ def entire_time_period_ranking_shift(input_data: pd.DataFrame, rank_column_name:
         country_code_list.append(name[0])
         product_code_list.append(name[1])
         hs_code_list.append(group['product_code'].iloc[0])
+       
         
         #each country, product for a particular year should only appear once for the ranking shift calculation to work: 
         if(len(group[group['year'] == end]) == 1) and (len(group[group['year'] == start]) == 1):

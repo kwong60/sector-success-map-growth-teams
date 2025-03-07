@@ -74,10 +74,12 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
         df_group = input_data.groupby(['country','name_short_en'])
 
     # intialize a new DataFrame to store slope of each sector's shift in rank
-    new_df = pd.DataFrame(columns=['country', 'name_short_en', 'rank_shifts', 'years', 'rankings'])
+    new_df = pd.DataFrame(columns=['country', 'name_short_en', 'rank_shifts', 'years', '1995_export_value', '2022_export_value', 'rankings'])
     countries = []
     products = []
     hs_codes = []
+    beginning_export_values_list = []
+    final_export_values_list = []
     years = []
     ranks = []
     rank_shifts = []
@@ -108,6 +110,8 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
 
         rank_group = group[rank_col].tolist()
         ranks.append(rank_group)
+        beginning_export_values_list.append(group['1995_export_value'].iloc[0])
+        final_export_values_list.append(group['2022_export_value'].iloc[0])
 
         # establishes window of "recent years" based on recent_len parameter
         recent_window = 2022 - recent_len
@@ -181,6 +185,8 @@ def emerging_success(input_data: pd.DataFrame, rank_col: str, window_len: int, r
     new_df['name_short_en'] = products
     new_df['rank_shifts'] = rank_shifts
     new_df['years'] = years
+    new_df['1995_export_value'] = beginning_export_values_list
+    new_df['2022_export_value'] = final_export_values_list
     new_df['rankings'] = ranks
 
     # ensure DataFrame has no null or infinite slope values

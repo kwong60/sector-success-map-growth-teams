@@ -1,21 +1,21 @@
-country,name_short_en,rank_shifts
-oman,Collectors' Art and Antiques (21),-23.651515151515152
-laos,"Articles of Stone, Ceramics, Glass (13)",-19.166666666666668
-eswatini,Special Classification provisions and Temporary Legislation (22),-18.266993464052288
-laos,Pulp of Wood (10),-18.028282828282826
-armenia,Articles of Base Metal (15),-15.028282828282828
-myanmar,Special Classification provisions and Temporary Legislation (22),-14.096969696969698
-armenia,Vehicles and Transport Equipment (17),-13.72020202020202
-armenia,Machinery and Mechanical Appliances (16),-13.314141414141414
-lebanon,Mineral Products (5),-13.121212121212121
-bahrain,Mineral Products (5),-11.772727272727273
-qatar,Arms and Ammunition (19),-11.130303030303029
-cambodia,Articles of Base Metal (15),-9.876767676767676
-armenia,Vegetable products (2),-9.707070707070708
-qatar,Articles of Base Metal (15),-9.530303030303031
-myanmar,Products of the Chemical or Allied Industries (6),-9.417171717171717
-gabon,Animal or Vegetable Fats (3),-9.271717171717171
-armenia,Arms and Ammunition (19),-9.266666666666666
-armenia,Animal or Vegetable Fats (3),-9.118181818181819
-armenia,Articles of Plastic and Rubber (7),-8.782828282828282
-lebanon,Vehicles and Transport Equipment (17),-8.644444444444444
+country,name_short_en,rank_shifts,1995_export_value,2022_export_value
+oman,Collectors' Art and Antiques (21),-23.651515151515152,42923,10189383
+laos,"Articles of Stone, Ceramics, Glass (13)",-19.166666666666668,19064,70765557
+eswatini,Special Classification provisions and Temporary Legislation (22),-18.266993464052288,0,287796356
+laos,Pulp of Wood (10),-18.028282828282826,141072,683325042
+armenia,Articles of Base Metal (15),-15.028282828282828,34442,9211546
+myanmar,Special Classification provisions and Temporary Legislation (22),-14.096969696969698,1779890,4424764888
+armenia,Vehicles and Transport Equipment (17),-13.72020202020202,43909,338473619
+armenia,Machinery and Mechanical Appliances (16),-13.314141414141414,1046650,719171649
+lebanon,Mineral Products (5),-13.121212121212121,2969416,63594888
+bahrain,Mineral Products (5),-11.772727272727273,1456451,31063965
+qatar,Arms and Ammunition (19),-11.130303030303029,0,948238
+cambodia,Articles of Base Metal (15),-9.876767676767676,33994,3870067
+armenia,Vegetable products (2),-9.707070707070708,12027,180241503
+qatar,Articles of Base Metal (15),-9.530303030303031,197675,9885525
+myanmar,Products of the Chemical or Allied Industries (6),-9.417171717171717,11502064,498607234
+gabon,Animal or Vegetable Fats (3),-9.271717171717171,1591514,53886445
+armenia,Arms and Ammunition (19),-9.266666666666666,0,228928
+armenia,Animal or Vegetable Fats (3),-9.118181818181819,0,7313528
+armenia,Articles of Plastic and Rubber (7),-8.782828282828282,63600,65427885
+lebanon,Vehicles and Transport Equipment (17),-8.644444444444444,2249992,232193905
